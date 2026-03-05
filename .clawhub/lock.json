@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1772281656869
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1772443399084
+    },
+    "agentic-coding": {
+      "version": "1.0.0",
+      "installedAt": 1772620447390
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1772628952051
+    }
+  }
+}

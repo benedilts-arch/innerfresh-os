@@ -1,0 +1,2 @@
+{"ts": "2026-03-05T15:28:43.645138+00:00", "event": "security-audit", "level": "info", "msg": "Audit complete", "issues": 0}
+{"ts": "2026-03-05T15:28:43.645273+00:00", "event": "security-audit", "level": "error", "msg": "Permissions wrong on /tmp/test.key", "file": "/tmp/test.key"}

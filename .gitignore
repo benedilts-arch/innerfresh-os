@@ -1,0 +1,18 @@
+# Secrets and credentials
+*.env
+.env*
+*api_key*
+*secret*
+*token*
+*credentials*
+*.pem
+*.key
+
+# Daily memory (contains personal data)
+memory/*.md
+
+# Keep heartbeat state out of git
+memory/heartbeat-state.json
+skills/shopify-liquid-themes/references/
+skills/*/references/
+skills/

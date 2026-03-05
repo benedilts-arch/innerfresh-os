@@ -1,0 +1,5 @@
+{
+  "api_key": "ff633ec0-e2f6-483b-8f08-d2a335ae6cf0",
+  "mode": "read_only",
+  "note": "Never write or mutate data via this key"
+}

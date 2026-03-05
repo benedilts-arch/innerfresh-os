@@ -1,0 +1,2 @@
+{"ts": "2026-03-05T15:28:43.644542+00:00", "event": "morning-briefing", "level": "info", "msg": "Calendar pulled", "events": 3}
+{"ts": "2026-03-05T15:28:43.645030+00:00", "event": "morning-briefing", "level": "warn", "msg": "Gmail rate limited", "status": 429}
