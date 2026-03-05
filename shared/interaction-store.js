@@ -41,22 +41,25 @@ function getDb() {
     _db.exec(`
       CREATE TABLE IF NOT EXISTS llm_calls (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        timestamp TEXT NOT NULL DEFAULT (datetime('now')),
         provider TEXT,
         model TEXT NOT NULL,
+        task_type TEXT,
+        description TEXT,
         caller TEXT,
         prompt TEXT,
         response TEXT,
         input_tokens INTEGER DEFAULT 0,
         output_tokens INTEGER DEFAULT 0,
-        cost_estimate REAL DEFAULT 0,
+        total_tokens INTEGER GENERATED ALWAYS AS (input_tokens + output_tokens) STORED,
         duration_ms INTEGER,
-        ok INTEGER NOT NULL DEFAULT 1,
+        estimated_cost REAL,
+        status TEXT DEFAULT 'ok',
+        created_at INTEGER NOT NULL DEFAULT (strftime('%s','now')),
         error TEXT
       );
       CREATE INDEX IF NOT EXISTS idx_llm_model ON llm_calls(model);
       CREATE INDEX IF NOT EXISTS idx_llm_caller ON llm_calls(caller);
-      CREATE INDEX IF NOT EXISTS idx_llm_ok ON llm_calls(ok);
+      CREATE INDEX IF NOT EXISTS idx_llm_status ON llm_calls(status);
     `);
   } catch (err) {
     console.error('[interaction-store] DB init failed:', err.message);
@@ -95,13 +98,13 @@ function logLlmCall({
       db.prepare(`
         INSERT INTO llm_calls
           (provider, model, caller, prompt, response, input_tokens, output_tokens,
-           cost_estimate, duration_ms, ok, error)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+           estimated_cost, duration_ms, status, created_at, error)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, strftime('%s','now'), ?)
       `).run(
         provider, model, caller,
         cleanPrompt, cleanResponse,
         inTok, outTok, cost,
-        durationMs, ok ? 1 : 0,
+        durationMs, ok ? 'ok' : 'failed',
         error ? String(error).slice(0, 500) : null
       );
     } catch (err) {
