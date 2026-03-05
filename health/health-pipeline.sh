@@ -79,6 +79,16 @@ case "$1" in
       _log "info" "Withings: not configured (set WITHINGS_ACCESS_TOKEN)"
     fi
 
+
+    # ── Eight Sleep ─────────────────────────────────────────────────────────
+    if [ -n "$EIGHT_SLEEP_EMAIL" ] && [ -n "$EIGHT_SLEEP_PASSWORD" ]; then
+      _log "info" "Pulling Eight Sleep data..."
+      python3 "$CONNECTORS/eight_sleep.py" --days 7 >> "$TIMELINE" 2>/dev/null
+      _log "info" "Eight Sleep: sync complete"
+    else
+      _log "info" "Eight Sleep: not configured (set EIGHT_SLEEP_EMAIL + EIGHT_SLEEP_PASSWORD)"
+    fi
+
     # ── Ingest timeline → SQLite ────────────────────────────────────────────
     if [ -f "$TIMELINE" ]; then
       python3 << PYEOF

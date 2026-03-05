@@ -22,3 +22,9 @@ APPLE_HEALTH_EXPORT=""   # e.g. ~/Downloads/apple_health_export
 HEALTH_DIR="$HOME/.openclaw/workspace/health"
 TIMELINE_FILE="$HEALTH_DIR/health-timeline.jsonl"
 HEALTH_DB="$HOME/.openclaw/workspace/data/health.db"
+
+# ── Eight Sleep ───────────────────────────────────────────────────────────────
+EIGHT_SLEEP_EMAIL=""
+EIGHT_SLEEP_PASSWORD=""
+EIGHT_SLEEP_TOKEN=""
+EIGHT_SLEEP_USER_ID=""
