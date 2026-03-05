@@ -1,40 +1,26 @@
-# TOOLS.md - Local Notes
+# TOOLS.md — IDs, Paths & Locations
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## Channels
+- Telegram DM: `6560403362`
+- Group: brand-improvement `−5196348541`
+- Group: secondary `-5081837089`
 
-## What Goes Here
+## Credentials & Keys
+- Google / Gmail + Calendar: `benedilts@gmail.com`, managed by `gog` CLI, Keychain-backed
+- Notion API key: `~/.config/notion/api_key`
+- Notion: Savage Advertising System page ID `2cfa723e-dea3-8103-9ee4-e832c3c9db99`
+- OpenClaw config: `~/.openclaw/openclaw.json`
+- Backup passphrase: `~/.openclaw/workspace/.backup-config`
 
-Things like:
+## Scripts
+- `scripts/` — all automation scripts
+- `scripts/tests/` — tiered test suites
+- `data/` — SQLite databases (cron.db, notify.db, finance.db, llm.db, logs.db)
+- `data/logs/` — JSONL event logs
+- `data/locks/` — PID lockfiles
+- `data/log-archives/` — gzip rotated logs
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
-
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+## External Paths
+- gog credentials: `~/Library/Application Support/gogcli/credentials.json`
+- Gateway log: `/tmp/openclaw/openclaw-YYYY-MM-DD.log`
+- Backups: `~/backups/openclaw/archives/`

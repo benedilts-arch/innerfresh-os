@@ -1,38 +1,20 @@
-# HEARTBEAT.md
+# HEARTBEAT.md — Periodic Health Check
 
-Periodic health check checklist. Keep it actionable and concise.
+End with HEARTBEAT_OK if nothing actionable. Alert only when something needs attention.
 
-## Reporting
-Heartbeat turns should usually end with NO_REPLY.
-Use the notifier scripts with --notify, let them handle one-time failure/recovery delivery:
-- Cron failure deltas
-- Persistent failure checks
-- System health checks
-- Data collection health deltas
-
-Only send a direct heartbeat message when the notifier path itself is broken and the user needs intervention.
-
-If memory/heartbeat-state.json is corrupted, replace it with:
-`{"lastChecks": {"errorLog": null, "securityAudit": null, "lastDailyChecks": null}}`
-Then alert the user.
+If `memory/heartbeat-state.json` is corrupted, reset to `{"lastChecks":{"email":null,"calendar":null,"gitSync":null,"securityAudit":null,"lastDailyChecks":null}}` and alert Benni.
 
 ## Every heartbeat
-- Update memory/heartbeat-state.json timestamps for checks performed
-- Git backup: run auto-git-sync. If it exits non-zero, log a warning and continue. Alert only for real breakages (merge conflicts, persistent push failures).
-- System health check (with --notify so critical issues route with explicit priority)
-- Cron failure deltas (with --notify)
-- Persistent failure check (with --notify)
-- Check Gmail for urgent unread emails (benedilts@gmail.com) — alert Benni if 🔴 Urgent found
-- Check upcoming calendar events (<2h away) — remind Benni if one is approaching
+- Run `bash scripts/git-sync.sh` — alert only if merge conflict or persistent push failure
+- Check Gmail (`benedilts@gmail.com`) for 🔴 Urgent unread — alert Benni if found
+- Check calendar for events within 2h — remind Benni if one is approaching
+- Update `memory/heartbeat-state.json` with check timestamps
 
 ## Once daily
-- Data collection health deltas (with --notify)
-- Repo size check (alert if git repo exceeds 500MB)
-- Memory index coverage (alert if below 80% indexed)
-- Synthesize recent daily notes into MEMORY.md if new significant events exist
-- Post daily insight to brand-improvement channel (-5196348541): one finding about InnerFresh, competitor research, or ad angle recommendation
+- Post one insight to brand-improvement channel (-5196348541): InnerFresh brand, competitor research, or ad angle
+- Synthesize recent daily notes into MEMORY.md if significant new events exist
 
-## Weekly
-- Verify gateway is bound to loopback only
-- Verify gateway auth is enabled and token is non-empty
-- Review and prune MEMORY.md for outdated entries
+## Weekly (rotate through, don't run all at once)
+- Verify gateway still bound to loopback, auth token non-empty
+- Prune MEMORY.md for outdated entries
+- Review FEATURE_REQUESTS.md — anything actionable?
