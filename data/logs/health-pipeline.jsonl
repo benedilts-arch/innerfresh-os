@@ -1,0 +1,2 @@
+{"ts": "2026-03-05T16:28:12.176313+00:00", "event": "health-pipeline", "level": "info", "msg": "Health DB initialized"}
+{"ts": "2026-03-05T16:28:12.218545+00:00", "event": "health-pipeline", "level": "info", "msg": "Config template created at ~/.config/health/config.sh \u2014 fill in your tokens"}
