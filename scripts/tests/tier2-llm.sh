@@ -28,7 +28,7 @@ print('Provider detection OK')
 python3 -c "
 import sys; sys.path.insert(0,'$SCRIPTS')
 from llm_router import redact_secrets
-r = redact_secrets('my key is sk-abc123456789012345678 and ntn_xyz123')
+r = redact_secrets('my key is FAKE_SK_TEST_VALUE and ntn_xyz123')
 assert '[REDACTED]' in r and 'sk-' not in r, 'redaction failed'
 print('Redaction:', r)
 " && pass "Secret redaction working" || fail "Secret redaction broken"
