@@ -16,6 +16,10 @@
     "gog": {
       "version": "1.0.0",
       "installedAt": 1772628952051
+    },
+    "figma": {
+      "version": "2.1.0",
+      "installedAt": 1772729349370
     }
   }
 }
