@@ -135,7 +135,8 @@ case "$1" in
       COUNT=$(sql "SELECT COUNT(*) FROM notify_queue WHERE tier='$TIER' AND status='pending' AND channel='$CHANNEL';")
       ITEMS=$(sql "SELECT message FROM notify_queue WHERE tier='$TIER' AND status='pending' AND channel='$CHANNEL' ORDER BY created_at ASC;" | head -10)
 
-      DIGEST="📬 *${TIER^} digest* (${COUNT} item$([ "$COUNT" -ne 1 ] && echo s))"$'\n'"$ITEMS"
+      TIER_CAP="$(echo "$TIER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')"
+      DIGEST="📬 *${TIER_CAP} digest* (${COUNT} item$([ "$COUNT" -ne 1 ] && echo s))"$'\n'"$ITEMS"
 
       bash "$SCRIPT_DIR/notify.sh" send "$DIGEST" --channel "$CHANNEL"
       sql "UPDATE notify_queue SET status='delivered', delivered_at=$TS WHERE tier='$TIER' AND status='pending' AND channel='$CHANNEL';"

@@ -1,0 +1,3 @@
+{"ts": "2026-03-05T16:12:25.471750+00:00", "event": "backup", "level": "info", "msg": "Starting backup workspace-2026-03-05_20-12-25"}
+{"ts": "2026-03-05T16:12:25.603636+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_20-12-25.tar.gz.enc (84K)"}
+{"ts": "2026-03-05T16:12:25.667332+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_20-12-25.tar.gz.enc"}

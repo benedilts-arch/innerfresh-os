@@ -3,3 +3,7 @@
 {"ts": "2026-03-05T15:28:43.645138+00:00", "event": "security-audit", "level": "info", "msg": "Audit complete", "issues": 0}
 {"ts": "2026-03-05T15:28:43.645273+00:00", "event": "security-audit", "level": "error", "msg": "Permissions wrong on /tmp/test.key", "file": "/tmp/test.key"}
 {"ts": "2026-03-05T15:28:43.664263+00:00", "event": "cron-wrap", "level": "info", "msg": "Job started"}
+{"ts": "2026-03-05T16:12:25.471750+00:00", "event": "backup", "level": "info", "msg": "Starting backup workspace-2026-03-05_20-12-25"}
+{"ts": "2026-03-05T16:12:25.603636+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_20-12-25.tar.gz.enc (84K)"}
+{"ts": "2026-03-05T16:12:25.667332+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_20-12-25.tar.gz.enc"}
+{"ts": "2026-03-05T16:12:28.755855+00:00", "event": "backup-drill", "level": "info", "msg": "Integrity drill: 6 passed, 0 failed \u2014 /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_20-12-25.tar.gz.enc"}

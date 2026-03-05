@@ -174,3 +174,28 @@ If any task fails (subagent, API call, cron job, git operation, skill script), r
 ## Notification Queue
 
 All notifications route through priority: critical (immediate), high (hourly batch), medium (3-hour batch). Batch non-urgent messages to reduce notification fatigue.
+
+## 🚨 Error Reporting — Non-Negotiable
+
+**Proactively report ALL failures via Telegram.**
+
+Benni cannot see stderr, background logs, or cron output. If something goes wrong and you don't report it, it's invisible to him.
+
+**Report immediately when:**
+- Any cron job fails (include job name, error message, timestamp)
+- A script exits non-zero
+- An API call fails after all retries
+- A security audit finds issues
+- A test suite has failures
+
+**Format:**
+> 🔴 **[job-name]** failed at HH:MM
+> Error: `<message>`
+> Context: `<what it was doing>`
+
+**Never:**
+- Log an error silently and move on
+- Assume it'll fix itself
+- Wait for Benni to notice something is broken
+
+When in doubt: tell him.
