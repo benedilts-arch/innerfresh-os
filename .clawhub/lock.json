@@ -20,6 +20,14 @@
     "figma": {
       "version": "2.1.0",
       "installedAt": 1772729349370
+    },
+    "manus-ai": {
+      "version": "1.0.1",
+      "installedAt": 1772729798985
+    },
+    "tg-voice-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1772730574526
     }
   }
 }

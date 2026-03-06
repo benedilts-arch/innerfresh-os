@@ -13,3 +13,7 @@
 {"ts": "2026-03-05T16:28:12.176313+00:00", "event": "health-pipeline", "level": "info", "msg": "Health DB initialized"}
 {"ts": "2026-03-05T16:28:12.218545+00:00", "event": "health-pipeline", "level": "info", "msg": "Config template created at ~/.config/health/config.sh \u2014 fill in your tokens"}
 {"ts": "2026-03-05T16:30:03.109778+00:00", "event": "git-sync", "level": "info", "msg": "Committed 1 files (no remote configured)"}
+{"ts": "2026-03-05T16:52:07.407915+00:00", "event": "git-sync", "level": "info", "msg": "Committed 5 files (no remote configured)"}
+{"ts": "2026-03-05T17:01:38.073204+00:00", "event": "backup", "level": "info", "msg": "Starting backup workspace-2026-03-05_21-01-38"}
+{"ts": "2026-03-05T17:01:38.210945+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_21-01-38.tar.gz.enc (84K)"}
+{"ts": "2026-03-05T17:01:38.288289+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-05_21-01-38.tar.gz.enc"}
