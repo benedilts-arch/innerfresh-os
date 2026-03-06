@@ -28,6 +28,15 @@ No rules restated here — rules live in AGENTS.md.
 - [ ] Morning briefing cron: add Gmail scan (UUID `b69e4dfd-78f4-4100-8278-f7ca941f77b1`)
 - [ ] Fix InnerFresh BUY 2 GET 1 FREE pricing ($45.99 → should be cheaper than $44.99)
 
+## Manus Cost Controls
+- Burn monitor cron: UUID `98c71993-285c-4502-9e99-d622829d4ebd`, runs every minute
+- Threshold: 7 credits/min (~$0.50/min at $0.069/credit) → auto-kills task + alerts Benni
+- State file: `data/manus-burn-state.json`
+- Credits/dollar ratio: ~14.56 (based on 364 credits = $25 on 2026-03-06)
+- To kill a Manus task via API: `DELETE https://api.manus.ai/v1/tasks/{task_id}` with `API_KEY` header
+- Never spawn multiple Manus tasks for same output — one at a time
+- Manus only for: building landing pages, deep research, advertorial copy — NOT data analysis
+
 ## Operational Lessons
 - `gog` hangs in background without Keychain "Allow all applications" on gogcli entry.
 - Telegram group bot needs Privacy Mode disabled via BotFather + remove and re-add to group.
