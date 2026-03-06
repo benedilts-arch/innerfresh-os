@@ -20,6 +20,12 @@
 - `data/locks/` — PID lockfiles
 - `data/log-archives/` — gzip rotated logs
 
+## Manus
+- API key: `~/.config/manus/api_key`
+- API base: `https://api.manus.ai/v1` (auth header: `API_KEY: <key>`)
+- Project: **The Singularity Epoche** — ID `dg4BCvqPq3wj5wSPxfjvRC`
+- First task (mind map): `https://manus.im/app/5Gp2LDVMeLHCqXQUJr7xjp`
+
 ## External Paths
 - gog credentials: `~/Library/Application Support/gogcli/credentials.json`
 - Gateway log: `/tmp/openclaw/openclaw-YYYY-MM-DD.log`
