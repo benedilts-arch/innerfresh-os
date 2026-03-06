@@ -62,3 +62,8 @@
 {"ts": "2026-03-06T13:01:37.835720+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-06_17-01-37.tar.gz.enc"}
 {"ts": "2026-03-06T13:24:28.474016+00:00", "event": "git-sync", "level": "info", "msg": "Committed 5 files (no remote configured)"}
 {"ts": "2026-03-06T13:30:02.924439+00:00", "event": "git-sync", "level": "info", "msg": "Committed 3 files (no remote configured)"}
+{"ts": "2026-03-06T13:54:29.035542+00:00", "event": "git-sync", "level": "info", "msg": "Committed 3 files (no remote configured)"}
+{"ts": "2026-03-06T14:01:37.737523+00:00", "event": "backup", "level": "info", "msg": "Starting backup workspace-2026-03-06_18-01-37"}
+{"ts": "2026-03-06T14:01:37.859640+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-06_18-01-37.tar.gz.enc (84K)"}
+{"ts": "2026-03-06T14:01:37.913569+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
+{"ts": "2026-03-06T14:01:37.957020+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-06_18-01-37.tar.gz.enc"}

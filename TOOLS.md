@@ -20,6 +20,13 @@
 - `data/locks/` — PID lockfiles
 - `data/log-archives/` — gzip rotated logs
 
+## Meta Ads API
+- Access token: `~/.config/meta/access_token` (short-lived — needs refresh or Long-Lived token setup)
+- Ad Account: InnerFresh = `act_364231677921804`
+- App: Clawd Analytics (created 2026-03-06 in Business Manager)
+- Campaigns active: `us_cbo_scalingcampaign`, `thyroid_abo_testingcampaign`
+- Top angle: AVATAR #3 PLATEAU THYROID DIETER SCRIPT #3
+
 ## Manus
 - API key: `~/.config/manus/api_key`
 - API base: `https://api.manus.ai/v1` (auth header: `API_KEY: <key>`)
