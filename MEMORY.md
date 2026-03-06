@@ -37,6 +37,37 @@ No rules restated here — rules live in AGENTS.md.
 - `openclaw cron edit` requires UUID, not name. Save UUIDs when creating jobs.
 - pip3 installs need `--break-system-packages` on macOS system Python.
 
+## Brand Intelligence — InnerFresh
+
+### Core Audience
+Women who are eating less (some as low as 900 cal/day) and still gaining or can't lose weight. The violation of "calories in/calories out" is their core frustration. They've tried everything. They feel broken. Thyroid/metabolic dysfunction is the reason they've never been told.
+
+### Hero Angle
+"Gaining weight on 900 calories?" — the unexpected weight gain angle. Speaks directly to the experience of doing everything right and the body not responding. This is the entry point.
+
+### Proven Hooks (to build on)
+- The metabolic dysfunction angle: body isn't burning, not user error
+- "I did everything right" frustration
+- Doctor dismissal ("your bloodwork is normal") — validation that they're not crazy
+- The 60-day guarantee as risk removal
+
+### Brand Voice
+- Empathetic, not clinical. She feels heard, not sold to.
+- No bro-science. No shame. No "you just need to try harder."
+- The product is the solution she hasn't been offered yet.
+- Social proof at scale: 100k women, 4.8/5, 3k+ reviews — community, not just product.
+
+### What to Build On
+- More angles around specific symptoms: fatigue, brain fog, cold hands/feet, hair loss
+- "Why your doctor can't see it" — the testing gap angle
+- Before/after story arcs
+- Ingredient-level education (what's in it, why it works)
+
+### Learning Log
+*(Append winners and losers here as they're tested)*
+
+---
+
 ## Pläne
 - **Manus verknüpfen** + Landing Pages mit coding-agent bauen
 - **brand-improvement channel:** daily InnerFresh insights to `-5196348541`
