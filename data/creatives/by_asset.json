@@ -1,0 +1,51 @@
+[
+  {
+    "asset_id": "",
+    "asset_type": "?",
+    "title": "",
+    "body_preview": "",
+    "thumb": "",
+    "landing_urls": [],
+    "spend": 2312.1,
+    "purchases": 106,
+    "cpa": 21.81,
+    "avg_cpm": 30.57,
+    "avg_ctr": 17.87,
+    "avg_cpc": 0.19,
+    "impressions": 78888
+  },
+  {
+    "asset_id": "775003232282896",
+    "asset_type": "video",
+    "title": "Read this if you want to feel like yourself again �",
+    "body_preview": "",
+    "thumb": "",
+    "landing_urls": [
+      "https://shop.try-innerfresh.com/7-reasons"
+    ],
+    "spend": 23.58,
+    "purchases": 0,
+    "cpa": 0,
+    "avg_cpm": 58.66,
+    "avg_ctr": 7.71,
+    "avg_cpc": 0.76,
+    "impressions": 402
+  },
+  {
+    "asset_id": "09c7673025754c78e18aa30b52666014",
+    "asset_type": "image",
+    "title": "Google",
+    "body_preview": "look at this cute puppy!",
+    "thumb": "/Users/aiassistant/.openclaw/workspace/data/creatives/thumbnails/Google.jpg",
+    "landing_urls": [
+      "http://www.google.com/"
+    ],
+    "spend": 0.46,
+    "purchases": 0,
+    "cpa": 0,
+    "avg_cpm": 28.75,
+    "avg_ctr": 6.25,
+    "avg_cpc": 0.46,
+    "impressions": 16
+  }
+]
