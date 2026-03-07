@@ -1,0 +1,161 @@
+{
+  "advertorial": "hypothyroid",
+  "threshold_purchases": 5,
+  "threshold_cpa": 25,
+  "ads": [
+    {
+      "ad_id": "120243028406870631",
+      "copy": "Calorie Paradox - MedicatedStillSuffering",
+      "page": "Weight loss (test)",
+      "purchases": 4,
+      "cpa": "$17"
+    },
+    {
+      "ad_id": "120243452950250631",
+      "copy": "Calorie Paradox - MedicatedStillSuffering",
+      "page": "Wellbeing",
+      "purchases": 3,
+      "cpa": "$14"
+    },
+    {
+      "ad_id": "120243079665480631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "Dr. Lisa Jones",
+      "purchases": 2,
+      "cpa": "$9"
+    },
+    {
+      "ad_id": "120242679828910631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "Wellbeing",
+      "purchases": 2,
+      "cpa": "$11"
+    },
+    {
+      "ad_id": "120242968148580631",
+      "copy": "Calorie Paradox",
+      "page": "Weight loss (test)",
+      "purchases": 2,
+      "cpa": "$14"
+    },
+    {
+      "ad_id": "120243028406780631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "Weight loss (test)",
+      "purchases": 2,
+      "cpa": "$21"
+    },
+    {
+      "ad_id": "120242680513900631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "WH Insider",
+      "purchases": 2,
+      "cpa": "$21"
+    },
+    {
+      "ad_id": "120242679829170631",
+      "copy": "Calorie Paradox",
+      "page": "Wellbeing",
+      "purchases": 2,
+      "cpa": "$22"
+    },
+    {
+      "ad_id": "120243452430800631",
+      "copy": "SCRIPT #4 - Medicated Still Suffering",
+      "page": "Every Women's Health",
+      "purchases": 2,
+      "cpa": "$22"
+    },
+    {
+      "ad_id": "120243452186480631",
+      "copy": "Calorie Paradox",
+      "page": "Dr. Lisa Jones",
+      "purchases": 2,
+      "cpa": "$23"
+    },
+    {
+      "ad_id": "120243205768580631",
+      "copy": "Conversion Block - MedicatedStillSuffering",
+      "page": "WH Insider",
+      "purchases": 1,
+      "cpa": "$10"
+    },
+    {
+      "ad_id": "120243028406860631",
+      "copy": "Calorie Paradox",
+      "page": "Weight loss (test)",
+      "purchases": 1,
+      "cpa": "$13"
+    },
+    {
+      "ad_id": "120243270528580631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "WH Insider",
+      "purchases": 1,
+      "cpa": "$22"
+    },
+    {
+      "ad_id": "120243369541170631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "Every Women's Health",
+      "purchases": 1,
+      "cpa": "$22"
+    },
+    {
+      "ad_id": "120243452186420631",
+      "copy": "SCRIPT #4 - Medicated Still Suffering",
+      "page": "Dr. Lisa Jones",
+      "purchases": 1,
+      "cpa": "$24"
+    },
+    {
+      "ad_id": "120243079665550631",
+      "copy": "Calorie Paradox",
+      "page": "Dr. Lisa Jones",
+      "purchases": 1,
+      "cpa": "$25"
+    },
+    {
+      "ad_id": "120243452430050631",
+      "copy": "Calorie Paradox",
+      "page": "Every Women's Health",
+      "purchases": 0,
+      "cpa": "-"
+    },
+    {
+      "ad_id": "120243452429870631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "Every Women's Health",
+      "purchases": 0,
+      "cpa": "-"
+    },
+    {
+      "ad_id": "120243452186460631",
+      "copy": "Conversion Block",
+      "page": "Dr. Lisa Jones",
+      "purchases": 0,
+      "cpa": "-"
+    },
+    {
+      "ad_id": "120243451739780631",
+      "copy": "Calorie Paradox",
+      "page": "Dr. Lisa Jones",
+      "purchases": 0,
+      "cpa": "-"
+    },
+    {
+      "ad_id": "120243028406890631",
+      "copy": "Calorie Paradox",
+      "page": "Weight loss (test)",
+      "purchases": 0,
+      "cpa": "-"
+    },
+    {
+      "ad_id": "120242968148550631",
+      "copy": "AVATAR #1 - Medicated Still Suffering",
+      "page": "Weight loss (test)",
+      "purchases": 0,
+      "cpa": "-"
+    }
+  ]
+}
