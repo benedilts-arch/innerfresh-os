@@ -123,3 +123,4 @@
 {"ts": "2026-03-07T03:30:02.891234+00:00", "event": "health-pipeline", "level": "info", "msg": "Withings: not configured (set WITHINGS_ACCESS_TOKEN)"}
 {"ts": "2026-03-07T03:30:02.921619+00:00", "event": "health-pipeline", "level": "info", "msg": "Eight Sleep: not configured (set EIGHT_SLEEP_EMAIL + EIGHT_SLEEP_PASSWORD)"}
 {"ts": "2026-03-07T03:30:02.952647+00:00", "event": "health-pipeline", "level": "info", "msg": "Sync complete"}
+{"ts": "2026-03-07T03:30:20.823814+00:00", "event": "git-sync", "level": "info", "msg": "Committed 9 files (no remote configured)"}
