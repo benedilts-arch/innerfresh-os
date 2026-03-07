@@ -51,6 +51,9 @@ No rules restated here — rules live in AGENTS.md.
 - macOS bash 3.2: no `date +%s%3N`, no `${VAR^}`. Use python3 for both.
 - `openclaw cron edit` requires UUID, not name. Save UUIDs when creating jobs.
 - pip3 installs need `--break-system-packages` on macOS system Python.
+- Haiku model ID: `anthropic/claude-haiku-4-5-20251001` (not 3-5). Was blocking gateway startup.
+- Haiku model can't be config-level primary; gateway crashes. Use Sonnet as config primary, session override to Haiku at startup.
+- Cron job fallbacks expensive: all jobs defaulted to Sonnet when Haiku was unavailable = $50/day burn. Always test with correct model IDs before config deploy.
 - `tools.profile` must be `full` for cron jobs — `messaging` causes silent exec failures.
 - `gog gmail list` requires a query arg: e.g. `gog gmail list "is:unread"`.
 - `openclaw memory index --force` rebuilds memory search index after crash/sync issues.

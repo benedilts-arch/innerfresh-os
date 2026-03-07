@@ -240,3 +240,4 @@
 {"ts": "2026-03-07T23:02:08.986096+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_03-02-08.tar.gz.enc (112K)"}
 {"ts": "2026-03-07T23:02:09.041041+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
 {"ts": "2026-03-07T23:02:09.084580+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 1s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_03-02-08.tar.gz.enc"}
+{"ts": "2026-03-07T23:08:01.559408+00:00", "event": "git-sync", "level": "info", "msg": "Committed 4 files (no remote configured)"}
