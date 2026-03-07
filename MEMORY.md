@@ -104,3 +104,8 @@ Per winning creative (CPA <$30, 3+ Conversions):
 ## Pläne
 - **Manus verknüpfen** + Landing Pages mit coding-agent bauen
 - **brand-improvement channel:** daily InnerFresh insights to `-5196348541`
+
+## Cost Controls
+- Default model: `anthropic/claude-haiku-3-5` (switched 2026-03-07)
+- Sonnet: only on explicit request ("use sonnet" / "switch to sonnet") — auto-switch back to Haiku after task
+- Cost warning: flag any interaction estimated >$0.01 at start of reply

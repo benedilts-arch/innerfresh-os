@@ -6,6 +6,7 @@ Every session, in order:
 1. Read `SOUL.md` and `USER.md`
 2. Read `memory/YYYY-MM-DD.md` (today + yesterday)
 3. **Private chat only:** Also read `MEMORY.md`
+4. **Set model to Haiku:** Run `session_status(model="anthropic/claude-haiku-4-5-20251001")` — every session, no exceptions. Sonnet or Opus only when Benni explicitly asks for heavier thinking.
 
 If `BOOTSTRAP.md` exists, follow it, then delete it.
 
