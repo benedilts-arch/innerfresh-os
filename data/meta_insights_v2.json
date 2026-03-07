@@ -1,0 +1,5722 @@
+{
+  "120242660670860631": {
+    "spend": 1.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 37.777778,
+    "ctr": 11.11
+  },
+  "120242660856020631": {
+    "spend": 8.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 301,
+    "cpm": 26.677741,
+    "ctr": 15.95
+  },
+  "120242660856030631": {
+    "spend": 0.38,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 27.142857,
+    "ctr": 14.29
+  },
+  "120242660856040631": {
+    "spend": 31.56,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 890,
+    "cpm": 35.460674,
+    "ctr": 16.97
+  },
+  "120242660856050631": {
+    "spend": 1.63,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 47,
+    "cpm": 34.680851,
+    "ctr": 10.64
+  },
+  "120242660856060631": {
+    "spend": 44.94,
+    "purchases": 3.0,
+    "cpa": 44.94,
+    "impressions": 911,
+    "cpm": 49.330406,
+    "ctr": 14.38
+  },
+  "120242660856070631": {
+    "spend": 8.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 320,
+    "cpm": 26.65625,
+    "ctr": 11.56
+  },
+  "120242660856080631": {
+    "spend": 63.11,
+    "purchases": 12.0,
+    "cpa": 15.78,
+    "impressions": 1954,
+    "cpm": 32.297851,
+    "ctr": 14.48
+  },
+  "120242660856090631": {
+    "spend": 288.81,
+    "purchases": 33.0,
+    "cpa": 26.26,
+    "impressions": 5062,
+    "cpm": 57.054524,
+    "ctr": 22.3
+  },
+  "120242660856100631": {
+    "spend": 30.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 703,
+    "cpm": 43.726885,
+    "ctr": 23.76
+  },
+  "120242660856110631": {
+    "spend": 46.57,
+    "purchases": 3.0,
+    "cpa": 46.57,
+    "impressions": 1656,
+    "cpm": 28.121981,
+    "ctr": 16.12
+  },
+  "120242660856120631": {
+    "spend": 11.97,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 253,
+    "cpm": 47.312253,
+    "ctr": 23.32
+  },
+  "120242660856130631": {
+    "spend": 4.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 131,
+    "cpm": 30.763359,
+    "ctr": 13.74
+  },
+  "120242679035340631": {
+    "spend": 4.92,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 102,
+    "cpm": 48.235294,
+    "ctr": 4.9
+  },
+  "120242679828900631": {
+    "spend": 1.41,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 58,
+    "cpm": 24.310345,
+    "ctr": 20.69
+  },
+  "120242679828910631": {
+    "spend": 21.43,
+    "purchases": 6.0,
+    "cpa": 10.71,
+    "impressions": 926,
+    "cpm": 23.142549,
+    "ctr": 13.17
+  },
+  "120242679828930631": {
+    "spend": 11.01,
+    "purchases": 6.0,
+    "cpa": 5.5,
+    "impressions": 312,
+    "cpm": 35.288462,
+    "ctr": 23.08
+  },
+  "120242679828940631": {
+    "spend": 902.93,
+    "purchases": 129.0,
+    "cpa": 21.0,
+    "impressions": 31276,
+    "cpm": 28.86974,
+    "ctr": 20.98
+  },
+  "120242679828960631": {
+    "spend": 1.56,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 59,
+    "cpm": 26.440678,
+    "ctr": 15.25
+  },
+  "120242679828980631": {
+    "spend": 35.64,
+    "purchases": 3.0,
+    "cpa": 35.64,
+    "impressions": 1045,
+    "cpm": 34.105263,
+    "ctr": 17.22
+  },
+  "120242679829000631": {
+    "spend": 1.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 43.939394,
+    "ctr": 12.12
+  },
+  "120242679829010631": {
+    "spend": 4.19,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 139,
+    "cpm": 30.143885,
+    "ctr": 12.23
+  },
+  "120242679829020631": {
+    "spend": 0.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 16.190476,
+    "ctr": 4.76
+  },
+  "120242679829030631": {
+    "spend": 1.88,
+    "purchases": 3.0,
+    "cpa": 1.88,
+    "impressions": 98,
+    "cpm": 19.183673,
+    "ctr": 14.29
+  },
+  "120242679829050631": {
+    "spend": 1.59,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 34,
+    "cpm": 46.764706,
+    "ctr": 32.35
+  },
+  "120242679829070631": {
+    "spend": 11.27,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 331,
+    "cpm": 34.048338,
+    "ctr": 21.45
+  },
+  "120242679829110631": {
+    "spend": 59.71,
+    "purchases": 6.0,
+    "cpa": 29.86,
+    "impressions": 1856,
+    "cpm": 32.171336,
+    "ctr": 20.58
+  },
+  "120242679829140631": {
+    "spend": 1.88,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 56,
+    "cpm": 33.571429,
+    "ctr": 19.64
+  },
+  "120242679829160631": {
+    "spend": 7.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 200,
+    "cpm": 36.3,
+    "ctr": 19.5
+  },
+  "120242679829170631": {
+    "spend": 44.23,
+    "purchases": 6.0,
+    "cpa": 22.11,
+    "impressions": 1425,
+    "cpm": 31.038596,
+    "ctr": 19.72
+  },
+  "120242680513800631": {
+    "spend": 37.1,
+    "purchases": 3.0,
+    "cpa": 37.1,
+    "impressions": 1381,
+    "cpm": 26.864591,
+    "ctr": 16.94
+  },
+  "120242680513810631": {
+    "spend": 35.52,
+    "purchases": 12.0,
+    "cpa": 8.88,
+    "impressions": 1455,
+    "cpm": 24.412371,
+    "ctr": 23.44
+  },
+  "120242680513820631": {
+    "spend": 0.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 34,
+    "cpm": 15.588235,
+    "ctr": 8.82
+  },
+  "120242680513830631": {
+    "spend": 22.1,
+    "purchases": 3.0,
+    "cpa": 22.1,
+    "impressions": 1116,
+    "cpm": 19.802867,
+    "ctr": 21.15
+  },
+  "120242680513840631": {
+    "spend": 13.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 540,
+    "cpm": 25.444444,
+    "ctr": 22.22
+  },
+  "120242680513850631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 20.666667,
+    "ctr": 20.0
+  },
+  "120242680513860631": {
+    "spend": 622.8,
+    "purchases": 72.0,
+    "cpa": 25.95,
+    "impressions": 28019,
+    "cpm": 22.227774,
+    "ctr": 24.24
+  },
+  "120242680513870631": {
+    "spend": 35.49,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1784,
+    "cpm": 19.893498,
+    "ctr": 23.32
+  },
+  "120242680513880631": {
+    "spend": 23.68,
+    "purchases": 3.0,
+    "cpa": 23.68,
+    "impressions": 1130,
+    "cpm": 20.955752,
+    "ctr": 20.71
+  },
+  "120242680513890631": {
+    "spend": 2240.6,
+    "purchases": 480.0,
+    "cpa": 14.0,
+    "impressions": 95438,
+    "cpm": 23.477022,
+    "ctr": 23.24
+  },
+  "120242680513900631": {
+    "spend": 41.78,
+    "purchases": 6.0,
+    "cpa": 20.89,
+    "impressions": 1719,
+    "cpm": 24.304828,
+    "ctr": 18.73
+  },
+  "120242680513910631": {
+    "spend": 0.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 11.5,
+    "ctr": 10.0
+  },
+  "120242680513920631": {
+    "spend": 14.19,
+    "purchases": 3.0,
+    "cpa": 14.19,
+    "impressions": 547,
+    "cpm": 25.941499,
+    "ctr": 13.53
+  },
+  "120242680513930631": {
+    "spend": 19.67,
+    "purchases": 6.0,
+    "cpa": 9.84,
+    "impressions": 1085,
+    "cpm": 18.129032,
+    "ctr": 17.51
+  },
+  "120242680513950631": {
+    "spend": 10.87,
+    "purchases": 3.0,
+    "cpa": 10.87,
+    "impressions": 529,
+    "cpm": 20.548204,
+    "ctr": 19.66
+  },
+  "120242680513960631": {
+    "spend": 52.35,
+    "purchases": 15.0,
+    "cpa": 10.47,
+    "impressions": 2248,
+    "cpm": 23.287367,
+    "ctr": 23.44
+  },
+  "120242680513970631": {
+    "spend": 2.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 116,
+    "cpm": 20.431034,
+    "ctr": 12.93
+  },
+  "120242680657430631": {
+    "spend": 29.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 387,
+    "cpm": 75.193798,
+    "ctr": 6.2
+  },
+  "120242680794470631": {
+    "spend": 30.61,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 518,
+    "cpm": 59.092664,
+    "ctr": 6.76
+  },
+  "120242680794490631": {
+    "spend": 50.35,
+    "purchases": 3.0,
+    "cpa": 50.35,
+    "impressions": 770,
+    "cpm": 65.38961,
+    "ctr": 9.48
+  },
+  "120242680849690631": {
+    "spend": 30.84,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 392,
+    "cpm": 78.673469,
+    "ctr": 4.34
+  },
+  "120242680849700631": {
+    "spend": 29.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 514,
+    "cpm": 56.55642,
+    "ctr": 4.47
+  },
+  "120242680849710631": {
+    "spend": 185.41,
+    "purchases": 21.0,
+    "cpa": 26.49,
+    "impressions": 2449,
+    "cpm": 75.708452,
+    "ctr": 7.84
+  },
+  "120242687142140631": {
+    "spend": 90.25,
+    "purchases": 6.0,
+    "cpa": 45.12,
+    "impressions": 1211,
+    "cpm": 74.525186,
+    "ctr": 9.99
+  },
+  "120242721671610631": {
+    "spend": 31.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 472,
+    "cpm": 66.228814,
+    "ctr": 4.24
+  },
+  "120242721671620631": {
+    "spend": 0.56,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 80.0,
+    "ctr": 0.0
+  },
+  "120242721671630631": {
+    "spend": 2.35,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 97.916667,
+    "ctr": 0.0
+  },
+  "120242721671640631": {
+    "spend": 21.7,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 190,
+    "cpm": 114.210526,
+    "ctr": 7.89
+  },
+  "120242721671660631": {
+    "spend": 32.72,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 341,
+    "cpm": 95.953079,
+    "ctr": 5.87
+  },
+  "120242721671670631": {
+    "spend": 2.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 170.0,
+    "ctr": 0.0
+  },
+  "120242721671680631": {
+    "spend": 2.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 23,
+    "cpm": 100.434783,
+    "ctr": 4.35
+  },
+  "120242721930770631": {
+    "spend": 6.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 136,
+    "cpm": 47.426471,
+    "ctr": 2.94
+  },
+  "120242721930780631": {
+    "spend": 29.64,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 361,
+    "cpm": 82.105263,
+    "ctr": 4.99
+  },
+  "120242721930790631": {
+    "spend": 4.55,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 35,
+    "cpm": 130.0,
+    "ctr": 2.86
+  },
+  "120242722207500631": {
+    "spend": 30.84,
+    "purchases": 3.0,
+    "cpa": 30.84,
+    "impressions": 381,
+    "cpm": 80.944882,
+    "ctr": 14.96
+  },
+  "120242723038670631": {
+    "spend": 37.21,
+    "purchases": 3.0,
+    "cpa": 37.21,
+    "impressions": 538,
+    "cpm": 69.163569,
+    "ctr": 17.47
+  },
+  "120242723161140631": {
+    "spend": 15.59,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 193,
+    "cpm": 80.777202,
+    "ctr": 11.92
+  },
+  "120242732794020631": {
+    "spend": 49.68,
+    "purchases": 3.0,
+    "cpa": 49.68,
+    "impressions": 833,
+    "cpm": 59.639856,
+    "ctr": 8.76
+  },
+  "120242734199340631": {
+    "spend": 0.76,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 36.190476,
+    "ctr": 4.76
+  },
+  "120242734199350631": {
+    "spend": 9.42,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 142,
+    "cpm": 66.338028,
+    "ctr": 7.04
+  },
+  "120242761445480631": {
+    "spend": 10.49,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 415,
+    "cpm": 25.277108,
+    "ctr": 13.49
+  },
+  "120242815105630631": {
+    "spend": 36.48,
+    "purchases": 6.0,
+    "cpa": 18.24,
+    "impressions": 1198,
+    "cpm": 30.450751,
+    "ctr": 24.29
+  },
+  "120242815162920631": {
+    "spend": 3.28,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 59,
+    "cpm": 55.59322,
+    "ctr": 15.25
+  },
+  "120242815162930631": {
+    "spend": 12.92,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 304,
+    "cpm": 42.5,
+    "ctr": 19.41
+  },
+  "120242815163000631": {
+    "spend": 1.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 84,
+    "cpm": 17.261905,
+    "ctr": 19.05
+  },
+  "120242815163050631": {
+    "spend": 0.66,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 28,
+    "cpm": 23.571429,
+    "ctr": 10.71
+  },
+  "120242816306690631": {
+    "spend": 1.39,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 43,
+    "cpm": 32.325581,
+    "ctr": 16.28
+  },
+  "120242816449920631": {
+    "spend": 4.79,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 148,
+    "cpm": 32.364865,
+    "ctr": 11.49
+  },
+  "120242816538890631": {
+    "spend": 2.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 69,
+    "cpm": 33.333333,
+    "ctr": 8.7
+  },
+  "120242816572250631": {
+    "spend": 3.14,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 86,
+    "cpm": 36.511628,
+    "ctr": 12.79
+  },
+  "120242816777140631": {
+    "spend": 3.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 128,
+    "cpm": 26.5625,
+    "ctr": 19.53
+  },
+  "120242816866310631": {
+    "spend": 3.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 102,
+    "cpm": 30.392157,
+    "ctr": 21.57
+  },
+  "120242816913040631": {
+    "spend": 0.9,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 30,
+    "cpm": 30.0,
+    "ctr": 3.33
+  },
+  "120242816931700631": {
+    "spend": 0.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 38,
+    "cpm": 12.631579,
+    "ctr": 18.42
+  },
+  "120242816976660631": {
+    "spend": 9.84,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 270,
+    "cpm": 36.444444,
+    "ctr": 10.37
+  },
+  "120242817000030631": {
+    "spend": 3.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 99,
+    "cpm": 33.737374,
+    "ctr": 13.13
+  },
+  "120242821832130631": {
+    "spend": 1.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 64,
+    "cpm": 20.46875,
+    "ctr": 15.62
+  },
+  "120242822120440631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 23.333333,
+    "ctr": 0.0
+  },
+  "120242822214000631": {
+    "spend": 0.5,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 22.727273,
+    "ctr": 4.55
+  },
+  "120242822294560631": {
+    "spend": 1.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 39.393939,
+    "ctr": 21.21
+  },
+  "120242822462870631": {
+    "spend": 5.44,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 244,
+    "cpm": 22.295082,
+    "ctr": 20.08
+  },
+  "120242822524370631": {
+    "spend": 2.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 74,
+    "cpm": 27.027027,
+    "ctr": 22.97
+  },
+  "120242822612630631": {
+    "spend": 1.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 63,
+    "cpm": 30.793651,
+    "ctr": 31.75
+  },
+  "120242822745160631": {
+    "spend": 1.79,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 54,
+    "cpm": 33.148148,
+    "ctr": 12.96
+  },
+  "120242822773790631": {
+    "spend": 3.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 109,
+    "cpm": 28.073395,
+    "ctr": 16.51
+  },
+  "120242822889110631": {
+    "spend": 0.65,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 37,
+    "cpm": 17.567568,
+    "ctr": 13.51
+  },
+  "120242822958470631": {
+    "spend": 1.32,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 31,
+    "cpm": 42.580645,
+    "ctr": 19.35
+  },
+  "120242822988260631": {
+    "spend": 20.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 635,
+    "cpm": 31.606299,
+    "ctr": 15.75
+  },
+  "120242823084610631": {
+    "spend": 0.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 28.75,
+    "ctr": 25.0
+  },
+  "120242823138070631": {
+    "spend": 19.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 655,
+    "cpm": 29.343511,
+    "ctr": 17.4
+  },
+  "120242823598470631": {
+    "spend": 29.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1120,
+    "cpm": 25.955357,
+    "ctr": 17.41
+  },
+  "120242843405620631": {
+    "spend": 4.93,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 194,
+    "cpm": 25.412371,
+    "ctr": 16.49
+  },
+  "120242876931190631": {
+    "spend": 28.77,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 334,
+    "cpm": 86.137725,
+    "ctr": 5.09
+  },
+  "120242876946320631": {
+    "spend": 29.54,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 589,
+    "cpm": 50.152801,
+    "ctr": 4.58
+  },
+  "120242927029470631": {
+    "spend": 0.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 16.666667,
+    "ctr": 0.0
+  },
+  "120242927375100631": {
+    "spend": 529.19,
+    "purchases": 60.0,
+    "cpa": 26.46,
+    "impressions": 18559,
+    "cpm": 28.513929,
+    "ctr": 25.07
+  },
+  "120242927450750631": {
+    "spend": 1.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 53,
+    "cpm": 18.867925,
+    "ctr": 24.53
+  },
+  "120242927498680631": {
+    "spend": 0.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 19.047619,
+    "ctr": 14.29
+  },
+  "120242927649410631": {
+    "spend": 0.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 25.555556,
+    "ctr": 22.22
+  },
+  "120242927754440631": {
+    "spend": 0.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 16.25,
+    "ctr": 0.0
+  },
+  "120242927754450631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 23.846154,
+    "ctr": 15.38
+  },
+  "120242927754460631": {
+    "spend": 0.36,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 16,
+    "cpm": 22.5,
+    "ctr": 25.0
+  },
+  "120242927893210631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 52.5,
+    "ctr": 50.0
+  },
+  "120242928112520631": {
+    "spend": 2.93,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 109,
+    "cpm": 26.880734,
+    "ctr": 23.85
+  },
+  "120242928182450631": {
+    "spend": 0.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 15.384615,
+    "ctr": 15.38
+  },
+  "120242928468760631": {
+    "spend": 0.71,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 35.5,
+    "ctr": 5.0
+  },
+  "120242928589530631": {
+    "spend": 0.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 23.076923,
+    "ctr": 0.0
+  },
+  "120242928780860631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120242928866590631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 16.153846,
+    "ctr": 23.08
+  },
+  "120242929022270631": {
+    "spend": 0.55,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 50.0,
+    "ctr": 27.27
+  },
+  "120242929393630631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 13.75,
+    "ctr": 0.0
+  },
+  "120242929488670631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 27.5,
+    "ctr": 0.0
+  },
+  "120242929537300631": {
+    "spend": 0.32,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 40.0,
+    "ctr": 25.0
+  },
+  "120242929589960631": {
+    "spend": 4.39,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 128,
+    "cpm": 34.296875,
+    "ctr": 13.28
+  },
+  "120242929630710631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120242929698540631": {
+    "spend": 0.28,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 18.666667,
+    "ctr": 13.33
+  },
+  "120242929726990631": {
+    "spend": 1.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 35,
+    "cpm": 31.714286,
+    "ctr": 5.71
+  },
+  "120242929783010631": {
+    "spend": 0.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 23.636364,
+    "ctr": 13.64
+  },
+  "120242929805280631": {
+    "spend": 2.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 118,
+    "cpm": 19.40678,
+    "ctr": 10.17
+  },
+  "120242929833730631": {
+    "spend": 0.49,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 61.25,
+    "ctr": 0.0
+  },
+  "120242934001480631": {
+    "spend": 29.39,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1192,
+    "cpm": 24.65604,
+    "ctr": 16.28
+  },
+  "120242934364610631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120242934364620631": {
+    "spend": 0.24,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 21.818182,
+    "ctr": 0.0
+  },
+  "120242934364630631": {
+    "spend": 0.89,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 32,
+    "cpm": 27.8125,
+    "ctr": 21.88
+  },
+  "120242934364640631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 35.0,
+    "ctr": 0.0
+  },
+  "120242934364650631": {
+    "spend": 0.5,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 16,
+    "cpm": 31.25,
+    "ctr": 18.75
+  },
+  "120242968148550631": {
+    "spend": 14.88,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 564,
+    "cpm": 26.382979,
+    "ctr": 21.28
+  },
+  "120242968148560631": {
+    "spend": 11.62,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 484,
+    "cpm": 24.008264,
+    "ctr": 28.72
+  },
+  "120242968148570631": {
+    "spend": 0.7,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 65,
+    "cpm": 10.769231,
+    "ctr": 12.31
+  },
+  "120242968148580631": {
+    "spend": 28.08,
+    "purchases": 6.0,
+    "cpa": 14.04,
+    "impressions": 918,
+    "cpm": 30.588235,
+    "ctr": 18.41
+  },
+  "120242968148590631": {
+    "spend": 21.38,
+    "purchases": 6.0,
+    "cpa": 10.69,
+    "impressions": 880,
+    "cpm": 24.295455,
+    "ctr": 26.48
+  },
+  "120242968148600631": {
+    "spend": 951.72,
+    "purchases": 153.0,
+    "cpa": 18.66,
+    "impressions": 35944,
+    "cpm": 26.477854,
+    "ctr": 22.6
+  },
+  "120242968148610631": {
+    "spend": 7.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 279,
+    "cpm": 25.483871,
+    "ctr": 17.2
+  },
+  "120243028406750631": {
+    "spend": 789.77,
+    "purchases": 147.0,
+    "cpa": 16.12,
+    "impressions": 30324,
+    "cpm": 26.044387,
+    "ctr": 22.87
+  },
+  "120243028406760631": {
+    "spend": 19.57,
+    "purchases": 3.0,
+    "cpa": 19.57,
+    "impressions": 1105,
+    "cpm": 17.710407,
+    "ctr": 25.79
+  },
+  "120243028406770631": {
+    "spend": 6.59,
+    "purchases": 3.0,
+    "cpa": 6.59,
+    "impressions": 318,
+    "cpm": 20.72327,
+    "ctr": 17.92
+  },
+  "120243028406780631": {
+    "spend": 41.6,
+    "purchases": 6.0,
+    "cpa": 20.8,
+    "impressions": 1844,
+    "cpm": 22.559653,
+    "ctr": 16.92
+  },
+  "120243028406790631": {
+    "spend": 6.41,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 390,
+    "cpm": 16.435897,
+    "ctr": 22.05
+  },
+  "120243028406800631": {
+    "spend": 0.89,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 26,
+    "cpm": 34.230769,
+    "ctr": 30.77
+  },
+  "120243028406810631": {
+    "spend": 1.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 90,
+    "cpm": 21.555556,
+    "ctr": 11.11
+  },
+  "120243028406840631": {
+    "spend": 15.13,
+    "purchases": 3.0,
+    "cpa": 15.13,
+    "impressions": 783,
+    "cpm": 19.323116,
+    "ctr": 14.43
+  },
+  "120243028406850631": {
+    "spend": 4.73,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 290,
+    "cpm": 16.310345,
+    "ctr": 30.69
+  },
+  "120243028406860631": {
+    "spend": 13.19,
+    "purchases": 3.0,
+    "cpa": 13.19,
+    "impressions": 478,
+    "cpm": 27.594142,
+    "ctr": 24.69
+  },
+  "120243028406870631": {
+    "spend": 69.33,
+    "purchases": 12.0,
+    "cpa": 17.33,
+    "impressions": 2179,
+    "cpm": 31.817347,
+    "ctr": 24.74
+  },
+  "120243028406880631": {
+    "spend": 30.77,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1342,
+    "cpm": 22.928465,
+    "ctr": 24.89
+  },
+  "120243028406890631": {
+    "spend": 11.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 342,
+    "cpm": 32.836257,
+    "ctr": 21.93
+  },
+  "120243028406900631": {
+    "spend": 7.4,
+    "purchases": 3.0,
+    "cpa": 7.4,
+    "impressions": 265,
+    "cpm": 27.924528,
+    "ctr": 31.7
+  },
+  "120243028406910631": {
+    "spend": 25.99,
+    "purchases": 9.0,
+    "cpa": 8.66,
+    "impressions": 1108,
+    "cpm": 23.456679,
+    "ctr": 26.17
+  },
+  "120243028406920631": {
+    "spend": 719.82,
+    "purchases": 147.0,
+    "cpa": 14.69,
+    "impressions": 29231,
+    "cpm": 24.625227,
+    "ctr": 22.26
+  },
+  "120243028406930631": {
+    "spend": 4.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 277,
+    "cpm": 15.379061,
+    "ctr": 19.49
+  },
+  "120243028406940631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 9.473684,
+    "ctr": 21.05
+  },
+  "120243028406950631": {
+    "spend": 814.05,
+    "purchases": 147.0,
+    "cpa": 16.61,
+    "impressions": 29932,
+    "cpm": 27.196646,
+    "ctr": 23.63
+  },
+  "120243028406980631": {
+    "spend": 4.35,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 240,
+    "cpm": 18.125,
+    "ctr": 21.67
+  },
+  "120243028406990631": {
+    "spend": 55.89,
+    "purchases": 6.0,
+    "cpa": 27.95,
+    "impressions": 2280,
+    "cpm": 24.513158,
+    "ctr": 17.72
+  },
+  "120243062162170631": {
+    "spend": 89.07,
+    "purchases": 27.0,
+    "cpa": 9.9,
+    "impressions": 2779,
+    "cpm": 32.051098,
+    "ctr": 19.18
+  },
+  "120243062498020631": {
+    "spend": 37.29,
+    "purchases": 3.0,
+    "cpa": 37.29,
+    "impressions": 974,
+    "cpm": 38.285421,
+    "ctr": 27.21
+  },
+  "120243062994570631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 25.833333,
+    "ctr": 33.33
+  },
+  "120243063179990631": {
+    "spend": 0.92,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 40,
+    "cpm": 23.0,
+    "ctr": 7.5
+  },
+  "120243063344810631": {
+    "spend": 0.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 14.166667,
+    "ctr": 33.33
+  },
+  "120243063453690631": {
+    "spend": 1.88,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 71,
+    "cpm": 26.478873,
+    "ctr": 21.13
+  },
+  "120243063552790631": {
+    "spend": 1.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 57,
+    "cpm": 20.701754,
+    "ctr": 17.54
+  },
+  "120243063597420631": {
+    "spend": 1.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 62,
+    "cpm": 22.096774,
+    "ctr": 3.23
+  },
+  "120243063651830631": {
+    "spend": 291.04,
+    "purchases": 51.0,
+    "cpa": 17.12,
+    "impressions": 12857,
+    "cpm": 22.636696,
+    "ctr": 17.2
+  },
+  "120243063864790631": {
+    "spend": 11.74,
+    "purchases": 3.0,
+    "cpa": 11.74,
+    "impressions": 401,
+    "cpm": 29.276808,
+    "ctr": 18.45
+  },
+  "120243079639030631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 3.333333,
+    "ctr": 0.0
+  },
+  "120243079665380631": {
+    "spend": 45.39,
+    "purchases": 18.0,
+    "cpa": 7.57,
+    "impressions": 1902,
+    "cpm": 23.864353,
+    "ctr": 22.19
+  },
+  "120243079665390631": {
+    "spend": 5.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 182,
+    "cpm": 27.527473,
+    "ctr": 23.63
+  },
+  "120243079665400631": {
+    "spend": 0.33,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 23.571429,
+    "ctr": 14.29
+  },
+  "120243079665410631": {
+    "spend": 1.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 31,
+    "cpm": 45.16129,
+    "ctr": 29.03
+  },
+  "120243079665420631": {
+    "spend": 11.63,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 353,
+    "cpm": 32.946176,
+    "ctr": 20.96
+  },
+  "120243079665430631": {
+    "spend": 1.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 67,
+    "cpm": 27.61194,
+    "ctr": 28.36
+  },
+  "120243079665440631": {
+    "spend": 538.9,
+    "purchases": 78.0,
+    "cpa": 20.73,
+    "impressions": 18931,
+    "cpm": 28.466536,
+    "ctr": 24.05
+  },
+  "120243079665450631": {
+    "spend": 49.76,
+    "purchases": 9.0,
+    "cpa": 16.59,
+    "impressions": 2181,
+    "cpm": 22.815222,
+    "ctr": 26.13
+  },
+  "120243079665460631": {
+    "spend": 28.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 924,
+    "cpm": 30.357143,
+    "ctr": 19.91
+  },
+  "120243079665470631": {
+    "spend": 0.54,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 26,
+    "cpm": 20.769231,
+    "ctr": 11.54
+  },
+  "120243079665480631": {
+    "spend": 18.68,
+    "purchases": 6.0,
+    "cpa": 9.34,
+    "impressions": 609,
+    "cpm": 30.673235,
+    "ctr": 20.36
+  },
+  "120243079665490631": {
+    "spend": 4.99,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 269,
+    "cpm": 18.550186,
+    "ctr": 23.42
+  },
+  "120243079665500631": {
+    "spend": 1.59,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 77,
+    "cpm": 20.649351,
+    "ctr": 12.99
+  },
+  "120243079665520631": {
+    "spend": 0.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 26.0,
+    "ctr": 20.0
+  },
+  "120243079665540631": {
+    "spend": 2.27,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 70,
+    "cpm": 32.428571,
+    "ctr": 10.0
+  },
+  "120243079665550631": {
+    "spend": 24.6,
+    "purchases": 3.0,
+    "cpa": 24.6,
+    "impressions": 924,
+    "cpm": 26.623377,
+    "ctr": 21.97
+  },
+  "120243194666360631": {
+    "spend": 120.85,
+    "purchases": 27.0,
+    "cpa": 13.43,
+    "impressions": 4456,
+    "cpm": 27.120736,
+    "ctr": 27.29
+  },
+  "120243202637690631": {
+    "spend": 0.6,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 30.0,
+    "ctr": 15.0
+  },
+  "120243202637700631": {
+    "spend": 435.0,
+    "purchases": 72.0,
+    "cpa": 18.12,
+    "impressions": 17780,
+    "cpm": 24.465692,
+    "ctr": 17.4
+  },
+  "120243202637790631": {
+    "spend": 47.42,
+    "purchases": 3.0,
+    "cpa": 47.42,
+    "impressions": 2138,
+    "cpm": 22.179607,
+    "ctr": 18.62
+  },
+  "120243203573180631": {
+    "spend": 3.31,
+    "purchases": 3.0,
+    "cpa": 3.31,
+    "impressions": 94,
+    "cpm": 35.212766,
+    "ctr": 15.96
+  },
+  "120243204313120631": {
+    "spend": 1.57,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 37,
+    "cpm": 42.432432,
+    "ctr": 5.41
+  },
+  "120243205768580631": {
+    "spend": 10.2,
+    "purchases": 3.0,
+    "cpa": 10.2,
+    "impressions": 437,
+    "cpm": 23.340961,
+    "ctr": 13.27
+  },
+  "120243205881410631": {
+    "spend": 147.16,
+    "purchases": 9.0,
+    "cpa": 49.05,
+    "impressions": 6539,
+    "cpm": 22.50497,
+    "ctr": 16.76
+  },
+  "120243207222690631": {
+    "spend": 1.86,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 35,
+    "cpm": 53.142857,
+    "ctr": 5.71
+  },
+  "120243207551320631": {
+    "spend": 0.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 16,
+    "cpm": 18.75,
+    "ctr": 6.25
+  },
+  "120243207639380631": {
+    "spend": 0.73,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 29,
+    "cpm": 25.172414,
+    "ctr": 17.24
+  },
+  "120243266235450631": {
+    "spend": 671.21,
+    "purchases": 111.0,
+    "cpa": 18.14,
+    "impressions": 15938,
+    "cpm": 42.113816,
+    "ctr": 19.11
+  },
+  "120243270528520631": {
+    "spend": 0.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 21.052632,
+    "ctr": 26.32
+  },
+  "120243270528530631": {
+    "spend": 54.3,
+    "purchases": 6.0,
+    "cpa": 27.15,
+    "impressions": 2253,
+    "cpm": 24.101198,
+    "ctr": 21.93
+  },
+  "120243270528540631": {
+    "spend": 2.92,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 66,
+    "cpm": 44.242424,
+    "ctr": 12.12
+  },
+  "120243270528550631": {
+    "spend": 25.06,
+    "purchases": 3.0,
+    "cpa": 25.06,
+    "impressions": 1198,
+    "cpm": 20.918197,
+    "ctr": 19.2
+  },
+  "120243270528560631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 5.0,
+    "ctr": 0.0
+  },
+  "120243270528570631": {
+    "spend": 2.28,
+    "purchases": 3.0,
+    "cpa": 2.28,
+    "impressions": 148,
+    "cpm": 15.405405,
+    "ctr": 19.59
+  },
+  "120243270528580631": {
+    "spend": 22.12,
+    "purchases": 3.0,
+    "cpa": 22.12,
+    "impressions": 833,
+    "cpm": 26.554622,
+    "ctr": 20.53
+  },
+  "120243270528590631": {
+    "spend": 7.49,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 326,
+    "cpm": 22.97546,
+    "ctr": 20.86
+  },
+  "120243270528600631": {
+    "spend": 50.55,
+    "purchases": 3.0,
+    "cpa": 50.55,
+    "impressions": 1928,
+    "cpm": 26.21888,
+    "ctr": 25.62
+  },
+  "120243270528610631": {
+    "spend": 47.16,
+    "purchases": 9.0,
+    "cpa": 15.72,
+    "impressions": 1748,
+    "cpm": 26.979405,
+    "ctr": 29.69
+  },
+  "120243270528620631": {
+    "spend": 71.72,
+    "purchases": 9.0,
+    "cpa": 23.91,
+    "impressions": 2885,
+    "cpm": 24.859619,
+    "ctr": 14.97
+  },
+  "120243270528630631": {
+    "spend": 1.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 32,
+    "cpm": 33.4375,
+    "ctr": 15.62
+  },
+  "120243270528640631": {
+    "spend": 4.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 216,
+    "cpm": 22.453704,
+    "ctr": 24.54
+  },
+  "120243270528650631": {
+    "spend": 0.82,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 34.166667,
+    "ctr": 16.67
+  },
+  "120243270528660631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 20.0,
+    "ctr": 18.18
+  },
+  "120243270528670631": {
+    "spend": 0.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 19.62963,
+    "ctr": 25.93
+  },
+  "120243366457490631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 12.222222,
+    "ctr": 11.11
+  },
+  "120243366457500631": {
+    "spend": 0.19,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 17.272727,
+    "ctr": 0.0
+  },
+  "120243366457510631": {
+    "spend": 0.19,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 95.0,
+    "ctr": 0.0
+  },
+  "120243366457520631": {
+    "spend": 1.98,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 56,
+    "cpm": 35.357143,
+    "ctr": 19.64
+  },
+  "120243366457530631": {
+    "spend": 15.68,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 706,
+    "cpm": 22.209632,
+    "ctr": 21.81
+  },
+  "120243366457540631": {
+    "spend": 0.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 15.384615,
+    "ctr": 30.77
+  },
+  "120243366457550631": {
+    "spend": 8.43,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 277,
+    "cpm": 30.433213,
+    "ctr": 18.05
+  },
+  "120243366457560631": {
+    "spend": 0.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 25.0,
+    "ctr": 25.0
+  },
+  "120243366613390631": {
+    "spend": 8.83,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 327,
+    "cpm": 27.003058,
+    "ctr": 17.74
+  },
+  "120243366613400631": {
+    "spend": 0.55,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 27.5,
+    "ctr": 10.0
+  },
+  "120243366613410631": {
+    "spend": 25.16,
+    "purchases": 6.0,
+    "cpa": 12.58,
+    "impressions": 900,
+    "cpm": 27.955556,
+    "ctr": 30.22
+  },
+  "120243366613420631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 27.5,
+    "ctr": 50.0
+  },
+  "120243366613430631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243366613440631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 6.666667,
+    "ctr": 66.67
+  },
+  "120243366613450631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 40.0,
+    "ctr": 0.0
+  },
+  "120243366613460631": {
+    "spend": 2.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 96,
+    "cpm": 26.25,
+    "ctr": 22.92
+  },
+  "120243366613470631": {
+    "spend": 0.24,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 48.0,
+    "ctr": 0.0
+  },
+  "120243366857850631": {
+    "spend": 2.62,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 44,
+    "cpm": 59.545455,
+    "ctr": 13.64
+  },
+  "120243366857860631": {
+    "spend": 0.15,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 15.0,
+    "ctr": 0.0
+  },
+  "120243366857870631": {
+    "spend": 8.38,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 340,
+    "cpm": 24.647059,
+    "ctr": 18.82
+  },
+  "120243366857880631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 5.0,
+    "ctr": 0.0
+  },
+  "120243366857890631": {
+    "spend": 34.03,
+    "purchases": 9.0,
+    "cpa": 11.34,
+    "impressions": 1053,
+    "cpm": 32.317189,
+    "ctr": 12.73
+  },
+  "120243366857900631": {
+    "spend": 0.15,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 13.636364,
+    "ctr": 54.55
+  },
+  "120243366857910631": {
+    "spend": 0.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 14.285714,
+    "ctr": 28.57
+  },
+  "120243366857920631": {
+    "spend": 2.72,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 70,
+    "cpm": 38.857143,
+    "ctr": 7.14
+  },
+  "120243367716750631": {
+    "spend": 0.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 25.757576,
+    "ctr": 18.18
+  },
+  "120243367716760631": {
+    "spend": 0.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 42.5,
+    "ctr": 12.5
+  },
+  "120243367716770631": {
+    "spend": 0.15,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 50.0,
+    "ctr": 0.0
+  },
+  "120243367716780631": {
+    "spend": 0.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 25.757576,
+    "ctr": 12.12
+  },
+  "120243367716790631": {
+    "spend": 17.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 462,
+    "cpm": 37.359307,
+    "ctr": 20.35
+  },
+  "120243367716800631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 13.333333,
+    "ctr": 0.0
+  },
+  "120243368152580631": {
+    "spend": 8.26,
+    "purchases": 3.0,
+    "cpa": 8.26,
+    "impressions": 327,
+    "cpm": 25.259939,
+    "ctr": 28.75
+  },
+  "120243369541070631": {
+    "spend": 28.35,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1128,
+    "cpm": 25.132979,
+    "ctr": 22.52
+  },
+  "120243369541090631": {
+    "spend": 0.84,
+    "purchases": 3.0,
+    "cpa": 0.84,
+    "impressions": 12,
+    "cpm": 70.0,
+    "ctr": 16.67
+  },
+  "120243369541100631": {
+    "spend": 0.54,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 22.5,
+    "ctr": 16.67
+  },
+  "120243369541110631": {
+    "spend": 0.86,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 39,
+    "cpm": 22.051282,
+    "ctr": 30.77
+  },
+  "120243369541120631": {
+    "spend": 0.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 19.62963,
+    "ctr": 18.52
+  },
+  "120243369541130631": {
+    "spend": 1.42,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 43.030303,
+    "ctr": 27.27
+  },
+  "120243369541140631": {
+    "spend": 0.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 8.5,
+    "ctr": 15.0
+  },
+  "120243369541150631": {
+    "spend": 29.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1171,
+    "cpm": 25.217763,
+    "ctr": 19.56
+  },
+  "120243369541160631": {
+    "spend": 0.27,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 22.5,
+    "ctr": 16.67
+  },
+  "120243369541170631": {
+    "spend": 22.37,
+    "purchases": 3.0,
+    "cpa": 22.37,
+    "impressions": 635,
+    "cpm": 35.228346,
+    "ctr": 20.31
+  },
+  "120243369541180631": {
+    "spend": 47.16,
+    "purchases": 3.0,
+    "cpa": 47.16,
+    "impressions": 1937,
+    "cpm": 24.346928,
+    "ctr": 21.32
+  },
+  "120243369541190631": {
+    "spend": 30.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1345,
+    "cpm": 22.431227,
+    "ctr": 19.85
+  },
+  "120243369541200631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 18.333333,
+    "ctr": 16.67
+  },
+  "120243369541210631": {
+    "spend": 2.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 72,
+    "cpm": 30.972222,
+    "ctr": 13.89
+  },
+  "120243369541220631": {
+    "spend": 30.72,
+    "purchases": 3.0,
+    "cpa": 30.72,
+    "impressions": 910,
+    "cpm": 33.758242,
+    "ctr": 24.73
+  },
+  "120243451584610631": {
+    "spend": 4.82,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 168,
+    "cpm": 28.690476,
+    "ctr": 26.79
+  },
+  "120243451584620631": {
+    "spend": 0.67,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 47.857143,
+    "ctr": 14.29
+  },
+  "120243451584630631": {
+    "spend": 31.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1158,
+    "cpm": 27.219344,
+    "ctr": 22.8
+  },
+  "120243451584640631": {
+    "spend": 5.67,
+    "purchases": 3.0,
+    "cpa": 5.67,
+    "impressions": 150,
+    "cpm": 37.8,
+    "ctr": 22.0
+  },
+  "120243451584650631": {
+    "spend": 0.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243451584660631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 5.0,
+    "ctr": 50.0
+  },
+  "120243451584670631": {
+    "spend": 28.55,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 831,
+    "cpm": 34.356197,
+    "ctr": 30.08
+  },
+  "120243451584680631": {
+    "spend": 2.47,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 70,
+    "cpm": 35.285714,
+    "ctr": 25.71
+  },
+  "120243451584690631": {
+    "spend": 12.86,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 385,
+    "cpm": 33.402597,
+    "ctr": 22.6
+  },
+  "120243451584700631": {
+    "spend": 0.46,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 20.909091,
+    "ctr": 18.18
+  },
+  "120243451584710631": {
+    "spend": 0.14,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 20.0,
+    "ctr": 28.57
+  },
+  "120243451584720631": {
+    "spend": 0.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 19.333333,
+    "ctr": 26.67
+  },
+  "120243451584730631": {
+    "spend": 8.9,
+    "purchases": 3.0,
+    "cpa": 8.9,
+    "impressions": 365,
+    "cpm": 24.383562,
+    "ctr": 24.11
+  },
+  "120243451676780631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 8.0,
+    "ctr": 40.0
+  },
+  "120243451676790631": {
+    "spend": 36.62,
+    "purchases": 3.0,
+    "cpa": 36.62,
+    "impressions": 1093,
+    "cpm": 33.504117,
+    "ctr": 26.35
+  },
+  "120243451676800631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243451676810631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 15.0,
+    "ctr": 41.67
+  },
+  "120243451676820631": {
+    "spend": 0.44,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 16.296296,
+    "ctr": 18.52
+  },
+  "120243451676830631": {
+    "spend": 48.08,
+    "purchases": 12.0,
+    "cpa": 12.02,
+    "impressions": 1491,
+    "cpm": 32.246814,
+    "ctr": 25.55
+  },
+  "120243451676840631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 15.0,
+    "ctr": 0.0
+  },
+  "120243451676850631": {
+    "spend": 1.25,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 48,
+    "cpm": 26.041667,
+    "ctr": 16.67
+  },
+  "120243451676860631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 5.0,
+    "ctr": 0.0
+  },
+  "120243451676870631": {
+    "spend": 0.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 30.833333,
+    "ctr": 16.67
+  },
+  "120243451676880631": {
+    "spend": 3.83,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 165,
+    "cpm": 23.212121,
+    "ctr": 27.88
+  },
+  "120243451676890631": {
+    "spend": 8.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 273,
+    "cpm": 29.487179,
+    "ctr": 16.85
+  },
+  "120243451676900631": {
+    "spend": 1.64,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 47,
+    "cpm": 34.893617,
+    "ctr": 14.89
+  },
+  "120243451676910631": {
+    "spend": 1.87,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 80,
+    "cpm": 23.375,
+    "ctr": 28.75
+  },
+  "120243451739670631": {
+    "spend": 0.49,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 32,
+    "cpm": 15.3125,
+    "ctr": 31.25
+  },
+  "120243451739680631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 5.0,
+    "ctr": 0.0
+  },
+  "120243451739690631": {
+    "spend": 0.95,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 55.882353,
+    "ctr": 17.65
+  },
+  "120243451739700631": {
+    "spend": 2.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 111,
+    "cpm": 25.675676,
+    "ctr": 31.53
+  },
+  "120243451739710631": {
+    "spend": 3.7,
+    "purchases": 3.0,
+    "cpa": 3.7,
+    "impressions": 152,
+    "cpm": 24.342105,
+    "ctr": 25.0
+  },
+  "120243451739720631": {
+    "spend": 65.24,
+    "purchases": 9.0,
+    "cpa": 21.75,
+    "impressions": 2045,
+    "cpm": 31.9022,
+    "ctr": 23.81
+  },
+  "120243451739730631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 11.666667,
+    "ctr": 16.67
+  },
+  "120243451739740631": {
+    "spend": 5.35,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 120,
+    "cpm": 44.583333,
+    "ctr": 18.33
+  },
+  "120243451739750631": {
+    "spend": 1.99,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 69,
+    "cpm": 28.84058,
+    "ctr": 36.23
+  },
+  "120243451739770631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 20.0,
+    "ctr": 33.33
+  },
+  "120243451739780631": {
+    "spend": 13.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 373,
+    "cpm": 34.906166,
+    "ctr": 22.79
+  },
+  "120243451739790631": {
+    "spend": 1.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 46,
+    "cpm": 29.130435,
+    "ctr": 10.87
+  },
+  "120243451739800631": {
+    "spend": 2.27,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 66,
+    "cpm": 34.393939,
+    "ctr": 28.79
+  },
+  "120243451739810631": {
+    "spend": 0.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 28.75,
+    "ctr": 25.0
+  },
+  "120243451739820631": {
+    "spend": 0.58,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 27.619048,
+    "ctr": 33.33
+  },
+  "120243452007460631": {
+    "spend": 27.71,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 815,
+    "cpm": 34.0,
+    "ctr": 20.74
+  },
+  "120243452007490631": {
+    "spend": 0.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 40.0,
+    "ctr": 20.0
+  },
+  "120243452007500631": {
+    "spend": 0.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 45.0,
+    "ctr": 0.0
+  },
+  "120243452007510631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 28.181818,
+    "ctr": 27.27
+  },
+  "120243452007520631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 20.0,
+    "ctr": 16.67
+  },
+  "120243452007530631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452007540631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 31.428571,
+    "ctr": 0.0
+  },
+  "120243452007550631": {
+    "spend": 0.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 40.0,
+    "ctr": 0.0
+  },
+  "120243452007560631": {
+    "spend": 0.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 41.428571,
+    "ctr": 42.86
+  },
+  "120243452007570631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 8.75,
+    "ctr": 37.5
+  },
+  "120243452007580631": {
+    "spend": 0.51,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 63.75,
+    "ctr": 12.5
+  },
+  "120243452007590631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452007600631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 15.0,
+    "ctr": 25.0
+  },
+  "120243452007620631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 18.333333,
+    "ctr": 16.67
+  },
+  "120243452007630631": {
+    "spend": 0.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 17.777778,
+    "ctr": 0.0
+  },
+  "120243452007640631": {
+    "spend": 0.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 16.666667,
+    "ctr": 0.0
+  },
+  "120243452007650631": {
+    "spend": 0.9,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 180.0,
+    "ctr": 20.0
+  },
+  "120243452007660631": {
+    "spend": 0.99,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 46,
+    "cpm": 21.521739,
+    "ctr": 32.61
+  },
+  "120243452007670631": {
+    "spend": 10.23,
+    "purchases": 3.0,
+    "cpa": 10.23,
+    "impressions": 284,
+    "cpm": 36.021127,
+    "ctr": 19.37
+  },
+  "120243452007680631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 10.0,
+    "ctr": 50.0
+  },
+  "120243452007690631": {
+    "spend": 7.12,
+    "purchases": 3.0,
+    "cpa": 7.12,
+    "impressions": 181,
+    "cpm": 39.337017,
+    "ctr": 13.26
+  },
+  "120243452007700631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 14.0,
+    "ctr": 20.0
+  },
+  "120243452007710631": {
+    "spend": 0.62,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 26,
+    "cpm": 23.846154,
+    "ctr": 15.38
+  },
+  "120243452007730631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 103.333333,
+    "ctr": 66.67
+  },
+  "120243452007750631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 22.0,
+    "ctr": 0.0
+  },
+  "120243452007760631": {
+    "spend": 0.38,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 42.222222,
+    "ctr": 22.22
+  },
+  "120243452007770631": {
+    "spend": 0.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 18.5,
+    "ctr": 25.0
+  },
+  "120243452007780631": {
+    "spend": 1.84,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 57,
+    "cpm": 32.280702,
+    "ctr": 3.51
+  },
+  "120243452007790631": {
+    "spend": 0.19,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 47.5,
+    "ctr": 25.0
+  },
+  "120243452007800631": {
+    "spend": 0.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 21.25,
+    "ctr": 12.5
+  },
+  "120243452007810631": {
+    "spend": 0.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 20.0,
+    "ctr": 6.67
+  },
+  "120243452007820631": {
+    "spend": 0.75,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 53.571429,
+    "ctr": 21.43
+  },
+  "120243452007830631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452007840631": {
+    "spend": 5.56,
+    "purchases": 3.0,
+    "cpa": 5.56,
+    "impressions": 113,
+    "cpm": 49.20354,
+    "ctr": 16.81
+  },
+  "120243452007850631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 10.0,
+    "ctr": 50.0
+  },
+  "120243452007860631": {
+    "spend": 0.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 26.0,
+    "ctr": 0.0
+  },
+  "120243452007870631": {
+    "spend": 0.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 33.333333,
+    "ctr": 0.0
+  },
+  "120243452007880631": {
+    "spend": 0.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 86.666667,
+    "ctr": 0.0
+  },
+  "120243452007900631": {
+    "spend": 0.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 16.818182,
+    "ctr": 45.45
+  },
+  "120243452007910631": {
+    "spend": 1.69,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 64,
+    "cpm": 26.40625,
+    "ctr": 20.31
+  },
+  "120243452007920631": {
+    "spend": 1.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 30,
+    "cpm": 40.333333,
+    "ctr": 0.0
+  },
+  "120243452007930631": {
+    "spend": 0.38,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 31.666667,
+    "ctr": 8.33
+  },
+  "120243452007950631": {
+    "spend": 0.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 18.571429,
+    "ctr": 14.29
+  },
+  "120243452007960631": {
+    "spend": 29.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 840,
+    "cpm": 34.761905,
+    "ctr": 27.74
+  },
+  "120243452007980631": {
+    "spend": 0.54,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 25.714286,
+    "ctr": 19.05
+  },
+  "120243452007990631": {
+    "spend": 0.32,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 24.615385,
+    "ctr": 23.08
+  },
+  "120243452008000631": {
+    "spend": 0.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 39.166667,
+    "ctr": 12.5
+  },
+  "120243452008020631": {
+    "spend": 0.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 41.111111,
+    "ctr": 11.11
+  },
+  "120243452008030631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 35.0,
+    "ctr": 50.0
+  },
+  "120243452186410631": {
+    "spend": 4.82,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 155,
+    "cpm": 31.096774,
+    "ctr": 12.9
+  },
+  "120243452186420631": {
+    "spend": 24.43,
+    "purchases": 3.0,
+    "cpa": 24.43,
+    "impressions": 809,
+    "cpm": 30.197775,
+    "ctr": 17.8
+  },
+  "120243452186430631": {
+    "spend": 0.24,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 24.0,
+    "ctr": 10.0
+  },
+  "120243452186440631": {
+    "spend": 1.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 80.526316,
+    "ctr": 26.32
+  },
+  "120243452186450631": {
+    "spend": 0.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 40.0,
+    "ctr": 0.0
+  },
+  "120243452186460631": {
+    "spend": 17.79,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 569,
+    "cpm": 31.265378,
+    "ctr": 13.36
+  },
+  "120243452186470631": {
+    "spend": 0.33,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 33.0,
+    "ctr": 50.0
+  },
+  "120243452186480631": {
+    "spend": 45.72,
+    "purchases": 6.0,
+    "cpa": 22.86,
+    "impressions": 1683,
+    "cpm": 27.165775,
+    "ctr": 18.54
+  },
+  "120243452186490631": {
+    "spend": 1.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 28,
+    "cpm": 46.428571,
+    "ctr": 3.57
+  },
+  "120243452268210631": {
+    "spend": 0.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 18.571429,
+    "ctr": 14.29
+  },
+  "120243452268220631": {
+    "spend": 0.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 13.333333,
+    "ctr": 0.0
+  },
+  "120243452268250631": {
+    "spend": 0.89,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 37.083333,
+    "ctr": 20.83
+  },
+  "120243452268260631": {
+    "spend": 0.66,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 34.736842,
+    "ctr": 31.58
+  },
+  "120243452268270631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 27.5,
+    "ctr": 0.0
+  },
+  "120243452268280631": {
+    "spend": 3.68,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 140,
+    "cpm": 26.285714,
+    "ctr": 24.29
+  },
+  "120243452268290631": {
+    "spend": 31.33,
+    "purchases": 6.0,
+    "cpa": 15.66,
+    "impressions": 1056,
+    "cpm": 29.668561,
+    "ctr": 24.05
+  },
+  "120243452268300631": {
+    "spend": 6.87,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 229,
+    "cpm": 30.0,
+    "ctr": 32.31
+  },
+  "120243452268310631": {
+    "spend": 0.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452268320631": {
+    "spend": 1.64,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 77,
+    "cpm": 21.298701,
+    "ctr": 20.78
+  },
+  "120243452268330631": {
+    "spend": 1.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 65,
+    "cpm": 18.923077,
+    "ctr": 18.46
+  },
+  "120243452268340631": {
+    "spend": 9.56,
+    "purchases": 3.0,
+    "cpa": 9.56,
+    "impressions": 233,
+    "cpm": 41.030043,
+    "ctr": 26.61
+  },
+  "120243452268350631": {
+    "spend": 1.39,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 73.157895,
+    "ctr": 31.58
+  },
+  "120243452268360631": {
+    "spend": 29.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 858,
+    "cpm": 34.032634,
+    "ctr": 30.19
+  },
+  "120243452429850631": {
+    "spend": 0.63,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 78.75,
+    "ctr": 0.0
+  },
+  "120243452429860631": {
+    "spend": 0.96,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 39,
+    "cpm": 24.615385,
+    "ctr": 15.38
+  },
+  "120243452429870631": {
+    "spend": 27.14,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 845,
+    "cpm": 32.118343,
+    "ctr": 17.99
+  },
+  "120243452429880631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 19.090909,
+    "ctr": 9.09
+  },
+  "120243452429890631": {
+    "spend": 30.71,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 834,
+    "cpm": 36.822542,
+    "ctr": 21.7
+  },
+  "120243452429900631": {
+    "spend": 1.67,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 63,
+    "cpm": 26.507937,
+    "ctr": 6.35
+  },
+  "120243452429910631": {
+    "spend": 0.26,
+    "purchases": 3.0,
+    "cpa": 0.26,
+    "impressions": 9,
+    "cpm": 28.888889,
+    "ctr": 11.11
+  },
+  "120243452429920631": {
+    "spend": 4.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 116,
+    "cpm": 38.362069,
+    "ctr": 27.59
+  },
+  "120243452429930631": {
+    "spend": 0.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 26.470588,
+    "ctr": 17.65
+  },
+  "120243452429950631": {
+    "spend": 0.41,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 34.166667,
+    "ctr": 0.0
+  },
+  "120243452429960631": {
+    "spend": 2.4,
+    "purchases": 3.0,
+    "cpa": 2.4,
+    "impressions": 85,
+    "cpm": 28.235294,
+    "ctr": 32.94
+  },
+  "120243452429970631": {
+    "spend": 1.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 59,
+    "cpm": 21.864407,
+    "ctr": 11.86
+  },
+  "120243452429980631": {
+    "spend": 0.36,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 27.692308,
+    "ctr": 15.38
+  },
+  "120243452429990631": {
+    "spend": 0.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 11.428571,
+    "ctr": 0.0
+  },
+  "120243452430000631": {
+    "spend": 46.93,
+    "purchases": 9.0,
+    "cpa": 15.64,
+    "impressions": 1493,
+    "cpm": 31.433356,
+    "ctr": 25.12
+  },
+  "120243452430010631": {
+    "spend": 0.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 22.307692,
+    "ctr": 23.08
+  },
+  "120243452430020631": {
+    "spend": 14.68,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 449,
+    "cpm": 32.694878,
+    "ctr": 17.37
+  },
+  "120243452430030631": {
+    "spend": 31.72,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 993,
+    "cpm": 31.943605,
+    "ctr": 23.97
+  },
+  "120243452430040631": {
+    "spend": 17.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 611,
+    "cpm": 28.477905,
+    "ctr": 19.97
+  },
+  "120243452430050631": {
+    "spend": 15.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 371,
+    "cpm": 40.539084,
+    "ctr": 23.18
+  },
+  "120243452430060631": {
+    "spend": 2.46,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 108,
+    "cpm": 22.777778,
+    "ctr": 26.85
+  },
+  "120243452430070631": {
+    "spend": 1.86,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 75,
+    "cpm": 24.8,
+    "ctr": 21.33
+  },
+  "120243452430080631": {
+    "spend": 0.14,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 35.0,
+    "ctr": 0.0
+  },
+  "120243452430090631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 5.0,
+    "ctr": 0.0
+  },
+  "120243452430100631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452430110631": {
+    "spend": 0.35,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 25.0,
+    "ctr": 21.43
+  },
+  "120243452430120631": {
+    "spend": 7.25,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 240,
+    "cpm": 30.208333,
+    "ctr": 17.92
+  },
+  "120243452430130631": {
+    "spend": 1.65,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 58,
+    "cpm": 28.448276,
+    "ctr": 12.07
+  },
+  "120243452430140631": {
+    "spend": 0.28,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 16.470588,
+    "ctr": 17.65
+  },
+  "120243452430150631": {
+    "spend": 0.19,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 63.333333,
+    "ctr": 0.0
+  },
+  "120243452430160631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452430170631": {
+    "spend": 8.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 168,
+    "cpm": 49.166667,
+    "ctr": 13.1
+  },
+  "120243452430180631": {
+    "spend": 0.9,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 35,
+    "cpm": 25.714286,
+    "ctr": 25.71
+  },
+  "120243452430190631": {
+    "spend": 2.67,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 112,
+    "cpm": 23.839286,
+    "ctr": 16.96
+  },
+  "120243452430200631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 30.0,
+    "ctr": 28.57
+  },
+  "120243452430210631": {
+    "spend": 0.67,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 35.263158,
+    "ctr": 21.05
+  },
+  "120243452430220631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 15.714286,
+    "ctr": 0.0
+  },
+  "120243452430230631": {
+    "spend": 0.25,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 16.666667,
+    "ctr": 20.0
+  },
+  "120243452430240631": {
+    "spend": 0.15,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 16.666667,
+    "ctr": 0.0
+  },
+  "120243452430250631": {
+    "spend": 0.81,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 54.0,
+    "ctr": 20.0
+  },
+  "120243452430260631": {
+    "spend": 38.08,
+    "purchases": 3.0,
+    "cpa": 38.08,
+    "impressions": 1208,
+    "cpm": 31.523179,
+    "ctr": 26.32
+  },
+  "120243452430270631": {
+    "spend": 0.38,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 34.545455,
+    "ctr": 9.09
+  },
+  "120243452430280631": {
+    "spend": 1.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 67,
+    "cpm": 22.089552,
+    "ctr": 11.94
+  },
+  "120243452430290631": {
+    "spend": 0.44,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 31.428571,
+    "ctr": 57.14
+  },
+  "120243452430300631": {
+    "spend": 3.59,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 139,
+    "cpm": 25.827338,
+    "ctr": 22.3
+  },
+  "120243452430310631": {
+    "spend": 5.72,
+    "purchases": 3.0,
+    "cpa": 5.72,
+    "impressions": 178,
+    "cpm": 32.134831,
+    "ctr": 15.73
+  },
+  "120243452430320631": {
+    "spend": 33.71,
+    "purchases": 3.0,
+    "cpa": 33.71,
+    "impressions": 1257,
+    "cpm": 26.81782,
+    "ctr": 23.07
+  },
+  "120243452430330631": {
+    "spend": 0.42,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 42.0,
+    "ctr": 0.0
+  },
+  "120243452430340631": {
+    "spend": 2.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 117,
+    "cpm": 25.128205,
+    "ctr": 15.38
+  },
+  "120243452430350631": {
+    "spend": 5.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 196,
+    "cpm": 29.285714,
+    "ctr": 21.43
+  },
+  "120243452430370631": {
+    "spend": 0.32,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 19,
+    "cpm": 16.842105,
+    "ctr": 21.05
+  },
+  "120243452430380631": {
+    "spend": 3.44,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 96,
+    "cpm": 35.833333,
+    "ctr": 13.54
+  },
+  "120243452430400631": {
+    "spend": 0.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 16.666667,
+    "ctr": 0.0
+  },
+  "120243452430410631": {
+    "spend": 0.97,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 37,
+    "cpm": 26.216216,
+    "ctr": 21.62
+  },
+  "120243452430420631": {
+    "spend": 1.69,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 51,
+    "cpm": 33.137255,
+    "ctr": 27.45
+  },
+  "120243452430430631": {
+    "spend": 1.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 26,
+    "cpm": 58.461538,
+    "ctr": 46.15
+  },
+  "120243452430450631": {
+    "spend": 0.64,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 31,
+    "cpm": 20.645161,
+    "ctr": 22.58
+  },
+  "120243452430460631": {
+    "spend": 3.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 96,
+    "cpm": 34.270833,
+    "ctr": 31.25
+  },
+  "120243452430470631": {
+    "spend": 101.84,
+    "purchases": 12.0,
+    "cpa": 25.46,
+    "impressions": 2860,
+    "cpm": 35.608392,
+    "ctr": 26.01
+  },
+  "120243452430490631": {
+    "spend": 2.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 93,
+    "cpm": 23.870968,
+    "ctr": 17.2
+  },
+  "120243452430530631": {
+    "spend": 2.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 53,
+    "cpm": 41.509434,
+    "ctr": 33.96
+  },
+  "120243452430540631": {
+    "spend": 8.27,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 210,
+    "cpm": 39.380952,
+    "ctr": 28.57
+  },
+  "120243452430550631": {
+    "spend": 52.42,
+    "purchases": 15.0,
+    "cpa": 10.48,
+    "impressions": 2232,
+    "cpm": 23.485663,
+    "ctr": 18.23
+  },
+  "120243452430560631": {
+    "spend": 0.46,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 65.714286,
+    "ctr": 0.0
+  },
+  "120243452430570631": {
+    "spend": 219.06,
+    "purchases": 27.0,
+    "cpa": 24.34,
+    "impressions": 6630,
+    "cpm": 33.040724,
+    "ctr": 22.67
+  },
+  "120243452430590631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 30.0,
+    "ctr": 0.0
+  },
+  "120243452430600631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452430610631": {
+    "spend": 3.47,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 118,
+    "cpm": 29.40678,
+    "ctr": 25.42
+  },
+  "120243452430620631": {
+    "spend": 2.8,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 95,
+    "cpm": 29.473684,
+    "ctr": 20.0
+  },
+  "120243452430630631": {
+    "spend": 22.87,
+    "purchases": 3.0,
+    "cpa": 22.87,
+    "impressions": 669,
+    "cpm": 34.185351,
+    "ctr": 16.14
+  },
+  "120243452430650631": {
+    "spend": 28.38,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1024,
+    "cpm": 27.714844,
+    "ctr": 22.75
+  },
+  "120243452430660631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 31.428571,
+    "ctr": 0.0
+  },
+  "120243452430670631": {
+    "spend": 2.86,
+    "purchases": 3.0,
+    "cpa": 2.86,
+    "impressions": 98,
+    "cpm": 29.183673,
+    "ctr": 12.24
+  },
+  "120243452430680631": {
+    "spend": 8.38,
+    "purchases": 3.0,
+    "cpa": 8.38,
+    "impressions": 296,
+    "cpm": 28.310811,
+    "ctr": 26.01
+  },
+  "120243452430690631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 6.666667,
+    "ctr": 33.33
+  },
+  "120243452430700631": {
+    "spend": 1.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 48,
+    "cpm": 25.625,
+    "ctr": 18.75
+  },
+  "120243452430710631": {
+    "spend": 1.51,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 37,
+    "cpm": 40.810811,
+    "ctr": 16.22
+  },
+  "120243452430720631": {
+    "spend": 0.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 26.470588,
+    "ctr": 5.88
+  },
+  "120243452430730631": {
+    "spend": 0.99,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 53,
+    "cpm": 18.679245,
+    "ctr": 16.98
+  },
+  "120243452430740631": {
+    "spend": 0.69,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 32.857143,
+    "ctr": 9.52
+  },
+  "120243452430750631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 24.0,
+    "ctr": 0.0
+  },
+  "120243452430760631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 18.0,
+    "ctr": 0.0
+  },
+  "120243452430770631": {
+    "spend": 0.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 28.333333,
+    "ctr": 16.67
+  },
+  "120243452430780631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 26.25,
+    "ctr": 0.0
+  },
+  "120243452430790631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 7.5,
+    "ctr": 0.0
+  },
+  "120243452430800631": {
+    "spend": 44.25,
+    "purchases": 6.0,
+    "cpa": 22.12,
+    "impressions": 1402,
+    "cpm": 31.562054,
+    "ctr": 19.12
+  },
+  "120243452430810631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452430820631": {
+    "spend": 0.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 45.0,
+    "ctr": 0.0
+  },
+  "120243452430830631": {
+    "spend": 211.93,
+    "purchases": 30.0,
+    "cpa": 21.19,
+    "impressions": 8381,
+    "cpm": 25.286959,
+    "ctr": 16.17
+  },
+  "120243452430840631": {
+    "spend": 8.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 266,
+    "cpm": 32.030075,
+    "ctr": 8.27
+  },
+  "120243452430850631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 27.5,
+    "ctr": 25.0
+  },
+  "120243452430860631": {
+    "spend": 0.72,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 72.0,
+    "ctr": 30.0
+  },
+  "120243452430870631": {
+    "spend": 0.22,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 18.333333,
+    "ctr": 16.67
+  },
+  "120243452430880631": {
+    "spend": 0.9,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 36,
+    "cpm": 25.0,
+    "ctr": 19.44
+  },
+  "120243452430890631": {
+    "spend": 30.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1098,
+    "cpm": 27.468124,
+    "ctr": 17.3
+  },
+  "120243452430900631": {
+    "spend": 10.35,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 465,
+    "cpm": 22.258065,
+    "ctr": 12.26
+  },
+  "120243452430910631": {
+    "spend": 1.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 41.111111,
+    "ctr": 0.0
+  },
+  "120243452430920631": {
+    "spend": 0.5,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 33.333333,
+    "ctr": 6.67
+  },
+  "120243452430930631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 25.833333,
+    "ctr": 16.67
+  },
+  "120243452430940631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 40.0,
+    "ctr": 0.0
+  },
+  "120243452430950631": {
+    "spend": 1.77,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 60,
+    "cpm": 29.5,
+    "ctr": 23.33
+  },
+  "120243452430960631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452430970631": {
+    "spend": 0.7,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 23,
+    "cpm": 30.434783,
+    "ctr": 13.04
+  },
+  "120243452430980631": {
+    "spend": 2.47,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 84,
+    "cpm": 29.404762,
+    "ctr": 10.71
+  },
+  "120243452430990631": {
+    "spend": 0.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 50.0,
+    "ctr": 0.0
+  },
+  "120243452431000631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 34.444444,
+    "ctr": 11.11
+  },
+  "120243452431010631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 25.714286,
+    "ctr": 0.0
+  },
+  "120243452431020631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452431030631": {
+    "spend": 0.46,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 21.904762,
+    "ctr": 9.52
+  },
+  "120243452431040631": {
+    "spend": 0.6,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 66.666667,
+    "ctr": 0.0
+  },
+  "120243452431050631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452431060631": {
+    "spend": 0.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 23.846154,
+    "ctr": 15.38
+  },
+  "120243452431090631": {
+    "spend": 1.93,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 63,
+    "cpm": 30.634921,
+    "ctr": 17.46
+  },
+  "120243452431100631": {
+    "spend": 0.88,
+    "purchases": 3.0,
+    "cpa": 0.88,
+    "impressions": 38,
+    "cpm": 23.157895,
+    "ctr": 7.89
+  },
+  "120243452431110631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 30.0,
+    "ctr": 100.0
+  },
+  "120243452431120631": {
+    "spend": 1.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 43.333333,
+    "ctr": 16.67
+  },
+  "120243452949060631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 17.142857,
+    "ctr": 42.86
+  },
+  "120243452949090631": {
+    "spend": 0.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 25.0,
+    "ctr": 0.0
+  },
+  "120243452949100631": {
+    "spend": 0.15,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 37.5,
+    "ctr": 25.0
+  },
+  "120243452949110631": {
+    "spend": 0.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 34.285714,
+    "ctr": 7.14
+  },
+  "120243452949120631": {
+    "spend": 0.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 27.5,
+    "ctr": 25.0
+  },
+  "120243452949130631": {
+    "spend": 0.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 22.5,
+    "ctr": 25.0
+  },
+  "120243452949150631": {
+    "spend": 3.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 87,
+    "cpm": 34.712644,
+    "ctr": 25.29
+  },
+  "120243452949160631": {
+    "spend": 0.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 16.25,
+    "ctr": 37.5
+  },
+  "120243452949170631": {
+    "spend": 0.75,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 27.777778,
+    "ctr": 11.11
+  },
+  "120243452949180631": {
+    "spend": 0.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 12.5,
+    "ctr": 0.0
+  },
+  "120243452949190631": {
+    "spend": 60.11,
+    "purchases": 6.0,
+    "cpa": 30.05,
+    "impressions": 1766,
+    "cpm": 34.037373,
+    "ctr": 21.35
+  },
+  "120243452949200631": {
+    "spend": 0.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 12.0,
+    "ctr": 20.0
+  },
+  "120243452949210631": {
+    "spend": 62.61,
+    "purchases": 6.0,
+    "cpa": 31.3,
+    "impressions": 2113,
+    "cpm": 29.630857,
+    "ctr": 17.08
+  },
+  "120243452949220631": {
+    "spend": 17.26,
+    "purchases": 3.0,
+    "cpa": 17.26,
+    "impressions": 478,
+    "cpm": 36.108787,
+    "ctr": 22.18
+  },
+  "120243452949230631": {
+    "spend": 5.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 185,
+    "cpm": 27.189189,
+    "ctr": 23.24
+  },
+  "120243452949250631": {
+    "spend": 0.65,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 29.545455,
+    "ctr": 13.64
+  },
+  "120243452949260631": {
+    "spend": 0.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 28.571429,
+    "ctr": 7.14
+  },
+  "120243452949270631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 30.0,
+    "ctr": 25.0
+  },
+  "120243452949280631": {
+    "spend": 50.35,
+    "purchases": 3.0,
+    "cpa": 50.35,
+    "impressions": 1612,
+    "cpm": 31.234491,
+    "ctr": 24.88
+  },
+  "120243452949290631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 6.666667,
+    "ctr": 0.0
+  },
+  "120243452949300631": {
+    "spend": 8.55,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 308,
+    "cpm": 27.75974,
+    "ctr": 25.0
+  },
+  "120243452949310631": {
+    "spend": 1.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 44,
+    "cpm": 24.318182,
+    "ctr": 18.18
+  },
+  "120243452949320631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 60.0,
+    "ctr": 0.0
+  },
+  "120243452949330631": {
+    "spend": 3.93,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 130,
+    "cpm": 30.230769,
+    "ctr": 23.85
+  },
+  "120243452949340631": {
+    "spend": 67.99,
+    "purchases": 15.0,
+    "cpa": 13.6,
+    "impressions": 2156,
+    "cpm": 31.53525,
+    "ctr": 22.22
+  },
+  "120243452949350631": {
+    "spend": 19.23,
+    "purchases": 6.0,
+    "cpa": 9.62,
+    "impressions": 581,
+    "cpm": 33.098107,
+    "ctr": 26.51
+  },
+  "120243452949360631": {
+    "spend": 0.29,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 58.0,
+    "ctr": 0.0
+  },
+  "120243452949370631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452949380631": {
+    "spend": 0.97,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 29.393939,
+    "ctr": 30.3
+  },
+  "120243452949390631": {
+    "spend": 1.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 34,
+    "cpm": 43.529412,
+    "ctr": 29.41
+  },
+  "120243452949410631": {
+    "spend": 0.14,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 35.0,
+    "ctr": 0.0
+  },
+  "120243452949420631": {
+    "spend": 0.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 15.454545,
+    "ctr": 59.09
+  },
+  "120243452949430631": {
+    "spend": 0.81,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 30.0,
+    "ctr": 3.7
+  },
+  "120243452949440631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452949450631": {
+    "spend": 0.15,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 15.0,
+    "ctr": 10.0
+  },
+  "120243452949460631": {
+    "spend": 0.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 11.25,
+    "ctr": 12.5
+  },
+  "120243452949470631": {
+    "spend": 0.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 17.777778,
+    "ctr": 0.0
+  },
+  "120243452949480631": {
+    "spend": 2.28,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 58,
+    "cpm": 39.310345,
+    "ctr": 13.79
+  },
+  "120243452949490631": {
+    "spend": 0.76,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 18,
+    "cpm": 42.222222,
+    "ctr": 22.22
+  },
+  "120243452949500631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 105.0,
+    "ctr": 0.0
+  },
+  "120243452949510631": {
+    "spend": 0.82,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 34,
+    "cpm": 24.117647,
+    "ctr": 8.82
+  },
+  "120243452949520631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 30.0,
+    "ctr": 0.0
+  },
+  "120243452949530631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452949540631": {
+    "spend": 0.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 12.5,
+    "ctr": 0.0
+  },
+  "120243452949550631": {
+    "spend": 108.08,
+    "purchases": 9.0,
+    "cpa": 36.03,
+    "impressions": 3226,
+    "cpm": 33.50279,
+    "ctr": 18.97
+  },
+  "120243452949560631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452949570631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 20.0,
+    "ctr": 100.0
+  },
+  "120243452949580631": {
+    "spend": 4.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 56,
+    "cpm": 72.857143,
+    "ctr": 5.36
+  },
+  "120243452949600631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452949620631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452949630631": {
+    "spend": 0.23,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 38.333333,
+    "ctr": 16.67
+  },
+  "120243452949640631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 12,
+    "cpm": 15.0,
+    "ctr": 33.33
+  },
+  "120243452949650631": {
+    "spend": 0.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 22.5,
+    "ctr": 0.0
+  },
+  "120243452949660631": {
+    "spend": 5.58,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 153,
+    "cpm": 36.470588,
+    "ctr": 20.92
+  },
+  "120243452949670631": {
+    "spend": 0.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 26.0,
+    "ctr": 0.0
+  },
+  "120243452949680631": {
+    "spend": 0.6,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 75.0,
+    "ctr": 62.5
+  },
+  "120243452949690631": {
+    "spend": 0.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 25.0,
+    "ctr": 0.0
+  },
+  "120243452949700631": {
+    "spend": 0.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 4,
+    "cpm": 20.0,
+    "ctr": 25.0
+  },
+  "120243452949720631": {
+    "spend": 1.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 74,
+    "cpm": 26.216216,
+    "ctr": 14.86
+  },
+  "120243452949750631": {
+    "spend": 0.18,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 25.714286,
+    "ctr": 0.0
+  },
+  "120243452949760631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 70.0,
+    "ctr": 100.0
+  },
+  "120243452949770631": {
+    "spend": 3.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 77,
+    "cpm": 40.38961,
+    "ctr": 11.69
+  },
+  "120243452949780631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452949800631": {
+    "spend": 0.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 21.0,
+    "ctr": 20.0
+  },
+  "120243452949820631": {
+    "spend": 0.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 0.0,
+    "ctr": 0.0
+  },
+  "120243452949840631": {
+    "spend": 0.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 10,
+    "cpm": 20.0,
+    "ctr": 50.0
+  },
+  "120243452949850631": {
+    "spend": 5.9,
+    "purchases": 3.0,
+    "cpa": 5.9,
+    "impressions": 144,
+    "cpm": 40.972222,
+    "ctr": 24.31
+  },
+  "120243452949860631": {
+    "spend": 4.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 83,
+    "cpm": 49.39759,
+    "ctr": 14.46
+  },
+  "120243452949870631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 5,
+    "cpm": 24.0,
+    "ctr": 0.0
+  },
+  "120243452949880631": {
+    "spend": 0.96,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 35.555556,
+    "ctr": 33.33
+  },
+  "120243452949890631": {
+    "spend": 0.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 15.0,
+    "ctr": 0.0
+  },
+  "120243452949900631": {
+    "spend": 4.73,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 204,
+    "cpm": 23.186275,
+    "ctr": 17.65
+  },
+  "120243452949910631": {
+    "spend": 19.45,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 635,
+    "cpm": 30.629921,
+    "ctr": 20.94
+  },
+  "120243452949920631": {
+    "spend": 0.83,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 21,
+    "cpm": 39.52381,
+    "ctr": 9.52
+  },
+  "120243452949930631": {
+    "spend": 0.8,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 24,
+    "cpm": 33.333333,
+    "ctr": 29.17
+  },
+  "120243452949940631": {
+    "spend": 0.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 20.0,
+    "ctr": 0.0
+  },
+  "120243452949950631": {
+    "spend": 0.75,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 49,
+    "cpm": 15.306122,
+    "ctr": 10.2
+  },
+  "120243452949960631": {
+    "spend": 1.98,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 57,
+    "cpm": 34.736842,
+    "ctr": 14.04
+  },
+  "120243452949970631": {
+    "spend": 1.5,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 38,
+    "cpm": 39.473684,
+    "ctr": 31.58
+  },
+  "120243452949980631": {
+    "spend": 4.62,
+    "purchases": 3.0,
+    "cpa": 4.62,
+    "impressions": 217,
+    "cpm": 21.290323,
+    "ctr": 21.66
+  },
+  "120243452949990631": {
+    "spend": 110.39,
+    "purchases": 9.0,
+    "cpa": 36.8,
+    "impressions": 3087,
+    "cpm": 35.759637,
+    "ctr": 23.94
+  },
+  "120243452950010631": {
+    "spend": 0.66,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 44.0,
+    "ctr": 20.0
+  },
+  "120243452950030631": {
+    "spend": 0.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 85.0,
+    "ctr": 0.0
+  },
+  "120243452950040631": {
+    "spend": 2.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 64,
+    "cpm": 35.9375,
+    "ctr": 20.31
+  },
+  "120243452950050631": {
+    "spend": 3.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 98,
+    "cpm": 31.632653,
+    "ctr": 17.35
+  },
+  "120243452950060631": {
+    "spend": 0.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 2,
+    "cpm": 40.0,
+    "ctr": 0.0
+  },
+  "120243452950070631": {
+    "spend": 0.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 11,
+    "cpm": 33.636364,
+    "ctr": 0.0
+  },
+  "120243452950090631": {
+    "spend": 0.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 26.666667,
+    "ctr": 33.33
+  },
+  "120243452950100631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 7,
+    "cpm": 17.142857,
+    "ctr": 14.29
+  },
+  "120243452950110631": {
+    "spend": 2.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 59,
+    "cpm": 42.033898,
+    "ctr": 3.39
+  },
+  "120243452950120631": {
+    "spend": 6.86,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 186,
+    "cpm": 36.88172,
+    "ctr": 21.51
+  },
+  "120243452950130631": {
+    "spend": 0.42,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 13,
+    "cpm": 32.307692,
+    "ctr": 30.77
+  },
+  "120243452950140631": {
+    "spend": 4.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 168,
+    "cpm": 24.22619,
+    "ctr": 16.07
+  },
+  "120243452950150631": {
+    "spend": 0.02,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 6.666667,
+    "ctr": 33.33
+  },
+  "120243452950160631": {
+    "spend": 0.54,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 38.571429,
+    "ctr": 7.14
+  },
+  "120243452950170631": {
+    "spend": 5.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 171,
+    "cpm": 29.532164,
+    "ctr": 22.81
+  },
+  "120243452950180631": {
+    "spend": 8.61,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 232,
+    "cpm": 37.112069,
+    "ctr": 23.71
+  },
+  "120243452950190631": {
+    "spend": 0.01,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1,
+    "cpm": 10.0,
+    "ctr": 0.0
+  },
+  "120243452950200631": {
+    "spend": 0.88,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 40,
+    "cpm": 22.0,
+    "ctr": 22.5
+  },
+  "120243452950210631": {
+    "spend": 2.44,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 75,
+    "cpm": 32.533333,
+    "ctr": 18.67
+  },
+  "120243452950220631": {
+    "spend": 8.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 232,
+    "cpm": 34.784483,
+    "ctr": 19.4
+  },
+  "120243452950230631": {
+    "spend": 0.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 3,
+    "cpm": 40.0,
+    "ctr": 0.0
+  },
+  "120243452950240631": {
+    "spend": 5.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 219,
+    "cpm": 27.123288,
+    "ctr": 23.29
+  },
+  "120243452950250631": {
+    "spend": 40.85,
+    "purchases": 9.0,
+    "cpa": 13.62,
+    "impressions": 1395,
+    "cpm": 29.283154,
+    "ctr": 15.99
+  },
+  "120243452950260631": {
+    "spend": 1.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 40,
+    "cpm": 32.5,
+    "ctr": 22.5
+  },
+  "120243452950280631": {
+    "spend": 0.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 25.0,
+    "ctr": 0.0
+  },
+  "120243452950290631": {
+    "spend": 0.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 6,
+    "cpm": 15.0,
+    "ctr": 0.0
+  },
+  "120243452950300631": {
+    "spend": 0.44,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 55.0,
+    "ctr": 12.5
+  },
+  "120243452950310631": {
+    "spend": 2.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 92,
+    "cpm": 21.73913,
+    "ctr": 25.0
+  },
+  "120243452950320631": {
+    "spend": 0.07,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 8,
+    "cpm": 8.75,
+    "ctr": 12.5
+  },
+  "120243452950330631": {
+    "spend": 4.29,
+    "purchases": 3.0,
+    "cpa": 4.29,
+    "impressions": 127,
+    "cpm": 33.779528,
+    "ctr": 26.77
+  },
+  "120243498426990631": {
+    "spend": 51.08,
+    "purchases": 3.0,
+    "cpa": 51.08,
+    "impressions": 2302,
+    "cpm": 22.189401,
+    "ctr": 15.81
+  },
+  "120243498447050631": {
+    "spend": 0.56,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 31,
+    "cpm": 18.064516,
+    "ctr": 16.13
+  },
+  "120243498458050631": {
+    "spend": 1.61,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 63,
+    "cpm": 25.555556,
+    "ctr": 14.29
+  },
+  "120243498458060631": {
+    "spend": 1.8,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 59,
+    "cpm": 30.508475,
+    "ctr": 10.17
+  },
+  "120243498458070631": {
+    "spend": 1.75,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 73,
+    "cpm": 23.972603,
+    "ctr": 16.44
+  },
+  "120243498458080631": {
+    "spend": 0.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 22.424242,
+    "ctr": 15.15
+  },
+  "120243498458090631": {
+    "spend": 90.48,
+    "purchases": 9.0,
+    "cpa": 30.16,
+    "impressions": 3824,
+    "cpm": 23.661088,
+    "ctr": 16.19
+  },
+  "120243498458100631": {
+    "spend": 2.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 80,
+    "cpm": 25.375,
+    "ctr": 12.5
+  },
+  "120243498458110631": {
+    "spend": 20.77,
+    "purchases": 3.0,
+    "cpa": 20.77,
+    "impressions": 995,
+    "cpm": 20.874372,
+    "ctr": 11.46
+  },
+  "120243498458120631": {
+    "spend": 2.24,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 91,
+    "cpm": 24.615385,
+    "ctr": 18.68
+  },
+  "120243500856780631": {
+    "spend": 8.36,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 352,
+    "cpm": 23.75,
+    "ctr": 23.3
+  },
+  "120243549282170631": {
+    "spend": 0.47,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 27.647059,
+    "ctr": 29.41
+  },
+  "120243549282180631": {
+    "spend": 18.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 808,
+    "cpm": 22.69802,
+    "ctr": 14.98
+  },
+  "120243549282190631": {
+    "spend": 1.36,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 50,
+    "cpm": 27.2,
+    "ctr": 10.0
+  },
+  "120243549282200631": {
+    "spend": 28.62,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 1397,
+    "cpm": 20.486757,
+    "ctr": 16.96
+  },
+  "120243549282210631": {
+    "spend": 0.4,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 23.529412,
+    "ctr": 5.88
+  },
+  "120243549282220631": {
+    "spend": 3.89,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 111,
+    "cpm": 35.045045,
+    "ctr": 9.91
+  },
+  "120243549282230631": {
+    "spend": 2.0,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 36,
+    "cpm": 55.555556,
+    "ctr": 13.89
+  },
+  "120243549282240631": {
+    "spend": 30.65,
+    "purchases": 3.0,
+    "cpa": 30.65,
+    "impressions": 1277,
+    "cpm": 24.001566,
+    "ctr": 14.25
+  },
+  "120243549282250631": {
+    "spend": 3.17,
+    "purchases": 3.0,
+    "cpa": 3.17,
+    "impressions": 52,
+    "cpm": 60.961538,
+    "ctr": 19.23
+  },
+  "120243549282260631": {
+    "spend": 29.68,
+    "purchases": 6.0,
+    "cpa": 14.84,
+    "impressions": 951,
+    "cpm": 31.209253,
+    "ctr": 19.14
+  },
+  "120243672425160631": {
+    "spend": 30.8,
+    "purchases": 3.0,
+    "cpa": 30.8,
+    "impressions": 1096,
+    "cpm": 28.10219,
+    "ctr": 20.53
+  },
+  "120243672425170631": {
+    "spend": 2.33,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 76,
+    "cpm": 30.657895,
+    "ctr": 21.05
+  },
+  "120243672425190631": {
+    "spend": 6.91,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 232,
+    "cpm": 29.784483,
+    "ctr": 19.83
+  },
+  "120243672425210631": {
+    "spend": 10.37,
+    "purchases": 3.0,
+    "cpa": 10.37,
+    "impressions": 363,
+    "cpm": 28.567493,
+    "ctr": 19.83
+  },
+  "120243672425220631": {
+    "spend": 58.04,
+    "purchases": 9.0,
+    "cpa": 19.35,
+    "impressions": 3146,
+    "cpm": 18.448824,
+    "ctr": 16.97
+  },
+  "120243672425230631": {
+    "spend": 1.59,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 33,
+    "cpm": 48.181818,
+    "ctr": 21.21
+  },
+  "120243672425240631": {
+    "spend": 1.95,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 55,
+    "cpm": 35.454545,
+    "ctr": 23.64
+  },
+  "120243672425250631": {
+    "spend": 1.61,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 44,
+    "cpm": 36.590909,
+    "ctr": 15.91
+  },
+  "120243672425260631": {
+    "spend": 3.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 78,
+    "cpm": 38.974359,
+    "ctr": 26.92
+  },
+  "120243672928100631": {
+    "spend": 2.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 86,
+    "cpm": 25.581395,
+    "ctr": 11.63
+  },
+  "120243673035530631": {
+    "spend": 1.21,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 37,
+    "cpm": 32.702703,
+    "ctr": 10.81
+  },
+  "120243673035540631": {
+    "spend": 11.98,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 321,
+    "cpm": 37.320872,
+    "ctr": 24.3
+  },
+  "120243673035550631": {
+    "spend": 19.78,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 601,
+    "cpm": 32.911814,
+    "ctr": 15.97
+  },
+  "120243673035560631": {
+    "spend": 3.51,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 85,
+    "cpm": 41.294118,
+    "ctr": 5.88
+  },
+  "120243673035570631": {
+    "spend": 0.96,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 26,
+    "cpm": 36.923077,
+    "ctr": 23.08
+  },
+  "120243673035590631": {
+    "spend": 1.91,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 68,
+    "cpm": 28.088235,
+    "ctr": 14.71
+  },
+  "120243673035620631": {
+    "spend": 14.65,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 410,
+    "cpm": 35.731707,
+    "ctr": 19.02
+  },
+  "120243686206070631": {
+    "spend": 1.39,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 18,
+    "cpm": 77.222222,
+    "ctr": 11.11
+  },
+  "120243687388230631": {
+    "spend": 2.58,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 35,
+    "cpm": 73.714286,
+    "ctr": 20.0
+  },
+  "120243687388240631": {
+    "spend": 1.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 40.0,
+    "ctr": 14.81
+  },
+  "120243687388250631": {
+    "spend": 2.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 107.727273,
+    "ctr": 18.18
+  },
+  "120243687388260631": {
+    "spend": 26.83,
+    "purchases": 3.0,
+    "cpa": 26.83,
+    "impressions": 498,
+    "cpm": 53.875502,
+    "ctr": 18.67
+  },
+  "120243687388270631": {
+    "spend": 2.59,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 37,
+    "cpm": 70.0,
+    "ctr": 10.81
+  },
+  "120243687388280631": {
+    "spend": 4.81,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 63,
+    "cpm": 76.349206,
+    "ctr": 14.29
+  },
+  "120243687860330631": {
+    "spend": 3.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 57,
+    "cpm": 54.210526,
+    "ctr": 10.53
+  },
+  "120243687860340631": {
+    "spend": 2.08,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 30,
+    "cpm": 69.333333,
+    "ctr": 20.0
+  },
+  "120243687860350631": {
+    "spend": 0.56,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 14,
+    "cpm": 40.0,
+    "ctr": 14.29
+  },
+  "120243687860360631": {
+    "spend": 1.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 79.090909,
+    "ctr": 9.09
+  },
+  "120243687860370631": {
+    "spend": 25.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 521,
+    "cpm": 49.001919,
+    "ctr": 19.19
+  },
+  "120243687860380631": {
+    "spend": 2.64,
+    "purchases": 3.0,
+    "cpa": 2.64,
+    "impressions": 36,
+    "cpm": 73.333333,
+    "ctr": 13.89
+  },
+  "120243687860390631": {
+    "spend": 12.41,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 249,
+    "cpm": 49.839357,
+    "ctr": 17.67
+  },
+  "120243687925990631": {
+    "spend": 1.46,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 73.0,
+    "ctr": 25.0
+  },
+  "120243687926000631": {
+    "spend": 3.86,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 63,
+    "cpm": 61.269841,
+    "ctr": 9.52
+  },
+  "120243687926010631": {
+    "spend": 10.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 234,
+    "cpm": 45.0,
+    "ctr": 17.52
+  },
+  "120243687926020631": {
+    "spend": 1.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 25,
+    "cpm": 44.0,
+    "ctr": 4.0
+  },
+  "120243687926030631": {
+    "spend": 17.11,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 246,
+    "cpm": 69.552846,
+    "ctr": 16.67
+  },
+  "120243687926040631": {
+    "spend": 5.56,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 79,
+    "cpm": 70.379747,
+    "ctr": 16.46
+  },
+  "120243687926050631": {
+    "spend": 1.2,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 20,
+    "cpm": 60.0,
+    "ctr": 15.0
+  },
+  "120243687985810631": {
+    "spend": 4.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 49,
+    "cpm": 89.183673,
+    "ctr": 14.29
+  },
+  "120243687985820631": {
+    "spend": 2.09,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 35,
+    "cpm": 59.714286,
+    "ctr": 17.14
+  },
+  "120243687985830631": {
+    "spend": 6.32,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 94,
+    "cpm": 67.234043,
+    "ctr": 23.4
+  },
+  "120243687985840631": {
+    "spend": 1.98,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 44,
+    "cpm": 45.0,
+    "ctr": 22.73
+  },
+  "120243687985850631": {
+    "spend": 0.33,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 9,
+    "cpm": 36.666667,
+    "ctr": 33.33
+  },
+  "120243687985860631": {
+    "spend": 22.13,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 483,
+    "cpm": 45.817805,
+    "ctr": 23.4
+  },
+  "120243687985870631": {
+    "spend": 2.34,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 22,
+    "cpm": 106.363636,
+    "ctr": 18.18
+  },
+  "120243803029560631": {
+    "spend": 5.26,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 117,
+    "cpm": 44.957265,
+    "ctr": 18.8
+  },
+  "120243803505660631": {
+    "spend": 3.32,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 85,
+    "cpm": 39.058824,
+    "ctr": 22.35
+  },
+  "120243803505670631": {
+    "spend": 0.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 28.235294,
+    "ctr": 29.41
+  },
+  "120243803505680631": {
+    "spend": 1.1,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 44,
+    "cpm": 25.0,
+    "ctr": 22.73
+  },
+  "120243803505690631": {
+    "spend": 1.82,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 45,
+    "cpm": 40.444444,
+    "ctr": 15.56
+  },
+  "120243803505700631": {
+    "spend": 1.52,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 36,
+    "cpm": 42.222222,
+    "ctr": 22.22
+  },
+  "120243803505710631": {
+    "spend": 1.7,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 38,
+    "cpm": 44.736842,
+    "ctr": 10.53
+  },
+  "120243803505720631": {
+    "spend": 3.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 73,
+    "cpm": 41.780822,
+    "ctr": 32.88
+  },
+  "120243803505730631": {
+    "spend": 2.16,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 67,
+    "cpm": 32.238806,
+    "ctr": 13.43
+  },
+  "120243803505740631": {
+    "spend": 10.27,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 307,
+    "cpm": 33.452769,
+    "ctr": 16.29
+  },
+  "120243803755320631": {
+    "spend": 10.33,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 351,
+    "cpm": 29.430199,
+    "ctr": 22.51
+  },
+  "120243803755340631": {
+    "spend": 3.93,
+    "purchases": 3.0,
+    "cpa": 3.93,
+    "impressions": 100,
+    "cpm": 39.3,
+    "ctr": 29.0
+  },
+  "120243803755350631": {
+    "spend": 1.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 50,
+    "cpm": 37.0,
+    "ctr": 20.0
+  },
+  "120243803755360631": {
+    "spend": 0.48,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 25,
+    "cpm": 19.2,
+    "ctr": 24.0
+  },
+  "120243803755370631": {
+    "spend": 3.53,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 80,
+    "cpm": 44.125,
+    "ctr": 13.75
+  },
+  "120243803755380631": {
+    "spend": 1.04,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 25,
+    "cpm": 41.6,
+    "ctr": 16.0
+  },
+  "120243803755390631": {
+    "spend": 3.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 62,
+    "cpm": 53.225806,
+    "ctr": 20.97
+  },
+  "120243803755400631": {
+    "spend": 3.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 72,
+    "cpm": 42.361111,
+    "ctr": 26.39
+  },
+  "120243803755410631": {
+    "spend": 0.95,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 23,
+    "cpm": 41.304348,
+    "ctr": 34.78
+  },
+  "120243803755420631": {
+    "spend": 3.37,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 95,
+    "cpm": 35.473684,
+    "ctr": 23.16
+  },
+  "120243803983400631": {
+    "spend": 1.12,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 38,
+    "cpm": 29.473684,
+    "ctr": 28.95
+  },
+  "120243803983410631": {
+    "spend": 0.73,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 15,
+    "cpm": 48.666667,
+    "ctr": 26.67
+  },
+  "120243803983420631": {
+    "spend": 2.39,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 36,
+    "cpm": 66.388889,
+    "ctr": 30.56
+  },
+  "120243803983430631": {
+    "spend": 3.85,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 100,
+    "cpm": 38.5,
+    "ctr": 26.0
+  },
+  "120243803983440631": {
+    "spend": 5.8,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 139,
+    "cpm": 41.726619,
+    "ctr": 17.27
+  },
+  "120243803983450631": {
+    "spend": 2.94,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 98,
+    "cpm": 30.0,
+    "ctr": 21.43
+  },
+  "120243803983460631": {
+    "spend": 2.17,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 81,
+    "cpm": 26.790123,
+    "ctr": 19.75
+  },
+  "120243803983480631": {
+    "spend": 1.05,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 23,
+    "cpm": 45.652174,
+    "ctr": 21.74
+  },
+  "120243803983490631": {
+    "spend": 2.31,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 85.555556,
+    "ctr": 22.22
+  },
+  "120243803983500631": {
+    "spend": 7.51,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 149,
+    "cpm": 50.402685,
+    "ctr": 20.13
+  },
+  "120243803987430631": {
+    "spend": 2.49,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 36,
+    "cpm": 69.166667,
+    "ctr": 13.89
+  },
+  "120243855910270631": {
+    "spend": 1.76,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 84,
+    "cpm": 20.952381,
+    "ctr": 13.1
+  },
+  "120243855910280631": {
+    "spend": 0.64,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 25,
+    "cpm": 25.6,
+    "ctr": 8.0
+  },
+  "120243855910290631": {
+    "spend": 1.06,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 48,
+    "cpm": 22.083333,
+    "ctr": 20.83
+  },
+  "120243855910300631": {
+    "spend": 0.3,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 17,
+    "cpm": 17.647059,
+    "ctr": 29.41
+  },
+  "120243855910310631": {
+    "spend": 4.77,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 164,
+    "cpm": 29.085366,
+    "ctr": 21.34
+  },
+  "120243855910320631": {
+    "spend": 8.05,
+    "purchases": 3.0,
+    "cpa": 8.05,
+    "impressions": 230,
+    "cpm": 35.0,
+    "ctr": 26.96
+  },
+  "120243855910340631": {
+    "spend": 22.82,
+    "purchases": 3.0,
+    "cpa": 22.82,
+    "impressions": 868,
+    "cpm": 26.290323,
+    "ctr": 20.97
+  },
+  "120243855910350631": {
+    "spend": 1.03,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 41,
+    "cpm": 25.121951,
+    "ctr": 17.07
+  },
+  "120243855910360631": {
+    "spend": 7.31,
+    "purchases": 3.0,
+    "cpa": 7.31,
+    "impressions": 238,
+    "cpm": 30.714286,
+    "ctr": 28.57
+  },
+  "120243855910370631": {
+    "spend": 7.95,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 371,
+    "cpm": 21.428571,
+    "ctr": 24.53
+  },
+  "120243856581150631": {
+    "spend": 0.74,
+    "purchases": 0,
+    "cpa": null,
+    "impressions": 27,
+    "cpm": 27.407407,
+    "ctr": 22.22
+  }
+}

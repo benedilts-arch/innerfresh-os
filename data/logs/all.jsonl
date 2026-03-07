@@ -124,3 +124,8 @@
 {"ts": "2026-03-07T03:30:02.921619+00:00", "event": "health-pipeline", "level": "info", "msg": "Eight Sleep: not configured (set EIGHT_SLEEP_EMAIL + EIGHT_SLEEP_PASSWORD)"}
 {"ts": "2026-03-07T03:30:02.952647+00:00", "event": "health-pipeline", "level": "info", "msg": "Sync complete"}
 {"ts": "2026-03-07T03:30:20.823814+00:00", "event": "git-sync", "level": "info", "msg": "Committed 9 files (no remote configured)"}
+{"ts": "2026-03-07T03:45:53.755350+00:00", "event": "git-sync", "level": "info", "msg": "Committed 3 files (no remote configured)"}
+{"ts": "2026-03-07T04:01:38.322045+00:00", "event": "backup", "level": "info", "msg": "Starting backup workspace-2026-03-07_08-01-38"}
+{"ts": "2026-03-07T04:01:38.449149+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-07_08-01-38.tar.gz.enc (92K)"}
+{"ts": "2026-03-07T04:01:38.504567+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
+{"ts": "2026-03-07T04:01:38.550068+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-07_08-01-38.tar.gz.enc"}
