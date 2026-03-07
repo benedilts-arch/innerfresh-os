@@ -14,24 +14,30 @@ No rules restated here — rules live in AGENTS.md.
 
 ## Brands
 - **InnerFresh** (try-innerfresh.com): Thyroid support drops, women + metabolic dysfunction. BUY 1 $44.99, BUY 2 GET 1 FREE $45.99 (bug: costs more), BUY 3 GET 2 FREE $44.99. 4.8/5, 3k+ reviews, 100k women, 60-day guarantee. Product ID `8139347132490`.
-- **Peak Footwear:** Email marketing via Mailer Profit, $10k/month retainer, 12-month contract from 2026-03-05. Non-compete: 36 months (flagged, too long).
+- **Peak Footwear:** Email marketing via Mailer Profit, $10k/month retainer. **60-day initial term from 2026-03-26** (not 12 months), then month-to-month. 60-day termination notice required. Non-compete: 36 months (flagged — likely about resource-sharing/poaching, not blocking other agencies, but still aggressive).
 
 ## Integrations
 - Google Calendar + Gmail: `benedilts@gmail.com`, `gog` CLI, Keychain-backed
 - Notion: Savage Advertising System connected; API key at `~/.config/notion/api_key`
 - coding-agent: Claude Code installed
+- Figma: token at `~/.config/figma/token`; REST API is **read-only** (no writes); FigJam board The Singularity Epoche: `https://www.figma.com/board/lffjpKHzEFAA4JeGkZaSoK/The-Singularity-Epoche`
+- Whisper: working for voice notes via Telegram
+- Meta Ads API: token at `~/.config/meta/access_token` — **short-lived, Benni generates daily** at developers.facebook.com/tools/explorer (ads_read permission)
 
-## Install Backlog
-- [ ] Figma — connect when ready, read docs for InnerFresh brand context
-- [ ] Manus — connect for landing page builds with coding-agent
-- [ ] Whisper skill — voice notes from Telegram
-- [ ] Morning briefing cron: add Gmail scan (UUID `b69e4dfd-78f4-4100-8278-f7ca941f77b1`)
+## Personal Context
+- **Lana** — Benni's partner. Cat vaccination handled via PetsFirst.
+- Benni was at Noku Phuket through ~2026-03-12.
+
+## Pending
 - [ ] Fix InnerFresh BUY 2 GET 1 FREE pricing ($45.99 → should be cheaper than $44.99)
+- [ ] Keychain "Allow all applications" for gogcli (background gog in cron jobs)
+- [ ] Shopify API token (shop domain + admin token) — needed for creative intelligence
+- [ ] Meta long-lived token: need App ID + App Secret for Clawd Analytics app to extend to 60 days
+- [ ] Advertorials still to map: Weight Gain, Broken Keys, TSH, 5 Reasons, Quiz
+- [ ] Check hypothyroid watchlist when fresh Meta token available — 2 ads near threshold (5+ purchases, CPA <$25)
 
 ## Manus Cost Controls
-- Burn monitor cron: UUID `98c71993-285c-4502-9e99-d622829d4ebd`, runs every minute
-- Threshold: 7 credits/min (~$0.50/min at $0.069/credit) → auto-kills task + alerts Benni
-- State file: `data/manus-burn-state.json`
+- Burn monitor cron: **PERMANENTLY DELETED** (UUID `98c71993-285c-4502-9e99-d622829d4ebd` — was running every minute, caused ~$36/day burn via Sonnet fallback)
 - Credits/dollar ratio: ~14.56 (based on 364 credits = $25 on 2026-03-06)
 - To kill a Manus task via API: `DELETE https://api.manus.ai/v1/tasks/{task_id}` with `API_KEY` header
 - Never spawn multiple Manus tasks for same output — one at a time
@@ -45,6 +51,11 @@ No rules restated here — rules live in AGENTS.md.
 - macOS bash 3.2: no `date +%s%3N`, no `${VAR^}`. Use python3 for both.
 - `openclaw cron edit` requires UUID, not name. Save UUIDs when creating jobs.
 - pip3 installs need `--break-system-packages` on macOS system Python.
+- `tools.profile` must be `full` for cron jobs — `messaging` causes silent exec failures.
+- `gog gmail list` requires a query arg: e.g. `gog gmail list "is:unread"`.
+- `openclaw memory index --force` rebuilds memory search index after crash/sync issues.
+- Valid `tools.profile` values: minimal, coding, messaging, full.
+- Meta API purchase action priority: `offsite_conversion.fb_pixel_purchase` → `purchase` → `omni_purchase`. Use 7d_click / 1d_view attribution to match Ads Manager.
 
 ## Brand Intelligence — InnerFresh
 
@@ -142,10 +153,28 @@ Per winning creative (CPA <$30, 3+ Conversions):
 - 🧪 Laufende Tests
 - 💡 Insight des Tages (Clawd Analyse)
 
+### Data Files (workspace/data/creatives/ and data/)
+- `meta_ads_basic.json` — all 702 ads
+- `meta_adsets_raw.json` — all ad sets
+- `meta_insights_v3.json` — purchase/CPA data (7d_click attribution)
+- `meta_creatives_map.json` — post IDs + 200-char copy previews
+- `meta_unique_copies.json` — 131 unique copy themes with FULL body text
+- `hypothyroid_watchlist.json` — 22 ads monitored for 5+ purchases & CPA <$25
+- `creatives/thumbnails/` — 30 creative thumbnails downloaded
+
+### Google Sheet (Ad Restructure)
+`https://docs.google.com/spreadsheets/d/1KWPaCiTcKHI-0tMyJoLSW4lUfN6IMtAAD62UIr2pEx0`
+Tabs: Sheet1 (702 ads), Top Performers, Matrix, Gaps (launch lists by advertorial)
+
+### Advertorial Mapping Progress (as of 2026-03-07)
+- ✅ `/hypothyroid` — complete (Tier 1: Image 28, AVATAR #3, SCRIPT #7)
+- ✅ `/doctor` — complete (Tier 1: Image 28, Image 21 Zoe Saldana, SCRIPT #7)
+- ⏳ `/tsh`, `/weight-gain`, `/broken-keys`, `/5-reasons`, `/quiz-1-0` — pending fresh token
+
 ### Activation needed
-- Meta Ads API: ad account ID + long-lived access token
+- Meta Ads API: **long-lived token** (needs App ID + App Secret for Clawd Analytics)
 - Shopify API: shop domain + admin API token
-- Triple Whale API: API key
+- Triple Whale API: API key (optional)
 
 ## Pläne
 - **Manus verknüpfen** + Landing Pages mit coding-agent bauen
