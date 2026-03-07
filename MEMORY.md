@@ -72,6 +72,23 @@ Women who are eating less (some as low as 900 cal/day) and still gaining or can'
 - Before/after story arcs
 - Ingredient-level education (what's in it, why it works)
 
+### Subscription AOV Insight (2026-03-07)
+People taking 1-month sub ($30) see it as "safe test," not commitment. Revenue problem.
+- Thyroid takes 8-12 weeks to respond — copy should mirror this science
+- Reprice structure: $44/1mo | $39/mo for 3mo | $34/mo for 3mo
+- Alternative: split pay option ($20/mo × 3 months) removes upfront barrier, same revenue
+- Better guarantee on 3-month (signals confidence, filters for believers)
+- Key insight: Filter for believers (thyroid dysfunction believers commit longer), not just clickers
+
+### Ad Account Restructure (2026-03-07)
+- **Pages:** 5 editorial/health pages (Dr. Lisa Jones, Dr. Rachel Johnson, Every Womens Health, Womens Health Insider, Womens Wellbeing)
+- **Advertorials:** 7 angles (TSH, Doctor, Weight Gain, Broken Keys, 5 Reasons, Hypothyroid, Quiz)
+- **Strategy:** Medical authority pages get medical angles, editorial pages get emotional/educational
+- **Biggest gap:** WH Insider tests not deployed to other pages (untested opportunity)
+- **Monster ad:** AVATAR #3 + Image 28 (Doctor Sorry) = $2,241 spend, 157 purchases, 3.7 ROAS
+- **Process:** Copy-to-advertorial mapping via Google Sheet (read copy voice/avatar/mechanism, tag to matching advertorial)
+- **Live watchlist:** hypothyroid_watchlist.json monitoring 22 ads for 5+ purchases <$25 CPA
+
 ### Learning Log
 *(Append winners and losers here as they're tested)*
 
@@ -105,7 +122,16 @@ Per winning creative (CPA <$30, 3+ Conversions):
 - **Manus verknüpfen** + Landing Pages mit coding-agent bauen
 - **brand-improvement channel:** daily InnerFresh insights to `-5196348541`
 
-## Cost Controls
-- Default model: `anthropic/claude-haiku-3-5` (switched 2026-03-07)
-- Sonnet: only on explicit request ("use sonnet" / "switch to sonnet") — auto-switch back to Haiku after task
-- Cost warning: flag any interaction estimated >$0.01 at start of reply
+## Cost Controls (Finalized 2026-03-07)
+- **Default model:** `anthropic/claude-haiku-4-5-20251001` — every session, no exceptions
+- **Sonnet/Opus:** only on explicit request ("use sonnet" / "switch to sonnet") — auto-switch back to Haiku after task
+- **Cost warning:** flag any interaction estimated >$0.01 at start of reply
+- **Session management:** sessions >50k tokens get expensive fast ($0.15–0.40/msg input). Compact old notes into MEMORY.md, start fresh session when context bloats.
+- **Fallback danger:** if session override fails, falls back to config primary (now Sonnet). Never let Opus in the fallback chain.
+- **Cron jobs:** all run Haiku (changed 2026-03-07). manus-burn-monitor deleted (was burning $36/day).
+- **Expected daily spend after fixes:** $1–3/day (was $50 due to cron fallback to Sonnet)
+
+## Operational Lessons (2026-03-07 Audit)
+- Model name must match Anthropic API exactly: `claude-haiku-4-5-20251001` not `claude-haiku-3-5`
+- Gateway can't start with Haiku as config primary (limitation) — use Sonnet as primary, Haiku via session override
+- Session context bloat = hidden cost spike. Track token count so future sessions don't inherit bloated contexts
