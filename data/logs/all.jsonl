@@ -116,3 +116,10 @@
 {"ts": "2026-03-07T03:01:40.403796+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-07_07-01-40.tar.gz.enc (92K)"}
 {"ts": "2026-03-07T03:01:40.460256+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
 {"ts": "2026-03-07T03:01:40.505042+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-07_07-01-40.tar.gz.enc"}
+{"ts": "2026-03-07T03:15:51.840333+00:00", "event": "git-sync", "level": "info", "msg": "Committed 4 files (no remote configured)"}
+{"ts": "2026-03-07T03:30:02.791376+00:00", "event": "health-pipeline", "level": "info", "msg": "Health DB initialized"}
+{"ts": "2026-03-07T03:30:02.829270+00:00", "event": "health-pipeline", "level": "info", "msg": "Oura: not configured (set OURA_TOKEN)"}
+{"ts": "2026-03-07T03:30:02.860443+00:00", "event": "health-pipeline", "level": "info", "msg": "Apple Health: not configured (set APPLE_HEALTH_EXPORT)"}
+{"ts": "2026-03-07T03:30:02.891234+00:00", "event": "health-pipeline", "level": "info", "msg": "Withings: not configured (set WITHINGS_ACCESS_TOKEN)"}
+{"ts": "2026-03-07T03:30:02.921619+00:00", "event": "health-pipeline", "level": "info", "msg": "Eight Sleep: not configured (set EIGHT_SLEEP_EMAIL + EIGHT_SLEEP_PASSWORD)"}
+{"ts": "2026-03-07T03:30:02.952647+00:00", "event": "health-pipeline", "level": "info", "msg": "Sync complete"}

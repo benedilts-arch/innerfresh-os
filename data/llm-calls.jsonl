@@ -1,2 +1,5 @@
 {"ts":1772724093,"model":"claude-sonnet-4-6","input":12500,"output":800,"cost":0.0495,"task":"morning-briefing"}
 {"ts":1772724093,"model":"claude-sonnet-4-6","input":45000,"output":2100,"cost":0.1665,"task":"brand-research"}
+{"ts":1772854205,"model":"claude-haiku-3-5","input":0,"output":0,"cost":0.0,"task":"health-analysis"}
+{"ts":1772854208,"model":"claude-haiku-3-5","input":0,"output":0,"cost":0.0,"task":"health-analysis"}
+{"ts":1772854208,"model":"claude-haiku-3-5","input":0,"output":0,"cost":0.0,"task":"health-analysis"}
