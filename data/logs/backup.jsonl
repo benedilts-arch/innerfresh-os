@@ -163,3 +163,7 @@
 {"ts": "2026-03-08T07:01:37.303154+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_11-01-37.tar.gz.enc (124K)"}
 {"ts": "2026-03-08T07:01:37.359198+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
 {"ts": "2026-03-08T07:01:37.402631+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_11-01-37.tar.gz.enc"}
+{"ts": "2026-03-08T08:01:37.003392+00:00", "event": "backup", "level": "info", "msg": "Starting backup workspace-2026-03-08_12-01-36"}
+{"ts": "2026-03-08T08:01:37.146392+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_12-01-36.tar.gz.enc (124K)"}
+{"ts": "2026-03-08T08:01:37.203623+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
+{"ts": "2026-03-08T08:01:37.247208+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 0s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_12-01-36.tar.gz.enc"}
