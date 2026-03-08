@@ -42,6 +42,7 @@
                 <button onclick="showTab('affiliate-network')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">💼 Affiliate Network</button>
                 <button onclick="showTab('analytics-reasoning')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">📊 Analytics & Reasoning</button>
                 <button onclick="showTab('roadmap')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">🚀 Roadmap</button>
+                <button onclick="showTab('implementation')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">⚙️ Implementation</button>
             </div>
         </div>
     </div>
@@ -1989,11 +1990,236 @@
             </div>
         </div>
 
+        <!-- TAB 15: IMPLEMENTATION & WORKFLOWS -->
+        <div id="implementation" class="tab-content">
+            <div class="space-y-6">
+                <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg border-2 border-indigo-300 p-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">⚙️ Implementation & Operational Playbook</h2>
+                    <p class="text-center text-gray-700 mb-8">Complete step-by-step workflows: Daily cycle, Weekly review, Monthly scaling, Decision rules, Bottleneck fixes, Testing framework, Continuous improvement</p>
+                    
+                    <!-- DAILY WORKFLOW -->
+                    <div class="bg-white rounded-lg border-2 border-blue-300 p-6 mb-6">
+                        <h3 class="text-lg font-bold text-blue-900 mb-4">📅 Daily Workflow (7am - 11pm Dubai)</h3>
+                        <div class="space-y-3">
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">1</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">7:00 AM: Data Sync & Briefing (Automated)</p>
+                                    <p class="text-xs text-gray-700">Meta API syncs → Dashboard updates → Winners flagged → Briefing to Benni (5 min read)</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-green-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">2</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">7:15 AM: Generate 10 Copy Angles (Clawd, 30 min)</p>
+                                    <p class="text-xs text-gray-700">Analyze yesterday's winners → Manus generates 10 angles → Brand check (auto-validate) → Queue for Benni</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-purple-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">3</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">8:00 AM: Benni Reviews & Approves (15 min)</p>
+                                    <p class="text-xs text-gray-700">Pick top 3 of 10 angles → Select landing page + audience → Brief team</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-pink-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">4</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">8:30 AM: Production Briefs → Team (Automated, 10 min)</p>
+                                    <p class="text-xs text-gray-700">Generate copy/design/video briefs → Task assignment → Notion + Slack notifications</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-orange-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">5</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">9:00 AM - 3:00 PM: Production (6 hours parallel)</p>
+                                    <p class="text-xs text-gray-700">Copy (2h with Manus assist), Design (2h), UGC scripts (2h) - all parallel, no waiting</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-red-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">6</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">3:00 PM: Brand Compliance Check (Benni, 1 hour)</p>
+                                    <p class="text-xs text-gray-700">Review final copy + creative → Auto-score brand alignment → Approve or revise</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-cyan-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">7</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">4:00 PM: Launch Prep (Clawd, 30 min)</p>
+                                    <p class="text-xs text-gray-700">Pair copy + creative + URL + audience → Generate 3-5 hook variations → Schedule launch 8pm</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-teal-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">8</div>
+                                <div class="flex-1">
+                                    <p class="font-bold text-gray-900">8:00 PM: Launch & Monitor (Benni + Clawd, 2 hours)</p>
+                                    <p class="text-xs text-gray-700">Ads go live → Monitor first 2 hours for CTR/CPA anomalies → Slack alerts if needed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WEEKLY WORKFLOW -->
+                    <div class="bg-white rounded-lg border-2 border-green-300 p-6 mb-6">
+                        <h3 class="text-lg font-bold text-green-900 mb-4">📊 Weekly Review (Mondays, 9am, 2 hours)</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-green-50 p-4 rounded border border-green-200">
+                                <p class="font-bold text-gray-900">Performance Analysis</p>
+                                <ul class="text-xs text-gray-700 mt-2 space-y-1">
+                                    <li>✓ Top 10 performers (by CPA)</li>
+                                    <li>✓ Bottom 10 (recommend kill)</li>
+                                    <li>✓ ROI by angle, page, audience</li>
+                                    <li>✓ LTV cohort analysis</li>
+                                    <li>✓ Email performance (open, click, revenue)</li>
+                                </ul>
+                            </div>
+                            <div class="bg-green-50 p-4 rounded border border-green-200">
+                                <p class="font-bold text-gray-900">Strategic Decisions</p>
+                                <ul class="text-xs text-gray-700 mt-2 space-y-1">
+                                    <li>✓ Scale decisions (2-5x budget on winners)</li>
+                                    <li>✓ Kill list (CPA >$60, <$1 ROAS)</li>
+                                    <li>✓ New angles to test (untested pairs)</li>
+                                    <li>✓ Hook variations (5 per angle)</li>
+                                    <li>✓ Creator outreach (5+ new UGC creators)</li>
+                                </ul>
+                            </div>
+                            <div class="bg-green-50 p-4 rounded border border-green-200">
+                                <p class="font-bold text-gray-900">Production Planning</p>
+                                <ul class="text-xs text-gray-700 mt-2 space-y-1">
+                                    <li>✓ 7-day launch calendar (what ships)</li>
+                                    <li>✓ UGC briefs for winners</li>
+                                    <li>✓ Affiliate recruitment (5+ new partners)</li>
+                                    <li>✓ Email updates (highest-ROAS angles)</li>
+                                    <li>✓ SMS/SMS variants</li>
+                                </ul>
+                            </div>
+                            <div class="bg-green-50 p-4 rounded border border-green-200">
+                                <p class="font-bold text-gray-900">Bottleneck Fix</p>
+                                <ul class="text-xs text-gray-700 mt-2 space-y-1">
+                                    <li>✓ Copy lag? (timeline concern)</li>
+                                    <li>✓ Design delays? (scale help?)</li>
+                                    <li>✓ Video queue healthy?</li>
+                                    <li>✓ Approval delays fixed?</li>
+                                    <li>✓ Manus cost trending OK?</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MONTHLY WORKFLOW -->
+                    <div class="bg-white rounded-lg border-2 border-purple-300 p-6 mb-6">
+                        <h3 class="text-lg font-bold text-purple-900 mb-4">🎯 Monthly Review (1st of month, 3 hours)</h3>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="bg-purple-50 p-4 rounded border border-purple-200">
+                                <p class="font-bold text-gray-900">Financial Review</p>
+                                <p class="text-xs text-gray-700">Total revenue | ROAS by channel | CAC by angle | LTV by cohort | Retention rate | YoY growth | Margin</p>
+                            </div>
+                            <div class="bg-purple-50 p-4 rounded border border-purple-200">
+                                <p class="font-bold text-gray-900">Operational Health</p>
+                                <p class="text-xs text-gray-700">Team capacity | Production velocity | Cost per asset | Manus spend trending | Affiliate revenue | Email revenue</p>
+                            </div>
+                            <div class="bg-purple-50 p-4 rounded border border-purple-200">
+                                <p class="font-bold text-gray-900">Strategy Shift</p>
+                                <p class="text-xs text-gray-700">New channel test? New product? Pricing change? Team hire? Scale Manus? Expand creator network?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DECISION RULES ENGINE -->
+                    <div class="bg-white rounded-lg border-2 border-indigo-300 p-6 mb-6">
+                        <h3 class="text-lg font-bold text-indigo-900 mb-4">⚙️ Decision Rules (Automated)</h3>
+                        <div class="space-y-3">
+                            <div class="bg-green-50 border-l-4 border-green-500 p-3 rounded">
+                                <p class="font-bold text-green-900 text-sm">🚀 SCALE IF: CPA <$30 AND Conv ≥3 (7d) AND ROAS ≥2.5x</p>
+                                <p class="text-xs text-gray-700">→ Auto-flag "Scale" | Brief Benni "2-3x budget increase?" | If OK, execute</p>
+                            </div>
+                            <div class="bg-yellow-50 border-l-4 border-yellow-500 p-3 rounded">
+                                <p class="font-bold text-yellow-900 text-sm">⏸️ HOLD IF: $30 < CPA < $45 AND Conv <5</p>
+                                <p class="text-xs text-gray-700">→ Test 5 hook variants | Measure again | Re-decide (scale or pause)</p>
+                            </div>
+                            <div class="bg-red-50 border-l-4 border-red-500 p-3 rounded">
+                                <p class="font-bold text-red-900 text-sm">❌ PAUSE IF: CPA ≥$60 OR ROAS <1 OR Conv=0 after $100</p>
+                                <p class="text-xs text-gray-700">→ Auto-pause immediately | Save spend | Archive for analysis</p>
+                            </div>
+                            <div class="bg-purple-50 border-l-4 border-purple-500 p-3 rounded">
+                                <p class="font-bold text-purple-900 text-sm">🧪 TEST IF: Page-advertorial combo untested</p>
+                                <p class="text-xs text-gray-700">→ Launch $50-100/day | Gather 5+ conversions | Apply rules above</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TESTING FRAMEWORK -->
+                    <div class="bg-white rounded-lg border-2 border-orange-300 p-6 mb-6">
+                        <h3 class="text-lg font-bold text-orange-900 mb-4">🧪 Testing Framework Matrix</h3>
+                        <div class="text-xs overflow-x-auto">
+                            <table class="w-full">
+                                <tr class="border-b border-gray-300 bg-gray-100">
+                                    <td class="font-bold p-2">Test Type</td>
+                                    <td class="font-bold p-2">Duration</td>
+                                    <td class="font-bold p-2">Min Data</td>
+                                    <td class="font-bold p-2">Success Metric</td>
+                                    <td class="font-bold p-2">Budget</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-blue-50">
+                                    <td class="p-2">Hook Test (5 hooks)</td>
+                                    <td class="p-2">7 days</td>
+                                    <td class="p-2">5+ conv/hook</td>
+                                    <td class="p-2">1 hook <$25 CPA</td>
+                                    <td class="p-2">$300</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-green-50">
+                                    <td class="p-2">Page Pair Test (2 pages)</td>
+                                    <td class="p-2">7 days</td>
+                                    <td class="p-2">5+ conv/page</td>
+                                    <td class="p-2">Both <$35 CPA</td>
+                                    <td class="p-2">$200</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-purple-50">
+                                    <td class="p-2">Audience Test (3 aud)</td>
+                                    <td class="p-2">7 days</td>
+                                    <td class="p-2">5+ conv/aud</td>
+                                    <td class="p-2">Best <$28 CPA</td>
+                                    <td class="p-2">$400</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-orange-50">
+                                    <td class="p-2">Creative Test (3 visuals)</td>
+                                    <td class="p-2">7 days</td>
+                                    <td class="p-2">5+ conv/visual</td>
+                                    <td class="p-2">1 visual +20% CTR</td>
+                                    <td class="p-2">$300</td>
+                                </tr>
+                                <tr class="bg-pink-50">
+                                    <td class="p-2">Channel Test (Google)</td>
+                                    <td class="p-2">14 days</td>
+                                    <td class="p-2">20+ conversions</td>
+                                    <td class="p-2">ROAS >1.5x</td>
+                                    <td class="p-2">$1000</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- CONTINUOUS IMPROVEMENT LOOP -->
+                    <div class="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg border-2 border-teal-300 p-6">
+                        <h3 class="text-lg font-bold text-teal-900 mb-4">🔄 30-Day Iteration Cycle</h3>
+                        <div class="space-y-2 text-xs">
+                            <div class="bg-white p-2 rounded border border-teal-200"><span class="font-bold">Days 1-7:</span> Launch angle → 5+ conversions → Initial decision (scale/hold/pause)</div>
+                            <div class="bg-white p-2 rounded border border-teal-200"><span class="font-bold">Days 8-14:</span> If HOLD: Test 5 hook variants → Best hook → Re-measure → Reassess</div>
+                            <div class="bg-white p-2 rounded border border-teal-200"><span class="font-bold">Days 15-21:</span> Hook improved? Scale. Still high CPA? Pause. Winners → Variations</div>
+                            <div class="bg-white p-2 rounded border border-teal-200"><span class="font-bold">Days 22-30:</span> Top winners → Email sequences + UGC scripts + SMS → Expand to channels</div>
+                            <div class="bg-teal-50 p-2 rounded border-2 border-teal-300 font-bold text-teal-900">Repeat monthly. System improves automatically.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <!-- Footer -->
     <div class="bg-gray-100 border-t border-gray-200 mt-8 py-8">
         <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-600">
-            <p>InnerFresh Operating System — Design Wireframe</p>
-            <p class="text-xs mt-2">Built with Tailwind CSS • Interactive prototype for development reference</p>
+            <p>InnerFresh Operating System — Complete 15-Tab Operational Playbook</p>
+            <p class="text-xs mt-2">All workflows mapped | Decision rules live | Budget control integrated | Testing framework ready</p>
         </div>
     </div>
 
