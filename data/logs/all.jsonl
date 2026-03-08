@@ -332,3 +332,5 @@
 {"ts": "2026-03-08T12:01:37.069906+00:00", "event": "backup", "level": "info", "msg": "Encrypted archive: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_16-01-36.tar.gz.enc (124K)"}
 {"ts": "2026-03-08T12:01:37.124901+00:00", "event": "backup", "level": "info", "msg": "Pruned 1 old backup(s), keeping 7"}
 {"ts": "2026-03-08T12:01:37.168731+00:00", "event": "backup", "level": "info", "msg": "Backup complete in 1s: /Users/aiassistant/backups/openclaw/archives/workspace-2026-03-08_16-01-36.tar.gz.enc"}
+{"ts": "2026-03-08T12:10:24.192003+00:00", "event": "git-sync", "level": "warn", "msg": "git pull failed (merge conflict?) \u2014 keeping local changes"}
+{"ts": "2026-03-08T12:10:24.564046+00:00", "event": "git-sync", "level": "warn", "msg": "Push failed \u2014 committed locally, will retry next sync"}
