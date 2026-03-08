@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerFresh Operating System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .tag { @apply px-2 py-1 rounded text-xs font-semibold; }
+        .tag-green { @apply bg-green-100 text-green-800; }
+        .tag-yellow { @apply bg-yellow-100 text-yellow-800; }
+        .tag-red { @apply bg-red-100 text-red-800; }
+        .tag-blue { @apply bg-blue-100 text-blue-800; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <div class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <h1 class="text-2xl font-bold text-gray-900">InnerFresh Operating System</h1>
+            <p class="text-gray-600 text-sm">Real-time brand intelligence & creative performance dashboard</p>
+        </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="bg-white border-b border-gray-200 sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex space-x-1 overflow-x-auto">
+                <button onclick="showTab('creative-intelligence')" class="tab-btn active px-4 py-3 font-medium text-sm border-b-2 border-blue-600 text-blue-600">📊 Creative Intelligence</button>
+                <button onclick="showTab('pages-angles')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">📄 Pages & Angles</button>
+                <button onclick="showTab('meta-winners')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">🏆 Meta Winners</button>
+                <button onclick="showTab('brand-intelligence')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">🏢 Brand Intelligence</button>
+                <button onclick="showTab('content-factory')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">🏭 Content Factory</button>
+                <button onclick="showTab('distribution')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">📢 Distribution</button>
+                <button onclick="showTab('system-architecture')" class="tab-btn px-4 py-3 font-medium text-sm border-b-2 border-transparent text-gray-600 hover:text-gray-900">🗺️ System Architecture</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 py-8">
+
+        <!-- TAB 1: CREATIVE INTELLIGENCE DASHBOARD -->
+        <div id="creative-intelligence" class="tab-content active">
+            <div class="grid grid-cols-4 gap-4 mb-6">
+                <div class="bg-white p-4 rounded-lg border border-gray-200">
+                    <p class="text-gray-600 text-xs font-semibold uppercase">Top Performer</p>
+                    <p class="text-2xl font-bold text-green-600">$18.12</p>
+                    <p class="text-xs text-gray-600">AVATAR #3 — CPA</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-gray-200">
+                    <p class="text-gray-600 text-xs font-semibold uppercase">Active Ads</p>
+                    <p class="text-2xl font-bold text-blue-600">702</p>
+                    <p class="text-xs text-gray-600">131 unique angles</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-gray-200">
+                    <p class="text-gray-600 text-xs font-semibold uppercase">Total Spend (7d)</p>
+                    <p class="text-2xl font-bold text-gray-900">$34.2k</p>
+                    <p class="text-xs text-gray-600">2.55x ROAS avg</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg border border-gray-200">
+                    <p class="text-gray-600 text-xs font-semibold uppercase">Last Updated</p>
+                    <p class="text-2xl font-bold text-gray-900">Today</p>
+                    <p class="text-xs text-gray-600">7:15 AM Dubai</p>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="bg-white p-4 rounded-lg border border-gray-200 mb-6">
+                <div class="flex flex-wrap gap-3">
+                    <select class="px-3 py-2 border border-gray-300 rounded text-sm">
+                        <option>All Pages</option>
+                        <option>Dr. Lisa Jones</option>
+                        <option>Women's Health Insider</option>
+                    </select>
+                    <select class="px-3 py-2 border border-gray-300 rounded text-sm">
+                        <option>All Status</option>
+                        <option>Performing</option>
+                        <option>Testing</option>
+                        <option>Failing</option>
+                    </select>
+                    <select class="px-3 py-2 border border-gray-300 rounded text-sm">
+                        <option>Sort: Top Performers</option>
+                        <option>CPA (Low to High)</option>
+                        <option>ROAS (High to Low)</option>
+                        <option>Spend</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Performance Table -->
+            <div class="grid grid-cols-3 gap-6">
+                <div class="col-span-2">
+                    <div class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="bg-gray-50 border-b border-gray-200">
+                                    <tr>
+                                        <th class="px-4 py-3 text-left font-semibold text-gray-700">Ad ID</th>
+                                        <th class="px-4 py-3 text-left font-semibold text-gray-700">Creative</th>
+                                        <th class="px-4 py-3 text-left font-semibold text-gray-700">Page</th>
+                                        <th class="px-4 py-3 text-right font-semibold text-gray-700">CPA</th>
+                                        <th class="px-4 py-3 text-right font-semibold text-gray-700">ROAS</th>
+                                        <th class="px-4 py-3 text-right font-semibold text-gray-700">Conv</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-200">
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-4 py-3 font-mono text-xs text-gray-600">120243...</td>
+                                        <td class="px-4 py-3">AVATAR #3: Plateau</td>
+                                        <td class="px-4 py-3">WH Insider</td>
+                                        <td class="px-4 py-3 text-right"><span class="tag tag-green">$18.12</span></td>
+                                        <td class="px-4 py-3 text-right font-semibold text-green-600">3.7x</td>
+                                        <td class="px-4 py-3 text-right font-semibold">157</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 bg-green-50">
+                                        <td class="px-4 py-3 font-mono text-xs text-gray-600">120242...</td>
+                                        <td class="px-4 py-3">Image 21 — DR Thompson</td>
+                                        <td class="px-4 py-3">Dr. Rachel</td>
+                                        <td class="px-4 py-3 text-right"><span class="tag tag-green">$18.14</span></td>
+                                        <td class="px-4 py-3 text-right font-semibold text-green-600">2.8x</td>
+                                        <td class="px-4 py-3 text-right font-semibold">118</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-4 py-3 font-mono text-xs text-gray-600">120243...</td>
+                                        <td class="px-4 py-3">SCRIPT #4 — 5 Reasons</td>
+                                        <td class="px-4 py-3">WH Insider</td>
+                                        <td class="px-4 py-3 text-right"><span class="tag tag-green">$22.06</span></td>
+                                        <td class="px-4 py-3 text-right font-semibold text-green-600">2.5x</td>
+                                        <td class="px-4 py-3 text-right font-semibold">96</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-4 py-3 font-mono text-xs text-gray-600">120242...</td>
+                                        <td class="px-4 py-3">GLP1 Adv — Image 58</td>
+                                        <td class="px-4 py-3">WH Insider</td>
+                                        <td class="px-4 py-3 text-right"><span class="tag tag-yellow">$26.46</span></td>
+                                        <td class="px-4 py-3 text-right font-semibold text-yellow-600">2.1x</td>
+                                        <td class="px-4 py-3 text-right font-semibold">60</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-4 py-3 font-mono text-xs text-gray-600">120243...</td>
+                                        <td class="px-4 py-3">Doctor Video</td>
+                                        <td class="px-4 py-3">WH Insider</td>
+                                        <td class="px-4 py-3 text-right"><span class="tag tag-red">$49.05</span></td>
+                                        <td class="px-4 py-3 text-right font-semibold text-red-600">0.8x</td>
+                                        <td class="px-4 py-3 text-right font-semibold">9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Sidebar: Recommendations -->
+                <div>
+                    <div class="bg-blue-50 rounded-lg border border-blue-200 p-4">
+                        <h3 class="font-bold text-gray-900 mb-4">💡 Recommendations</h3>
+                        
+                        <div class="space-y-4 mb-4 pb-4 border-b border-blue-200">
+                            <div>
+                                <p class="text-xs font-semibold text-blue-900 uppercase mb-1">🚀 Scale Now</p>
+                                <p class="text-xs text-gray-700">AVATAR #3 at $18 CPA</p>
+                                <p class="text-xs text-gray-600 mt-1">Test on Dr. Lisa, Dr. Rachel (authority pages)</p>
+                                <button class="mt-2 text-xs font-semibold text-blue-600 hover:text-blue-800">Launch →</button>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4 mb-4 pb-4 border-b border-blue-200">
+                            <div>
+                                <p class="text-xs font-semibold text-yellow-900 uppercase mb-1">🧪 Test More</p>
+                                <p class="text-xs text-gray-700">Weight Gain untested on authority pages</p>
+                                <p class="text-xs text-gray-600 mt-1">High performer on community → test authority</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div>
+                                <p class="text-xs font-semibold text-red-900 uppercase mb-1">❌ Pause</p>
+                                <p class="text-xs text-gray-700">Doctor angle on this page off-brand</p>
+                                <p class="text-xs text-gray-600 mt-1">Move to community pages only</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: PAGES & ANGLES -->
+        <div id="pages-angles" class="tab-content">
+            <div class="space-y-6">
+                <!-- Authority Pages Section -->
+                <div>
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🏥 Medical Authority Pages</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-blue-50 rounded-lg border border-blue-200 p-6">
+                            <h3 class="font-bold text-gray-900 mb-4">Dr. Lisa Jones</h3>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded border border-gray-200">
+                                    <p class="text-xs font-semibold text-green-700 uppercase mb-1">✅ Live (2)</p>
+                                    <p class="text-sm font-medium">Doctor Advertorial</p>
+                                    <p class="text-xs text-gray-600">CPA: $20.89 | ROAS: 2.3x</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-gray-200">
+                                    <p class="text-xs font-semibold text-green-700 uppercase mb-1">✅ Live (2)</p>
+                                    <p class="text-sm font-medium">Hypothyroid Advertorial</p>
+                                    <p class="text-xs text-gray-600">CPA: $31.90 | ROAS: 1.8x</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-gray-200">
+                                    <p class="text-xs font-semibold text-yellow-700 uppercase mb-1">🧪 Testing (1)</p>
+                                    <p class="text-sm font-medium">Weight Loss Angle</p>
+                                    <p class="text-xs text-gray-600">CPA: $38.76 | Data: 8 conversions</p>
+                                </div>
+                                <div class="bg-amber-100 p-3 rounded border border-amber-300">
+                                    <p class="text-xs font-semibold text-amber-900">💡 Next to Test</p>
+                                    <p class="text-xs text-amber-800">Broken Keys angle (budget: $300)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-blue-50 rounded-lg border border-blue-200 p-6">
+                            <h3 class="font-bold text-gray-900 mb-4">Dr. Rachel Thompson</h3>
+                            <div class="space-y-3">
+                                <div class="bg-white p-3 rounded border border-gray-200">
+                                    <p class="text-xs font-semibold text-green-700 uppercase mb-1">✅ Live (2)</p>
+                                    <p class="text-sm font-medium">Doctor Advertorial</p>
+                                    <p class="text-xs text-gray-600">CPA: $19.13 | ROAS: 2.6x</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-gray-200">
+                                    <p class="text-xs font-semibold text-green-700 uppercase mb-1">✅ Live (2)</p>
+                                    <p class="text-sm font-medium">TSH Advertorial</p>
+                                    <p class="text-xs text-gray-600">CPA: $42.11 | ROAS: 1.2x</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-gray-200">
+                                    <p class="text-xs font-semibold text-yellow-700 uppercase mb-1">🧪 Testing (1)</p>
+                                    <p class="text-sm font-medium">GLP1/Ozempic Angle</p>
+                                    <p class="text-xs text-gray-600">CPA: $37.29 | Data: 3 conversions</p>
+                                </div>
+                                <div class="bg-amber-100 p-3 rounded border border-amber-300">
+                                    <p class="text-xs font-semibold text-amber-900">💡 Next to Test</p>
+                                    <p class="text-xs text-amber-800">Hypothyroid angle (budget: $200)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community Pages Section -->
+                <div>
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">👥 Community/Editorial Pages</h2>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="bg-green-50 rounded-lg border border-green-200 p-6">
+                            <h3 class="font-bold text-gray-900 mb-4">Women's Health Insider</h3>
+                            <div class="space-y-2 text-xs">
+                                <p class="font-semibold text-green-700">✅ Live (8)</p>
+                                <p class="text-gray-700">Weight Gain: $18.47 | 3.2x</p>
+                                <p class="text-gray-700">5 Reasons: $18.12 | 3.7x</p>
+                                <p class="text-gray-700">Broken Keys: $22.06 | 2.1x</p>
+                                <p class="text-gray-600">+ 5 more angles...</p>
+                            </div>
+                        </div>
+                        <div class="bg-green-50 rounded-lg border border-green-200 p-6">
+                            <h3 class="font-bold text-gray-900 mb-4">Every Women's Health</h3>
+                            <div class="space-y-2 text-xs">
+                                <p class="font-semibold text-green-700">✅ Live (5)</p>
+                                <p class="text-gray-700">Weight Gain: $24.34 | 2.4x</p>
+                                <p class="text-gray-700">5 Reasons: $22.13 | 2.8x</p>
+                                <p class="text-gray-700">Broken Keys: $25.46 | 2.0x</p>
+                                <p class="text-gray-600">+ 2 more angles...</p>
+                            </div>
+                        </div>
+                        <div class="bg-green-50 rounded-lg border border-green-200 p-6">
+                            <h3 class="font-bold text-gray-900 mb-4">Women's Wellbeing</h3>
+                            <div class="space-y-2 text-xs">
+                                <p class="font-semibold text-green-700">✅ Live (4)</p>
+                                <p class="text-gray-700">Weight Gain: $26.12 | 2.1x</p>
+                                <p class="text-gray-700">5 Reasons: $24.89 | 2.5x</p>
+                                <p class="text-gray-700">Quiz: $29.45 | 1.8x</p>
+                                <p class="text-gray-600">+ 1 more angle...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: META WINNERS -->
+        <div id="meta-winners" class="tab-content">
+            <div class="grid grid-cols-2 gap-6 mb-6">
+                <!-- Today's Top -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🔥 Today's Top Performers</h2>
+                    <div class="space-y-3">
+                        <div class="bg-green-50 p-4 rounded border border-green-200">
+                            <p class="text-xs text-green-700 font-semibold uppercase">1st Place</p>
+                            <p class="font-bold text-gray-900">AVATAR #3 Pool 2</p>
+                            <p class="text-xs text-gray-600">Weight Gain • WH Insider</p>
+                            <p class="text-lg font-bold text-green-600">$16 CPA</p>
+                            <p class="text-xs text-gray-600">6 conversions today</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded border border-green-200">
+                            <p class="text-xs text-green-700 font-semibold uppercase">2nd Place</p>
+                            <p class="font-bold text-gray-900">Image 21 — Dr. Authority</p>
+                            <p class="text-xs text-gray-600">Hypothyroid • Dr. Rachel</p>
+                            <p class="text-lg font-bold text-green-600">$19 CPA</p>
+                            <p class="text-xs text-gray-600">5 conversions today</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded border border-green-200">
+                            <p class="text-xs text-green-700 font-semibold uppercase">3rd Place</p>
+                            <p class="font-bold text-gray-900">SCRIPT #4 — Medicated</p>
+                            <p class="text-xs text-gray-600">5 Reasons • WH Insider</p>
+                            <p class="text-lg font-bold text-green-600">$22 CPA</p>
+                            <p class="text-xs text-gray-600">4 conversions today</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This Week -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">📊 This Week's Winners (7d)</h2>
+                    <div class="space-y-3">
+                        <div class="bg-blue-50 p-4 rounded border border-blue-200">
+                            <p class="text-xs text-blue-700 font-semibold uppercase">Top by CPA</p>
+                            <p class="font-bold text-gray-900">AVATAR #3 Plateau</p>
+                            <p class="text-xs text-gray-600">157 conversions • $2,241 spend</p>
+                            <p class="text-lg font-bold text-blue-600">$18.12 CPA / 3.7x ROAS</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded border border-blue-200">
+                            <p class="text-xs text-blue-700 font-semibold uppercase">Highest ROAS</p>
+                            <p class="font-bold text-gray-900">Image 21 — Doctor</p>
+                            <p class="text-xs text-gray-600">118 conversions • $671 spend</p>
+                            <p class="text-lg font-bold text-blue-600">$18.14 CPA / 2.8x ROAS</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded border border-blue-200">
+                            <p class="text-xs text-blue-700 font-semibold uppercase">Best Efficiency</p>
+                            <p class="font-bold text-gray-900">SCRIPT #4 — 5 Reasons</p>
+                            <p class="text-xs text-gray-600">96 conversions • $435 spend</p>
+                            <p class="text-lg font-bold text-blue-600">$18.12 CPA / 2.5x ROAS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Queue -->
+            <div class="bg-white rounded-lg border border-gray-200 p-6">
+                <h2 class="text-lg font-bold text-gray-900 mb-4">⚡ Action Queue</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-green-50 border border-green-300 p-4 rounded">
+                        <p class="text-xs font-semibold text-green-900 uppercase mb-2">🚀 Ready to Scale</p>
+                        <p class="font-bold text-gray-900">AVATAR #3 Plateau</p>
+                        <p class="text-xs text-gray-700 mt-1">CPA: $18.12 | ROAS: 3.7x</p>
+                        <p class="text-xs text-gray-600 mt-2">Currently $224/day → Scale to $1000/day</p>
+                        <p class="text-xs text-gray-600">Potential: $37k revenue daily</p>
+                        <button class="mt-3 text-xs font-semibold text-green-700 hover:text-green-900">Scale Budget →</button>
+                    </div>
+
+                    <div class="bg-yellow-50 border border-yellow-300 p-4 rounded">
+                        <p class="text-xs font-semibold text-yellow-900 uppercase mb-2">💡 Copy Variations</p>
+                        <p class="font-bold text-gray-900">AVATAR #3 — Hook Tests</p>
+                        <p class="text-xs text-gray-700 mt-1">High performer ready for iteration</p>
+                        <p class="text-xs text-gray-600 mt-2">Generate 5 new headlines for this angle</p>
+                        <p class="text-xs text-gray-600">Expected: +15% CTR if hook resonates</p>
+                        <button class="mt-3 text-xs font-semibold text-yellow-700 hover:text-yellow-900">Generate Variations →</button>
+                    </div>
+
+                    <div class="bg-blue-50 border border-blue-300 p-4 rounded">
+                        <p class="text-xs font-semibold text-blue-900 uppercase mb-2">📧 Email Integration</p>
+                        <p class="font-bold text-gray-900">Weight Gain + 5 Reasons</p>
+                        <p class="text-xs text-gray-700 mt-1">Angles performing 3.2x+ ROAS</p>
+                        <p class="text-xs text-gray-600 mt-2">Generate 5-email nurture sequence</p>
+                        <p class="text-xs text-gray-600">Expected: 15-20% open rate, 2-3% CTR</p>
+                        <button class="mt-3 text-xs font-semibold text-blue-700 hover:text-blue-900">Generate Sequence →</button>
+                    </div>
+
+                    <div class="bg-purple-50 border border-purple-300 p-4 rounded">
+                        <p class="text-xs font-semibold text-purple-900 uppercase mb-2">🧪 Worth Testing</p>
+                        <p class="font-bold text-gray-900">Weight Gain on Authority</p>
+                        <p class="text-xs text-gray-700 mt-1">Untested angle on Dr. pages</p>
+                        <p class="text-xs text-gray-600 mt-2">High performer on community → test authority</p>
+                        <p class="text-xs text-gray-600">Budget: $500/day across both pages</p>
+                        <button class="mt-3 text-xs font-semibold text-purple-700 hover:text-purple-900">Launch Test →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 4: BRAND INTELLIGENCE -->
+        <div id="brand-intelligence" class="tab-content">
+            <div class="grid grid-cols-3 gap-6">
+                <!-- Org Chart -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">👥 Org Chart</h2>
+                    <div class="space-y-3">
+                        <div class="bg-purple-50 p-3 rounded border border-purple-200">
+                            <p class="font-bold text-gray-900">Benni</p>
+                            <p class="text-xs text-gray-600">Strategy, Copy, Brand, Platform Ops</p>
+                        </div>
+                        <div class="flex justify-center text-gray-400 text-xl">↓</div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div class="bg-blue-50 p-2 rounded border border-blue-200 text-center">
+                                <p class="text-xs font-semibold">Designer (FT)</p>
+                                <p class="text-xs text-gray-600">Figma, Assets</p>
+                            </div>
+                            <div class="bg-blue-50 p-2 rounded border border-blue-200 text-center">
+                                <p class="text-xs font-semibold">Copywriter (FT)</p>
+                                <p class="text-xs text-gray-600">Copy, Ads</p>
+                            </div>
+                            <div class="bg-blue-50 p-2 rounded border border-blue-200 text-center">
+                                <p class="text-xs font-semibold">Video Editor (FT)</p>
+                                <p class="text-xs text-gray-600">UGC, Production</p>
+                            </div>
+                            <div class="bg-blue-50 p-2 rounded border border-blue-200 text-center">
+                                <p class="text-xs font-semibold">Support (FT)</p>
+                                <p class="text-xs text-gray-600">Customer Service</p>
+                            </div>
+                        </div>
+                        <div class="text-center text-xs text-gray-600 font-semibold">+</div>
+                        <div class="bg-blue-50 p-3 rounded border border-blue-200 text-center">
+                            <p class="text-xs font-semibold">Zarak (Contractor)</p>
+                            <p class="text-xs text-gray-600">Email Campaigns</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dependencies -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">⛓️ Dependencies</h2>
+                    <div class="space-y-4 text-xs">
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-yellow-900 mb-2">Copy Iteration Loop</p>
+                            <p class="text-gray-700">
+                                Intelligence → Benni (brief)<br/>
+                                → Copywriter (write)<br/>
+                                → Benni (check)<br/>
+                                → Designer (assets)<br/>
+                                → Live
+                            </p>
+                        </div>
+                        <div class="bg-orange-50 p-3 rounded border border-orange-200">
+                            <p class="font-semibold text-orange-900 mb-2">Launch Workflow</p>
+                            <p class="text-gray-700">
+                                Decision → Copy (write)<br/>
+                                → Design (assets)<br/>
+                                → Benni (approve)<br/>
+                                → Video (if needed)<br/>
+                                → Live
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automations -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🤖 Automations</h2>
+                    <div class="space-y-2 text-xs">
+                        <div class="bg-green-50 p-3 rounded border border-green-200">
+                            <p class="font-semibold text-green-900">✅ Copy Iteration</p>
+                            <p class="text-gray-700">Flag winner → auto-brief copywriter</p>
+                            <p class="text-xs text-gray-600">[████████░░ 65%]</p>
+                        </div>
+                        <div class="bg-green-50 p-3 rounded border border-green-200">
+                            <p class="font-semibold text-green-900">✅ Performance Analysis</p>
+                            <p class="text-gray-700">Daily: flag winners, identify killers</p>
+                            <p class="text-xs text-gray-600">[██████████ 90%]</p>
+                        </div>
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-yellow-900">⏳ Approval Workflow</p>
+                            <p class="text-gray-700">Brand compliance check</p>
+                            <p class="text-xs text-gray-600">[████████░░ 80%]</p>
+                        </div>
+                        <div class="bg-orange-50 p-3 rounded border border-orange-200">
+                            <p class="font-semibold text-orange-900">⏳ Task Assignment</p>
+                            <p class="text-gray-700">Route to designers, writers</p>
+                            <p class="text-xs text-gray-600">[█████░░░░░ 50%]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 5: CONTENT FACTORY -->
+        <div id="content-factory" class="tab-content">
+            <div class="space-y-6">
+                <div class="grid grid-cols-2 gap-6">
+                    <!-- Production Queue -->
+                    <div class="bg-white rounded-lg border border-gray-200 p-6">
+                        <h2 class="text-lg font-bold text-gray-900 mb-4">📍 In Progress</h2>
+                        <div class="space-y-4">
+                            <div class="bg-green-50 p-4 rounded border border-green-200">
+                                <p class="font-bold text-gray-900">AVATAR #3 — Weight Gain</p>
+                                <p class="text-xs text-gray-600 mb-3">🏆 WINNER</p>
+                                <div class="space-y-2 text-xs">
+                                    <div class="flex items-center justify-between">
+                                        <span>✅ Advertorial (1200w)</span>
+                                        <span class="text-green-700 font-semibold">Due: Mar 10</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span>✅ Email Sequence (5)</span>
+                                        <span class="text-green-700 font-semibold">Due: Mar 10</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span>🔄 UGC Scripts (3)</span>
+                                        <span class="text-yellow-700 font-semibold">Due: Mar 12</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span>⏳ Visual Assets</span>
+                                        <span class="text-orange-700 font-semibold">Due: Mar 11</span>
+                                    </div>
+                                </div>
+                                <div class="mt-3 bg-white rounded overflow-hidden h-2">
+                                    <div class="bg-green-500 h-full" style="width: 70%"></div>
+                                </div>
+                                <p class="text-xs text-gray-600 mt-1">70% complete • Ready Mar 12</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 30-Day Calendar -->
+                    <div class="bg-white rounded-lg border border-gray-200 p-6">
+                        <h2 class="text-lg font-bold text-gray-900 mb-4">📅 30-Day Pipeline</h2>
+                        <div class="space-y-3 text-xs">
+                            <div class="bg-blue-50 p-2 rounded border border-blue-200">
+                                <p class="font-semibold text-blue-900">Week 1 (Mar 8-14)</p>
+                                <p class="text-gray-700">Mar 10: AVATAR #3 assets ship</p>
+                                <p class="text-gray-700">Mar 12: UGC scripts live</p>
+                                <p class="text-gray-700">Mar 14: Blog post (SEO)</p>
+                            </div>
+                            <div class="bg-green-50 p-2 rounded border border-green-200">
+                                <p class="font-semibold text-green-900">Week 2 (Mar 15-21)</p>
+                                <p class="text-gray-700">Mar 15: Hook variations launch</p>
+                                <p class="text-gray-700">Mar 17: Affiliate assets ship</p>
+                                <p class="text-gray-700">Mar 19: Doctor angle test</p>
+                            </div>
+                            <div class="bg-purple-50 p-2 rounded border border-purple-200">
+                                <p class="font-semibold text-purple-900">Week 3 (Mar 22-28)</p>
+                                <p class="text-gray-700">Mar 24: TSH advertorial</p>
+                                <p class="text-gray-700">Mar 26: SMS sequences</p>
+                                <p class="text-gray-700">Mar 28: Weekly review</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- By Channel -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🌐 Content Distribution</h2>
+                    <div class="grid grid-cols-4 gap-4">
+                        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded border border-blue-300">
+                            <p class="text-lg font-bold text-blue-900">12</p>
+                            <p class="text-xs text-blue-800 font-semibold">Meta Advertorials</p>
+                            <p class="text-xs text-blue-700">40+ hook tests</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-green-50 to-green-100 p-4 rounded border border-green-300">
+                            <p class="text-lg font-bold text-green-900">6</p>
+                            <p class="text-xs text-green-800 font-semibold">Email Sequences</p>
+                            <p class="text-xs text-green-700">Triggered + broadcast</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded border border-purple-300">
+                            <p class="text-lg font-bold text-purple-900">15</p>
+                            <p class="text-xs text-purple-800 font-semibold">TikTok Scripts</p>
+                            <p class="text-xs text-purple-700">UGC-style, 15-60s</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-4 rounded border border-orange-300">
+                            <p class="text-lg font-bold text-orange-900">4</p>
+                            <p class="text-xs text-orange-800 font-semibold">Blog Posts</p>
+                            <p class="text-xs text-orange-700">2000+ words, SEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 6: DISTRIBUTION -->
+        <div id="distribution" class="tab-content">
+            <div class="space-y-6">
+                <!-- Channel Performance -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6 overflow-x-auto">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">📊 Channel Performance (Last 30d)</h2>
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-50 border-b border-gray-200">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-semibold">Channel</th>
+                                <th class="px-4 py-3 text-right font-semibold">Spend</th>
+                                <th class="px-4 py-3 text-right font-semibold">Revenue</th>
+                                <th class="px-4 py-3 text-right font-semibold">ROAS</th>
+                                <th class="px-4 py-3 text-right font-semibold">CAC</th>
+                                <th class="px-4 py-3 text-center font-semibold">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3">Meta (FB/IG)</td>
+                                <td class="px-4 py-3 text-right font-mono">$34.2k</td>
+                                <td class="px-4 py-3 text-right font-mono text-green-600">$87.4k</td>
+                                <td class="px-4 py-3 text-right"><span class="tag tag-green">2.55x</span></td>
+                                <td class="px-4 py-3 text-right">$27.85</td>
+                                <td class="px-4 py-3 text-center"><span class="tag tag-green">✅ Optimized</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3">Google Ads</td>
+                                <td class="px-4 py-3 text-right font-mono">$8.9k</td>
+                                <td class="px-4 py-3 text-right font-mono text-yellow-600">$10.7k</td>
+                                <td class="px-4 py-3 text-right"><span class="tag tag-yellow">1.20x</span></td>
+                                <td class="px-4 py-3 text-right">$58.42</td>
+                                <td class="px-4 py-3 text-center"><span class="tag tag-yellow">🧪 Testing</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3">Email</td>
+                                <td class="px-4 py-3 text-right font-mono">$0</td>
+                                <td class="px-4 py-3 text-right font-mono text-green-600">$12.3k</td>
+                                <td class="px-4 py-3 text-right"><span class="tag tag-blue">∞</span></td>
+                                <td class="px-4 py-3 text-right">$0</td>
+                                <td class="px-4 py-3 text-center"><span class="tag tag-green">✅ Live</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3">SMS</td>
+                                <td class="px-4 py-3 text-right font-mono">$0</td>
+                                <td class="px-4 py-3 text-right font-mono text-green-600">$2.45k</td>
+                                <td class="px-4 py-3 text-right"><span class="tag tag-blue">∞</span></td>
+                                <td class="px-4 py-3 text-right">$0</td>
+                                <td class="px-4 py-3 text-center"><span class="tag tag-yellow">🧪 Testing</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3">TikTok Ads</td>
+                                <td class="px-4 py-3 text-right">—</td>
+                                <td class="px-4 py-3 text-right">—</td>
+                                <td class="px-4 py-3 text-right">—</td>
+                                <td class="px-4 py-3 text-right">—</td>
+                                <td class="px-4 py-3 text-center"><span class="tag">⏳ Pending</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Channel Details -->
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-300 p-6">
+                        <h3 class="font-bold text-gray-900 mb-3">✅ Meta (Optimized)</h3>
+                        <div class="space-y-2 text-sm">
+                            <p><span class="text-gray-700">Status:</span> <span class="font-semibold">Active, 702 ads</span></p>
+                            <p><span class="text-gray-700">Best CPA:</span> <span class="font-semibold text-green-600">$18.12 (Weight Gain)</span></p>
+                            <p><span class="text-gray-700">Best ROAS:</span> <span class="font-semibold text-green-600">3.7x (Plateau Thyroid)</span></p>
+                            <p><span class="text-gray-700">Top Page:</span> <span class="font-semibold">Women's Health Insider</span></p>
+                            <p class="text-xs text-gray-600 mt-3">Budget can scale to $75k/month with proven winners</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg border border-yellow-300 p-6">
+                        <h3 class="font-bold text-gray-900 mb-3">🧪 Google Ads (Testing)</h3>
+                        <div class="space-y-2 text-sm">
+                            <p><span class="text-gray-700">Status:</span> <span class="font-semibold">Early testing, 12 campaigns</span></p>
+                            <p><span class="text-gray-700">Current ROAS:</span> <span class="font-semibold text-yellow-600">1.20x (underperforming)</span></p>
+                            <p><span class="text-gray-700">Issue:</span> <span class="font-semibold">Keywords too broad</span></p>
+                            <p><span class="text-gray-700">Next:</span> <span class="font-semibold">Narrow to thyroid dysfunction</span></p>
+                            <p class="text-xs text-gray-600 mt-3">Target: 2.0x ROAS by month-end</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-300 p-6">
+                        <h3 class="font-bold text-gray-900 mb-3">✅ Email (Organic)</h3>
+                        <div class="space-y-2 text-sm">
+                            <p><span class="text-gray-700">Status:</span> <span class="font-semibold">Live, 5 sequences</span></p>
+                            <p><span class="text-gray-700">Revenue:</span> <span class="font-semibold text-green-600">$12.3k/month</span></p>
+                            <p><span class="text-gray-700">ROAS:</span> <span class="font-semibold text-green-600">Infinite (no paid spend)</span></p>
+                            <p><span class="text-gray-700">Owner:</span> <span class="font-semibold">Zarak (contractor)</span></p>
+                            <p class="text-xs text-gray-600 mt-3">Integrate winning angles when flagged</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg border border-orange-300 p-6">
+                        <h3 class="font-bold text-gray-900 mb-3">⏳ TikTok Ads (Pending)</h3>
+                        <div class="space-y-2 text-sm">
+                            <p><span class="text-gray-700">Status:</span> <span class="font-semibold">Creative ready, not live</span></p>
+                            <p><span class="text-gray-700">Angles:</span> <span class="font-semibold">Weight Gain, Broken Keys</span></p>
+                            <p><span class="text-gray-700">Budget:</span> <span class="font-semibold">$5k/month initial</span></p>
+                            <p><span class="text-gray-700">Target demographic:</span> <span class="font-semibold">25-45 women</span></p>
+                            <p class="text-xs text-gray-600 mt-3">Launch: Week of Mar 15</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Checkout Options -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🛒 Checkout & Retail</h2>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="bg-green-50 p-4 rounded border border-green-300">
+                            <p class="font-bold text-gray-900">✅ Shopify</p>
+                            <p class="text-xs text-gray-600 mb-2">Primary checkout</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">CVR:</span> 2.1%</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">AOV:</span> $62.50</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">Status:</span> Live</p>
+                        </div>
+
+                        <div class="bg-yellow-50 p-4 rounded border border-yellow-300">
+                            <p class="font-bold text-gray-900">⏳ Checkout Champ</p>
+                            <p class="text-xs text-gray-600 mb-2">Fast checkout option</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">CVR boost:</span> +0.3-0.5%</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">Expected:</span> $3-5k uplift</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">Status:</span> Created, not live</p>
+                        </div>
+
+                        <div class="bg-orange-50 p-4 rounded border border-orange-300">
+                            <p class="font-bold text-gray-900">⏳ Amazon</p>
+                            <p class="text-xs text-gray-600 mb-2">Distribution expansion</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">Use:</span> Supplement channel</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">Type:</span> Not primary</p>
+                            <p class="text-xs text-gray-700"><span class="font-semibold">Status:</span> Planning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- TAB 7: SYSTEM ARCHITECTURE (Brand Mind Map) -->
+        <div id="system-architecture" class="tab-content">
+            <div class="space-y-6">
+                <!-- Central Mind Map -->
+                <div class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-lg border-2 border-purple-300 p-8">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl font-bold text-purple-900 mb-2">InnerFresh Operating System</h2>
+                        <p class="text-gray-700">Complete Brand Architecture & Growth Platform</p>
+                    </div>
+
+                    <!-- Core Mind Map Structure -->
+                    <div class="grid grid-cols-6 gap-4 mb-8">
+                        <!-- Center: InnerFresh OS -->
+                        <div class="col-span-2 col-start-3">
+                            <div class="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-lg p-6 text-center shadow-lg">
+                                <p class="text-2xl font-bold mb-1">InnerFresh OS</p>
+                                <p class="text-xs text-purple-100">Core Platform</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6 Radiating Pillars -->
+                    <div class="grid grid-cols-3 gap-6 mb-8">
+                        <!-- Pillar 1: Brand Core -->
+                        <div class="bg-white rounded-lg border-2 border-blue-300 p-6">
+                            <h3 class="font-bold text-blue-900 mb-4">🎨 Brand Core</h3>
+                            <div class="space-y-3 text-sm">
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Hero Angle</p>
+                                    <p class="text-xs text-gray-700">"Gaining weight on 900 calories?"</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Audience</p>
+                                    <p class="text-xs text-gray-700">Women 30-55 with metabolic dysfunction</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Voice</p>
+                                    <p class="text-xs text-gray-700">Empathetic, scientific, no bro-science</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Promise</p>
+                                    <p class="text-xs text-gray-700">Thyroid support for real weight loss</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pillar 2: Data Intelligence -->
+                        <div class="bg-white rounded-lg border-2 border-green-300 p-6">
+                            <h3 class="font-bold text-green-900 mb-4">📊 Data Intelligence</h3>
+                            <div class="space-y-3 text-sm">
+                                <div class="bg-green-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Creative Performance</p>
+                                    <p class="text-xs text-gray-700">702 ads, 131 unique angles</p>
+                                </div>
+                                <div class="bg-green-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Live Tracking</p>
+                                    <p class="text-xs text-gray-700">Real-time CPA, ROAS, conversions</p>
+                                </div>
+                                <div class="bg-green-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Winner Identification</p>
+                                    <p class="text-xs text-gray-700">Automatic flagging & recommendations</p>
+                                </div>
+                                <div class="bg-green-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Optimization</p>
+                                    <p class="text-xs text-gray-700">Kill/scale rules, A/B testing</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pillar 3: Content Creation -->
+                        <div class="bg-white rounded-lg border-2 border-orange-300 p-6">
+                            <h3 class="font-bold text-orange-900 mb-4">✍️ Content Factory</h3>
+                            <div class="space-y-3 text-sm">
+                                <div class="bg-orange-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Advertorials</p>
+                                    <p class="text-xs text-gray-700">1200-1800 word long-form</p>
+                                </div>
+                                <div class="bg-orange-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">UGC Scripts</p>
+                                    <p class="text-xs text-gray-700">15-60 sec TikTok/Reels</p>
+                                </div>
+                                <div class="bg-orange-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Email Sequences</p>
+                                    <p class="text-xs text-gray-700">5-email nurture + SMS</p>
+                                </div>
+                                <div class="bg-orange-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Multi-Format</p>
+                                    <p class="text-xs text-gray-700">VSL, blog, affiliate assets</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-6">
+                        <!-- Pillar 4: Distribution Channels -->
+                        <div class="bg-white rounded-lg border-2 border-pink-300 p-6">
+                            <h3 class="font-bold text-pink-900 mb-4">📢 Distribution Channels</h3>
+                            <div class="space-y-2 text-xs">
+                                <div class="bg-pink-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Paid</p>
+                                    <p class="text-gray-700">Meta, Google, TikTok, Native</p>
+                                </div>
+                                <div class="bg-pink-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Owned</p>
+                                    <p class="text-gray-700">Email, SMS, Organic Social</p>
+                                </div>
+                                <div class="bg-pink-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Affiliate</p>
+                                    <p class="text-gray-700">Partner networks, revenue share</p>
+                                </div>
+                                <div class="bg-pink-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Retail</p>
+                                    <p class="text-gray-700">Amazon, TikTok Shop (future)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pillar 5: Operations & Team -->
+                        <div class="bg-white rounded-lg border-2 border-indigo-300 p-6">
+                            <h3 class="font-bold text-indigo-900 mb-4">👥 Operations & Team</h3>
+                            <div class="space-y-2 text-xs">
+                                <div class="bg-indigo-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Benni</p>
+                                    <p class="text-gray-700">Strategy, copy, brand decisions</p>
+                                </div>
+                                <div class="bg-indigo-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Jan (CEO)</p>
+                                    <p class="text-gray-700">Business, growth, partnerships</p>
+                                </div>
+                                <div class="bg-indigo-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">4 FT Team</p>
+                                    <p class="text-gray-700">Designer, Copywriter, Video, Support</p>
+                                </div>
+                                <div class="bg-indigo-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Contractors</p>
+                                    <p class="text-gray-700">Zarak (Email), External partnerships</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pillar 6: Platform & Infrastructure -->
+                        <div class="bg-white rounded-lg border-2 border-cyan-300 p-6">
+                            <h3 class="font-bold text-cyan-900 mb-4">⚙️ Platform & Infrastructure</h3>
+                            <div class="space-y-2 text-xs">
+                                <div class="bg-cyan-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Frontend</p>
+                                    <p class="text-gray-700">React dashboard, real-time UI</p>
+                                </div>
+                                <div class="bg-cyan-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Integrations</p>
+                                    <p class="text-gray-700">Meta, Shopify, Figma, Sheets, Manus</p>
+                                </div>
+                                <div class="bg-cyan-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Automation</p>
+                                    <p class="text-gray-700">Cron jobs, decision rules, alerts</p>
+                                </div>
+                                <div class="bg-cyan-50 p-2 rounded">
+                                    <p class="font-semibold text-gray-900">Hosting</p>
+                                    <p class="text-gray-700">Vercel + GitHub, serverless</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KPI Dashboard -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">📈 Business Metrics & KPIs</h2>
+                    <div class="grid grid-cols-6 gap-4">
+                        <div class="bg-gradient-to-br from-green-100 to-green-50 p-4 rounded border border-green-300">
+                            <p class="text-sm font-semibold text-green-900">Revenue</p>
+                            <p class="text-2xl font-bold text-green-600">$99.7k</p>
+                            <p class="text-xs text-gray-600">(last 30d across channels)</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded border border-blue-300">
+                            <p class="text-sm font-semibold text-blue-900">Avg ROAS</p>
+                            <p class="text-2xl font-bold text-blue-600">2.55x</p>
+                            <p class="text-xs text-gray-600">(Meta optimal)</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-purple-100 to-purple-50 p-4 rounded border border-purple-300">
+                            <p class="text-sm font-semibold text-purple-900">Avg CAC</p>
+                            <p class="text-2xl font-bold text-purple-600">$27.85</p>
+                            <p class="text-xs text-gray-600">(paid channels)</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-yellow-100 to-yellow-50 p-4 rounded border border-yellow-300">
+                            <p class="text-sm font-semibold text-yellow-900">AOV</p>
+                            <p class="text-2xl font-bold text-yellow-600">$62.50</p>
+                            <p class="text-xs text-gray-600">(avg order value)</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-pink-100 to-pink-50 p-4 rounded border border-pink-300">
+                            <p class="text-sm font-semibold text-pink-900">Active Ads</p>
+                            <p class="text-2xl font-bold text-pink-600">702</p>
+                            <p class="text-xs text-gray-600">(live across pages)</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-indigo-100 to-indigo-50 p-4 rounded border border-indigo-300">
+                            <p class="text-sm font-semibold text-indigo-900">Growth</p>
+                            <p class="text-2xl font-bold text-indigo-600">+23%</p>
+                            <p class="text-xs text-gray-600">(YoY revenue)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Flow Diagram -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🔄 Data Flow & Automation</h2>
+                    <div class="space-y-4">
+                        <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded border border-blue-200">
+                            <p class="text-sm font-bold text-gray-900 mb-2">INPUT SOURCES (Daily 7am)</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-blue-200">
+                                    <span>Meta Ads API</span>
+                                    <span class="text-blue-600">→</span>
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-green-200">
+                                    <span>Shopify API</span>
+                                    <span class="text-green-600">→</span>
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-orange-200">
+                                    <span>Google Sheets</span>
+                                    <span class="text-orange-600">→</span>
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-purple-200">
+                                    <span>Figma Tasks</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-green-50 to-cyan-50 p-4 rounded border border-green-200">
+                            <p class="text-sm font-bold text-gray-900 mb-2">PROCESSING & AUTOMATION</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-gray-300">
+                                    <span>🤖 Tag Performance</span>
+                                    <span class="text-gray-600">→</span>
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-gray-300">
+                                    <span>🤖 Flag Winners</span>
+                                    <span class="text-gray-600">→</span>
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-gray-300">
+                                    <span>🤖 Brief Team</span>
+                                    <span class="text-gray-600">→</span>
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-gray-300">
+                                    <span>🤖 Generate Alerts</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-pink-50 to-rose-50 p-4 rounded border border-pink-200">
+                            <p class="text-sm font-bold text-gray-900 mb-2">OUTPUT DASHBOARDS (Real-time)</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-pink-200">
+                                    Creative Intelligence
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-pink-200">
+                                    Pages & Angles
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-pink-200">
+                                    Meta Winners
+                                </span>
+                                <span class="inline-flex items-center gap-1 bg-white px-3 py-1 rounded text-xs border border-pink-200">
+                                    Daily Briefing
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Integration Map -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6">
+                    <h2 class="text-lg font-bold text-gray-900 mb-4">🔗 Technology Stack & Integrations</h2>
+                    <div class="grid grid-cols-4 gap-4">
+                        <div class="bg-blue-50 p-4 rounded border border-blue-300">
+                            <p class="font-bold text-blue-900 mb-2">🛍️ Commerce</p>
+                            <p class="text-sm text-gray-700">Shopify (primary)</p>
+                            <p class="text-sm text-gray-700">Checkout Champ</p>
+                            <p class="text-sm text-gray-700">Amazon (expand)</p>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded border border-green-300">
+                            <p class="font-bold text-green-900 mb-2">📊 Advertising</p>
+                            <p class="text-sm text-gray-700">Meta Ads API</p>
+                            <p class="text-sm text-gray-700">Google Ads</p>
+                            <p class="text-sm text-gray-700">TikTok Ads</p>
+                        </div>
+                        <div class="bg-orange-50 p-4 rounded border border-orange-300">
+                            <p class="font-bold text-orange-900 mb-2">✉️ Communication</p>
+                            <p class="text-sm text-gray-700">Email (Zarak)</p>
+                            <p class="text-sm text-gray-700">SMS (Twilio)</p>
+                            <p class="text-sm text-gray-700">Slack Alerts</p>
+                        </div>
+                        <div class="bg-purple-50 p-4 rounded border border-purple-300">
+                            <p class="font-bold text-purple-900 mb-2">🎨 Design & Content</p>
+                            <p class="text-sm text-gray-700">Figma (assets)</p>
+                            <p class="text-sm text-gray-700">Google Sheets (intel)</p>
+                            <p class="text-sm text-gray-700">Manus (AI writing)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <div class="bg-gray-100 border-t border-gray-200 mt-8 py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-600">
+            <p>InnerFresh Operating System — Design Wireframe</p>
+            <p class="text-xs mt-2">Built with Tailwind CSS • Interactive prototype for development reference</p>
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            
+            // Update button styles
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('border-b-2', 'border-blue-600', 'text-blue-600');
+                btn.classList.add('border-transparent', 'text-gray-600');
+            });
+            
+            // Highlight active button
+            event.target.classList.remove('border-transparent', 'text-gray-600');
+            event.target.classList.add('border-b-2', 'border-blue-600', 'text-blue-600');
+        }
+    </script>
+</body>
+</html>
