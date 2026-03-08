@@ -6,6 +6,22 @@ Backlog of proposed improvements. Updated from sessions and review councils.
 
 ## Pending
 
+### [INFRA] meta-performance-sync.sh shadow cron table
+- **Problem:** `meta-performance-sync.sh` writes to a `cron_log` table (different schema) instead of `cron-db.sh`'s `cron_runs` table. Meta sync failures are invisible to `diag.sh cron failures` and health alerting.
+- **Fix:** Wrap `meta-performance-sync.sh` with `cron-wrap.sh` and remove the inline `log_start()` function. One-line change per AGENTS.md pattern.
+- **Risk if ignored:** Meta ad sync can fail silently with no alert reaching Benni.
+- **Source:** Innovation Scout 2026-03-08
+
+### [INFRA] Meta access token auto-refresh / expiry guard
+- **Problem:** TOOLS.md flags the Meta API token as "short-lived — needs refresh or Long-Lived token setup." No script checks or refreshes it. When it expires, `meta-performance-sync.sh` errors out silently (returns empty TOKEN, exits 1, no Telegram alert since it doesn't use cron-wrap).
+- **Fix:** Add `meta-token-check.sh` that (a) calls `GET /me?access_token=TOKEN` and checks for an `error.code=190` expiry error, (b) alerts Benni via `notify.sh` with tier=critical if expired or expiring within 3 days. Add as a daily cron. Long-term: exchange for a 60-day Long-Lived token via `/oauth/access_token?grant_type=fb_exchange_token`.
+- **Source:** Innovation Scout 2026-03-08
+
+### [INFRA] Shared credentials.sh library
+- **Problem:** Three scripts (`manus-dispatch.sh`, `manus-burn-monitor.sh`, `meta-performance-sync.sh`) each implement their own `cat ~/.config/X/api_key` loading with inconsistent error handling. If credential paths or vault strategy changes, every script needs updating separately.
+- **Fix:** Create `scripts/credentials.sh` as a sourceable library with `cred_load <service>` → returns key or exits with logged error. Services: `meta`, `manus`, `notion`. Mirror pattern from `log.sh` (source as library or call as CLI). Reduces future credential refactors to one file.
+- **Source:** Innovation Scout 2026-03-08
+
 ### Whisper skill for voice notes
 - Install `openai-whisper-api` skill from ClawHub
 - Requires OpenAI API key
