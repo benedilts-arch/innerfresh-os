@@ -196,3 +196,70 @@ Tabs: Sheet1 (702 ads), Top Performers, Matrix, Gaps (launch lists by advertoria
 - Model name must match Anthropic API exactly: `claude-haiku-4-5-20251001` not `claude-haiku-3-5`
 - Gateway can't start with Haiku as config primary (limitation) — use Sonnet as primary, Haiku via session override
 - Session context bloat = hidden cost spike. Track token count so future sessions don't inherit bloated contexts
+
+## D2C Operating System Frameworks (2026-03-08)
+
+### Decision Rules Engine (Automated)
+- **SCALE:** CPA <$30 AND Conversions ≥3 (7d) AND ROAS ≥2.5x → Auto-flag "Scale" | Increase budget 2-3x | Elite: <$20 CPA → 5x scale
+- **HOLD:** $30-45 CPA AND Conversions <5 → Test 5 hook variations | Re-measure after 7d | Re-decide (scale or pause)
+- **PAUSE:** CPA ≥$60 OR ROAS <$1 OR 0 conversions after $100 spend → Auto-pause immediately | Save spend | Archive for analysis
+- **TEST:** Untested page-advertorial combo → Launch $50-100/day | Gather 5+ conversions | Apply rules above
+
+### Page-Advertorial Pairing Logic (Elite D2C Strategy)
+- **Medical Authority Pages:** Dr. Lisa Jones, Dr. Rachel Thompson → ONLY Doctor, TSH, Hypothyroid angles
+  - Wrong combos: Dr. Lisa + Quiz = wasted spend (off-brand)
+  - Misalignment = 30-50% ROAS drop
+- **Community/Editorial Pages:** Women's Health Insider, Every Women's Health, Women's Wellbeing → Weight Gain, Broken Keys, 5 Reasons, Quiz
+  - Authority angles underperform on community pages (wrong tone)
+  - Logical pairs first, expansion second
+
+### Hook Testing Framework (3x Performance Lever)
+- Same copy, different opening line = 3x performance differences
+- Isolate hooks as own test variable (not grouped with angle)
+- When angle performs well: Test 5 hook variations on SAME angle+page combo
+- Winner hook → Expand to all pages running that angle
+- Test structure: 7 days, 5+ conversions per hook minimum, $300 budget total
+
+### LTV-Based Cohort Scaling (Beyond CPA)
+- **Weight Gain Angle:** $187 LTV | 45% retention | Fast conversion (low friction)
+- **Doctor/Authority Angle:** $243-267 LTV | 58-68% retention | Slower initial sale (higher conviction)
+- **TSH Angle:** $267 LTV | 68% retention | Niche, high-conviction buyers
+- Strategy: Scale higher-LTV cohorts even if initial CPA slightly higher ($28-32 vs $20)
+- Key insight: TSH wins on LTV, not initial CPA
+
+### Manus Cost Model (2026-03-08)
+- **Haiku (Cheap & Fast):** $0.05/task | Use for hooks, captions, UGC briefs, SMS | Daily: 50+ tasks
+- **Sonnet (Balanced):** $0.15/task | Use for full advertorials, landing pages, email sequences | Daily: 5-10 tasks
+- **Opus (Strategic):** $0.80/task | Use for brand strategy, deep analysis only | Weekly: 2-3 tasks MAX
+- **Daily Budget:** ~$4/day (50 Haiku + 8 Sonnet + 0.5 Opus) | Weekly cap: $30 | Batched tasks, never per-request
+
+### Daily Deliverables (Repeatable System)
+1. **10 Copy Angles:** Generated 7:15am via Manus + Clawd analysis of yesterday's winners
+2. **3 Designer Briefs:** From top 3 angles (visual direction + messaging)
+3. **2-3 Landing Page Copies:** Tied to winning ad angles
+4. **Morning Briefing:** Top winners, kill list, what to test today
+5. **3-5 UGC Script Briefs:** 15-60 sec TikTok/Reels formats from top angles
+6. **Daily Email Sequences:** Auto-triggered from winning angles (5 emails each)
+7. **Performance Insights:** Real-time analysis with transparent reasoning (why scale/pause/test)
+
+### Testing Framework Matrix
+- **Hook Test:** 7d | 5+ conv/hook | Success: 1 hook <$25 CPA | Budget: $300
+- **Page Pair Test:** 7d | 5+ conv/page | Success: Both pages <$35 CPA | Budget: $200
+- **Audience Test:** 7d | 5+ conv/aud | Success: Best aud <$28 CPA | Budget: $400
+- **Creative Test:** 7d | 5+ conv/visual | Success: 1 visual +20% CTR | Budget: $300
+- **Channel Test:** 14d | 20+ conversions | Success: ROAS >1.5x | Budget: $1000
+
+### 30-Day Iteration Cycle (Continuous Improvement)
+- **Days 1-7:** Launch angle → gather 5+ conversions → measure CPA/ROAS → apply decision rules (scale/hold/pause)
+- **Days 8-14:** If HOLD: test 5 hook variants → find best hook → re-measure → reassess (scale or pause)
+- **Days 15-21:** If improved CPA <$30: scale budget. If still >$45: pause. Generate new angle variations
+- **Days 22-30:** Top winners → email sequences + UGC scripts + SMS versions → expand to new channels/pages
+- **Repeat:** Monthly performance review → strategic shifts (new products, channels) → next 30-day roadmap
+
+### Bottleneck Solutions (Operationalization)
+1. **Copy Lag (>4h wait):** Manus auto-draft advertorial → Copywriter iterates (saves 2-3 hrs/day, 5x throughput)
+2. **Design Delay (>6h wait):** Midjourney auto-draft visuals → Designer polishes (3x speed, fewer revisions)
+3. **Video Queue Backlog:** Hire 2nd editor + recruit 5 more UGC creators (scale 5→30 videos/week)
+4. **Approval Bottleneck (>1h SLA miss):** Pre-approved templates + decision rules (90% auto-OK, 2h launch vs 8-12h current)
+5. **Affiliate Network Stall:** Systematized recruitment + auto-commission tracking → $30k+/month potential
+6. **Analytics Lag:** Real-time dashboard auto-flags winners + failures → no manual handoff delay
